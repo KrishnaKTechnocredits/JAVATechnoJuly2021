@@ -1,6 +1,6 @@
-// student has name and Roll no, it should be printed
+package priti;
 
-class Student {
+public class Student {
 	String name = "Prit";
 	int rno = 1;
 	String lastName = "Vattanavar";
