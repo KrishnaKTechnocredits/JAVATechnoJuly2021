@@ -14,7 +14,7 @@ class StudentInfo{
 	}
 	public static void main(String args[]){
 		StudentInfo studentinfo= new StudentInfo();
-		studentinfo.studentName("Bharat","Ramrao","Tanpure");
+		studentinfo.studentName("Bharsat","Ramrao","Tanpure");
 		studentinfo.studentOtherDetails("7 November 1995", "FT 505 Pune Ngar hyway Pune", 20);
 	}
 }
