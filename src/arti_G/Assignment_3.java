@@ -1,29 +1,27 @@
 package arti_G;
+
 //Weekdays and weekend days
-class Assignment_3{
-	
-	void findWeekdaysAndWeekends(int dayIndex){
-		if(dayIndex>=1 && dayIndex<=5){
+class Assignment_3 {
+
+	void findWeekdaysAndWeekends(int dayIndex) {
+		if (dayIndex >= 1 && dayIndex <= 5) {
 			System.out.println("Weekdays");
-		}
-		else if(dayIndex>=6 && dayIndex<=7){
+		} else if (dayIndex >= 6 && dayIndex <= 7) {
 			System.out.println("Weekends");
-		}
-		else{
+		} else {
 			System.out.println("Invalid Index");
 		}
 	}
 
-	void verifyBrowserName(String browserName){
-		if(browserName.equals("Crome") || browserName.equals("IE")|| browserName.equals("Edge")){
+	void verifyBrowserName(String browserName) {
+		if (browserName.equals("Crome") || browserName.equals("IE") || browserName.equals("Edge")) {
 			System.out.println("Valid Browser");
-		}
-		else{	
-		System.out.println("Invalid Browser");
+		} else {
+			System.out.println("Invalid Browser");
 		}
 	}
-	
-	public static void main(String[] args){
+
+	public static void main(String[] args) {
 		Assignment_3 assignment3 = new Assignment_3();
 		assignment3.findWeekdaysAndWeekends(3);
 		assignment3.findWeekdaysAndWeekends(6);
@@ -35,6 +33,5 @@ class Assignment_3{
 		assignment3.verifyBrowserName("Safari");
 		assignment3.verifyBrowserName("FF");
 	}
-	 
-	 
+
 }

@@ -1,31 +1,30 @@
 package arti_G;
-//BankAccount
-class Assignment_4{
-	
-	String userName;
-	String password; 
-	int bankAccountNumber;
-	
-	void setDetails(String userName, String password, int bankAccountNumber){
-		System.out.println(userName);
-		System.out.println(password);
-		System.out.println(bankAccountNumber);
+
+//Assignment4
+class Assignment_4 {
+
+	String name;
+	String middleName;
+	String surName;
+	String birthDate;
+	String address;
+	int rollNumber;
+
+	void studentName(String name, String middleName, String surName) {
+		System.out.println(name);
+		System.out.println(middleName);
+		System.out.println(surName);
 	}
 
-	void updatePassword(String password){
-		System.out.println(password);
+	void studentOtherDetails(String birthDate, String address, int rollNumber) {
+		System.out.println(birthDate);
+		System.out.println(address);
+		System.out.println(rollNumber);
 	}
-	void displayInfo(){
-		System.out.println(userName);
-		System.out.println(password);
-		System.out.println(bankAccountNumber);
-	}
-	
-	public static void main(String[] args){
+
+	public static void main(String[] args) {
 		Assignment_4 assignment_4 = new Assignment_4();
-		assignment_4.setDetails("Arti Gahlot", "Qwerty", 87478848);
-		assignment_4.updatePassword("Welcome@");
-		assignment_4.displayInfo();
-	}	 
+		assignment_4.studentName("Arti", "Saini", "Gahlot");
+		assignment_4.studentOtherDetails("23 Oct 1993", "Sector 48, Gurgaon", 784747);
+	}
 }
-
