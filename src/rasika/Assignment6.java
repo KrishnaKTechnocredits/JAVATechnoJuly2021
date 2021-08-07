@@ -16,5 +16,6 @@ public class Assignment6 {
 	public static void main(String[] args) {
 		Assignment6 assignment6 = new Assignment6();
 		assignment6.computeSimpleInterest(120, 2, 63);
+		assignment6.calculateTemp(87);
 	}
 }
