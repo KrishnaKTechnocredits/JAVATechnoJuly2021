@@ -26,7 +26,7 @@ class StudentInfo
 		StudentInfo studinfo=new StudentInfo();
 		studinfo.studentName("Bhagyashree","Madhav","Shirude");
 		
-		studinfo.studentOtherInfo("20-05-1991",10378,"c-402,Millenium acropolis,Wakad,Pune");
+		studinfo.studentOtherInfo("20-05-1991",10378,"c-402,Millenium acropolis,Wakad,Pune ");
 		
 	}
 }
