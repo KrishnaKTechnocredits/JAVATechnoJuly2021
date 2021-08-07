@@ -20,7 +20,7 @@ class Bank{
 	public static void main(String[] args){
 	Bank bank = new Bank();
 	bank.debitValue(2000);
-	bank.displayBalance();
+	bank.displayBalance(); 
 	bank.creditValue(3000);
 	bank.displayBalance();
 	bank.debitValue(7500);
