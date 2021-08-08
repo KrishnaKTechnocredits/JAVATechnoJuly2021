@@ -66,8 +66,7 @@ public class Assignment_7 {
 			}
 		}
 		int diff = sum1 - sum2;
-		System.out.println("Difference between sum of odd and even numbers ranging from " + startIndex6 + " to "
-				+ endIndex6 + " is: " + diff);
+		System.out.println("Difference between sum of odd and even numbers ranging from " + startIndex6 + " to " + endIndex6 + " is: " + diff);
 		System.out.println();
 	}
 
