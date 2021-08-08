@@ -2,21 +2,18 @@ package nasir;
 
 class SimpleInterest
 {
-	int si;
-	void sInterest(int P,int R, int T)
+
+	void calulation(int P,int R, double T)
 	{
-		si= (P*R*T)/100;
+
+		double interest= (P*R*T)/100;
+		System.out.println("Simple interest =" + interest);
 	}
-	void calc()
-	{
-		System.out.println("Simple interest =" + si);
-	}
+
 	public static void main(String[] args)
 	{
 		SimpleInterest simpleInterest =new SimpleInterest();
-		simpleInterest.sInterest(4,5,6);
-		simpleInterest.calc();		
-		
+		simpleInterest.calulation(7,10,2);
+
 	}
 }	  
-	  
