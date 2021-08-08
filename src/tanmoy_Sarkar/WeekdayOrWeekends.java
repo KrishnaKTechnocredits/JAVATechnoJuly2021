@@ -22,12 +22,9 @@ public class WeekdayOrWeekends {
 		else{
 			System.out.println("Please install Chrome or Edge or IE.");
 		}
-		System("Thank you.");
+		System.out.println("Thank you.");
 	}
-	private void System(String args[]) {
-		// TODO Auto-generated method stub
-		
-	}
+	
 	public static void main(String args[]){
 		WeekdayOrWeekends weekdayorweekends = new WeekdayOrWeekends();
 		weekdayorweekends.result(3);
