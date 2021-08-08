@@ -13,7 +13,7 @@ class Calculator1
 	void substraction()
 	{
 		int ans=num1-num2;
-		System.out.println("Subs of 2 numbers is:  " +ans);
+		System.out.println(" Subs of 2 numbers is:  " +ans);
 	}
 	
 	void multiplication()
