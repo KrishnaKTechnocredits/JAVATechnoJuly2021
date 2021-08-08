@@ -1,3 +1,4 @@
+package ankita;
 
 class Studentinfo{
 	String name,mname,surname,address,dob;
