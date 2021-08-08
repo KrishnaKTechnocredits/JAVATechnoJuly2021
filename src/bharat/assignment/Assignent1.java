@@ -42,7 +42,7 @@ public class Assignent1 {
 		for(int m=sumStart;m<=sumEnd;m++) 
 		sum=sum+m;
 		{
-			System.out.println("sum is "+sum);
+			System.out.println("Sum is "+sum);
 		}
 		}
 	void displayFive(int d,int e) {
