@@ -6,7 +6,7 @@ public class Assignment7 {
 		System.out.println("Even numbers are:");
 		for (int index = startIndex; index <= endIndex; index++) {
 			if (index % 2 == 0)
-				System.out.println(index + " ");
+				System.out.println(index);
 		}
 	}
 
@@ -14,7 +14,7 @@ public class Assignment7 {
 		System.out.println("Divisible by 5, numbers are:");
 		for (int index = startIndex; index <= endIndex; index++) {
 			if (index % 5 == 0)
-				System.out.println(index + " ");
+				System.out.println(index);
 		}
 	}
 
@@ -22,7 +22,7 @@ public class Assignment7 {
 		System.out.println("Divisible by 5 & 3, numbers are:");
 		for (int index = startIndex; index <= endIndex; index++) {
 			if (index % 3 == 0 && index % 5 == 0)
-				System.out.println(index + " ");
+				System.out.println(index);
 		}
 	}
 
@@ -59,7 +59,7 @@ public class Assignment7 {
 		System.out.println("odd numbers are:");
 		for (int index = endIndex; index >= startIndex; index--) {
 			if (index % 2 != 0)
-				System.out.println(index + " ");
+				System.out.println(index);
 		}
 	}
 
