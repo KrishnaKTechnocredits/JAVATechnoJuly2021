@@ -14,9 +14,8 @@ public class Assignment_6 {
 		System.out.println("The temperature conversion for " + f + "°F to Celsius is: " + celsius + "°C");
 	}
 	public static void main(String[] a) {
-		Assignment_6 assignment6 = new Assignment_6();
-		assignment6.simpleInterest(1200,3,8);
-		assignment6.tempConvert(58);
+		Assignment_6 assignment_6 = new Assignment_6();
+		assignment_6.simpleInterest(1200,3,8);
+		assignment_6.tempConvert(58);
 	}	
 }
-	
