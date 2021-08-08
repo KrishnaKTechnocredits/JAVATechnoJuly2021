@@ -43,7 +43,7 @@ public class TestForLoop {
 		for (int index = startindex; index <= endindex; index++) {
 			if (index % 7 == 0)
 				System.out.println(index + " is divisible by 7");
-			else
+			else if(index % 13 == 0)
 				System.out.println(index + " is divisible by 13");
 
 		}
@@ -70,22 +70,23 @@ public class TestForLoop {
 			} else {
 				sumOdd = sumOdd + index;
 			}
-			int difference=sumOdd-sumEven;
-			System.out.println("Difference of odd and even is "+difference);
+			int difference = sumOdd - sumEven;
+			System.out.println("Difference of odd and even is " + difference);
 
 		}
 
 	}
+
 	public void OddReverse(int startindex, int endindex) {
 		System.out.println("----------------------------");
-		for(int index = endindex; index >= startindex; index--) {
-			if (index%2!=0) {
-				 {
-					System.out.println("Difference of odd and even is "+index);
+		for (int index = endindex; index >= startindex; index--) {
+			if (index % 2 != 0) {
+				{
+					System.out.println("Difference of odd and even is " + index);
 				}
 			}
 		}
-		
+
 	}
 
 	public static void main(String[] args) {
