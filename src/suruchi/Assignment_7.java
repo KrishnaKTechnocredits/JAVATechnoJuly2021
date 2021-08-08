@@ -33,8 +33,7 @@ public class Assignment_7 {
 	}
 
 	void printNumbersDivisbleBy7Or13(int startIndex4, int endIndex4) {
-		System.out
-				.println("Divisibility for numbers by 7 or 13 between " + startIndex4 + " and " + endIndex4 + " are:");
+		System.out.println("Divisibility for numbers by 7 or 13 between " + startIndex4 + " and " + endIndex4 + " are:");
 		for (int index = startIndex4; index <= endIndex4; index++) {
 			if (index % 7 == 0) {
 				System.out.println(index + " is divisible by 7");
