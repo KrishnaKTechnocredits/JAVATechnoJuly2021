@@ -19,5 +19,4 @@ public class Assignment_6 {
 		float Celsius = (F - 32)*5/9;
 		System.out.println("The temperature in celsius is "+Celsius);
 	}
-
 }
