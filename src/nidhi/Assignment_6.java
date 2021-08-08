@@ -8,13 +8,13 @@ public class Assignment_6 {
 		System.out.println(simpleInt);
 	}
 	
-	void fahToCel(int f) {
+	void fahrenheitToCelsius(int f) {
 		cel = (f - 32) * 5 / 9;
 		System.out.println(cel);
 	}
 	public static void main(String[] args) {
 		Assignment_6 assignment = new Assignment_6();
 		assignment.simpleInterest(1000, 2, 5);
-		assignment.fahToCel(80);
+		assignment.fahrenheitToCelsius(80);
 	}
 }
