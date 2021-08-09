@@ -73,6 +73,39 @@ public class Assignment7 {
 		System.out.println("--------------------------------------------------");
 	}// sum of numbers within range
 	
+	void sumOddEvenNumber(int startindex,int endindex)
+	{
+		int evensum=0;
+		int oddsum=0;
+		for(int index=startindex;index<=endindex;index++)
+		{
+			if(index%2==0)
+			{
+				evensum=evensum+index;
+				System.out.println("Sum of Even Numbers is:  "+evensum);
+			}
+			else if(index%2!=0)
+			{
+				oddsum=oddsum+index;
+				System.out.println("SUm of Odd Numbers is:  "+oddsum);
+			}
+		}
+		System.out.println("Diffrenece between Even and Odd sum:   "+(oddsum-evensum));
+		System.out.println("--------------------------------------------------");
+	}//print difference between odd and even sum
+	
+	void printReverseOddNumber(int startindex,int endindex)
+	{
+		System.out.println("Odd numbers between 10 to 20 in reverse order:   ");
+		for(int index=startindex;index>=endindex;index--)
+		{
+			if(index%2!=0)
+			{
+				System.out.println(index);
+			}
+		}
+	}//print reverse odd number within range
+	
 	
 	public static void main(String[] args)
 	{
@@ -90,6 +123,12 @@ public class Assignment7 {
 		
 		Assignment7 assignment7_4=new Assignment7();
 		assignment7_4.sumOfNumber(1,5);
+		
+		Assignment7 assignment7_5=new Assignment7();
+		assignment7_5.sumOddEvenNumber(3,9);
+		
+		Assignment7 assignment7_6=new Assignment7();
+		assignment7_6.printReverseOddNumber(20,10);
 			
 	}
 
