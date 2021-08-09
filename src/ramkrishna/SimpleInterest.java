@@ -14,7 +14,7 @@ package ramkrishna;
 
 		void convertTemp(int f) {
 			int c = (f - 32) * 5 / 9;
-			int d= c;
+			//int d= c;
 			System.out.println("Convernt Temprature is: "+c);
 
 		}
