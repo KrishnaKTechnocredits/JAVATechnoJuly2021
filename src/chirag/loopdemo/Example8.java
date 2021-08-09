@@ -1,4 +1,5 @@
 package chirag.loopdemo;
+//Assignment:- 7
 
 public class Example8 {
 	void getNumDivisibleBy5() {
