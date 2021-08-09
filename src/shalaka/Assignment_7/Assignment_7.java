@@ -29,7 +29,7 @@ class Assignment_7 {
 	}
 
 	void displayNumberDivBy7or13(int startIndex, int endIndex) {
-		System.out.println("Divisible by 7 or 13, numbers are: ");
+		System.out.println("Divisible by 7 or 13, numbers are:");
 		for (int index = startIndex; index <= endIndex; index++) {
 			if (index % 7 == 0)
 				System.out.println(index + " is divisible by 7");
