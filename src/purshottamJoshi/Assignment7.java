@@ -62,7 +62,7 @@ class Assignment7{
 		System.out.println("Difference of odd even sum is:" +difference);
 	}
 	void oddNumbers(int startNum, int endNum) {
-		for(int index = startNum; index <= endNum ; index--) {
+		for(int index = startNum; index >= endNum ; index--) {
 			if(index % 2 != 0) {
 				System.out.println("Only odd Number :" +index);
 			}
