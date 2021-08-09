@@ -41,7 +41,7 @@ class BankAccount
 	public static void main(String[] args)
 	{
 		BankAccount bank=new BankAccount();
-		bank.setDetails("bhagyashree5511","Welcome@123",1234589);
+		bank.setDetails("bhagyashree5511","Welcome@123",12345890);
 		bank.updatePassword("Abcd@1234");
 		bank.displayInfo();
 	}
