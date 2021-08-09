@@ -7,21 +7,21 @@ public class Assignment_6 {
 	int t;
 	int r;
 	float f;
-	int SimpleInterest;
-	float Celsius;
 
 	void simpleInterest(int principal, int time, int rate) {
 		p = principal;
 		t = time;
 		r = rate;
-		SimpleInterest = (p * t * r) / 100;
-		System.out.println("SimpleInterest = " + SimpleInterest);
+		int simpleInterest;
+		simpleInterest = (p * t * r) / 100;
+		System.out.println("SimpleInterest = " + simpleInterest);
 	}
 
 	void convertCelsiusToFahrenheit(float fahrenheit) {
+		float celsius;
 		f = fahrenheit;
-		Celsius = (f - 32) * 5 / 9;
-		System.out.println("Temperature from fahrenheit to celsius = " + Celsius);
+		celsius = (f - 32) * 5 / 9;
+		System.out.println("Temperature from fahrenheit to celsius = " + celsius);
 	}
 
 	public static void main(String[] args) {
