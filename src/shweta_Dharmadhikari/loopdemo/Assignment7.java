@@ -1,6 +1,6 @@
 package shweta_Dharmadhikari.loopdemo;
 
-class Assignment7 {
+class Assignment7  {
 
 	void displayEvenNumbers(int index, int endIndex) {
 		System.out.println("Even numbers are: ");
