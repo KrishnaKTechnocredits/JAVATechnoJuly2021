@@ -82,7 +82,7 @@ public class Example8 {
 		System.out.println("---------------------------------");
 		example8.reverseOddNumbers(10, 20);
 		System.out.println("---------------------------------");
-		example8.getNumDivisibleBy13and7(5, 40);
+		example8.getNumDivisibleBy13and7(5, 42);
 	}
 }
 
