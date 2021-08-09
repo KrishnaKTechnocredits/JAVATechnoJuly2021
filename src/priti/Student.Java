@@ -1,7 +1,5 @@
 package priti;
-
-public class Student {
-
+class Student {
 	String name = "Prit";
 	int rno = 1;
 	String lastName = "Vattanavar";
@@ -24,4 +22,4 @@ public class Student {
 		s2.showInfo();
 		System.out.println(s1.rno);
 		}
-} 
+}
