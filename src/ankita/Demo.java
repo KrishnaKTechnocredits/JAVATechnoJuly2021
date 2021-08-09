@@ -51,13 +51,6 @@ public class Demo {
 			System.out.println("------------------------------------");
 	}
 	
-	
-	
-	
-	
-	
-	
-	
 	void sumevenodd(int startindex,int endindex)
 	{
 		int oddsum=0;
