@@ -78,6 +78,6 @@ public class Assignment7 {
 		assignment7.diff(4, 7);
 		
 		System.out.println("Odd numbers in reverse order:");
-		assignment7.OddNumbersReverse(50, 10);
+		assignment7.OddNumbersReverse(50, 30);
 	}
 }
