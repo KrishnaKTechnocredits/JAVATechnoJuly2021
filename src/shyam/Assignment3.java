@@ -1,3 +1,4 @@
+package shyam;
 class Assignment3{
 	void findWeekdaysandWeekend(int dayIndex){
 		if(dayIndex>=1 && dayIndex<=6){
