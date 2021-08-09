@@ -1,5 +1,6 @@
 package priti;
 class Student {
+	
 	String name = "Prit";
 	int rno = 1;
 	String lastName = "Vattanavar";
