@@ -32,25 +32,26 @@ public class BankingSystem {
 	}
 	
 	void printBalance() {
-		//System.out.println("Current Balance = "+ balance);
+		System.out.println( "\n # User Name= "+ userName);
+		System.out.println("Current Balance = "+ balance);
 		individualPrintCount ++;
 		total_printBalance_count ++;
 	}
 	
 	void individualTransactionSummary() {
 		//System.out.println("Transaction Summary:"); 
-		System.out.println( "User Name= "+ userName);
-		System.out.println( "Credit Transactions=  "+ individualCreditCount);
-		System.out.println( "Debit Transactions= " + individualDebitCount);
-		System.out.println( "Print Balance Statements = "+ individualPrintCount+ "\n");
+		//System.out.println( "\n User Name= "+ userName);
+		System.out.println( "Credit Transactions=  "+ individualCreditCount + "times");
+		System.out.println( "Debit Transactions= " + individualDebitCount + "times");
+		System.out.println( "Viewed Print Balance Statements = "+ individualPrintCount+ "times");
 	}
 	
 	void totalTransactionSummary() {
-		System.out.println("*** Total Transaction Summary: *** "); 
+		System.out.println("\n *** Total Transaction Summary: *** "); 
 		
-		System.out.println( "Total Credit Transactions=  "+ total_credit_count);
-		System.out.println( "Total Debit Transactions= " + total_debit_count);
-		System.out.println( "Total Print Balance Statements = "+ total_printBalance_count);
+		System.out.println( "Total Credit Transactions=  "+ total_credit_count+ " times");
+		System.out.println( "Total Debit Transactions= " + total_debit_count+ " times");
+		System.out.println( "Viewed Total Print Balance Statements = "+ total_printBalance_count+ " times");
 	}
 
 	public static void main(String[] args) {
@@ -65,6 +66,7 @@ public class BankingSystem {
 		bankingSystem_1.printBalance();
 		bankingSystem_1.individualTransactionSummary();
 		
+		
 		BankingSystem bankingSystem_2 = new BankingSystem();
 		bankingSystem_2.setUserDetails("John", 45000f);
 		bankingSystem_2.processCredit(12000f);
@@ -74,6 +76,7 @@ public class BankingSystem {
 		bankingSystem_2.processDebit(5200f);
 		bankingSystem_2.printBalance();
 		bankingSystem_2.individualTransactionSummary();
+		
 		
 		bankingSystem_2.totalTransactionSummary();
 	}
