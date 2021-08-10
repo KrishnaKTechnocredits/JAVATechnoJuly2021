@@ -12,6 +12,7 @@ class Assignment_8{
 	void setUserDetails(String Uname, float balance){
 		username= Uname;
 		userBalance=balance;
+		totalbalance= totalbalance+balance;
 	}	
 	
 	void debitAmt(float debAmt){
