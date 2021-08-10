@@ -13,12 +13,13 @@ class Temprature
 		System.out.println("celcius is equal to :" + celcius );
 		
 	}
+
 	public static void main(String[] args)
 	{
 		Temprature temprature= new Temprature();
 		temprature.celciusToFahrinite(60);
 		temprature.displayResult();
 		
-	}
+  }
 
 }

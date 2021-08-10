@@ -6,7 +6,6 @@ class Assignment7{
 		System.out.println("Even Numbers are :");
 		for(int index=1;index <=10;index++){
 			if(index % 2 == 0){
-				
 				System.out.println(index);
 			}
 		}
@@ -37,6 +36,7 @@ class Assignment7{
 			if(index %7==0){
 				System.out.println(index +" is divisible by 7 ");
 			}else if(index % 13==0){
+
 				System.out.println(index+" is divisible by 13");
 			}
 		}
@@ -83,3 +83,4 @@ class Assignment7{
 	}
 	
 }
+
