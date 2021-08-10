@@ -23,8 +23,6 @@ public class Assignment_8 {
 
 	void creditAmount(int creditAmount) {
 		currentBalance = currentBalance + creditAmount;
-		// System.out.println(currentBalance);
-
 		cntCredit++;
 		cntCreditAll++;
 	}
