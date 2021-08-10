@@ -40,7 +40,7 @@ public class BankTransaction {
 		System.out.println(userName +"'s transaction summary: Credit-"+creditCount+" times Debit-"+debitCount+" times printBalance-"+printCount+" times");
 	}
 	
-	void allTransactionSummary() {
+	static void allTransactionSummary() {
 		System.out.println("All transaction summary: Credit-"+totalCreditCount+" times Debit-"+totalDebitCount+" times printBalance-"+totalPrintCount+" times");
 	}
 	
@@ -69,7 +69,7 @@ public class BankTransaction {
 		bankTransaction2.printBalance();
 		bankTransaction1.individualTransactionSummary();
 		bankTransaction2.individualTransactionSummary();
-		bankTransaction2.allTransactionSummary();
+		allTransactionSummary();
 	}
 
 }
