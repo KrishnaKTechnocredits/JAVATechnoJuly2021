@@ -3,7 +3,7 @@ package deepakkankhar;
 
 import javax.naming.InitialContext;
 
-public class BankingSystem {
+public class Assignment8 {
 	int debitCnt;
 	int creditCnt;
 	int printBalanceCnt;
@@ -57,8 +57,8 @@ public class BankingSystem {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		BankingSystem user1=new BankingSystem();
-		BankingSystem user2=new BankingSystem();
+		Assignment8 user1=new Assignment8();
+		Assignment8 user2=new Assignment8();
 				
 		user1.setUserDetails("Sachin", 10000.00);
 		user2.setUserDetails("Virender", 5000.00);
@@ -77,6 +77,6 @@ public class BankingSystem {
 		user2.debit(200.0);
 		user2.debit(200.0);
 		user2.individualTransactionSummary();
-		BankingSystem.allTransactionsSummary();
+		allTransactionsSummary();
 	}
 }
