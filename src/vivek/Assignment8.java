@@ -2,12 +2,12 @@ package vivek;
 
 public class Assignment8 {
 	
-	int debitcnt=0;
-	int creditcnt=0;
-	int print=0;
-	static int debitAllcnt=0;
-	static int creditAllcnt=0;
-	static int printAllcnt=0;
+	int debitcnt;
+	int creditcnt;
+	int print;
+	static int debitAllcnt;
+	static int creditAllcnt;
+	static int printAllcnt;
 	String customerName;
 	int acctBalance;
 	
