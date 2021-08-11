@@ -2,7 +2,7 @@ package avinash;
 
 public class Shop {
 	
-	private static final int stockOfPanipuri = 0;
+
 	static int intialStockofMaggie;
 	static int intialStockofDosa;
 	static int initialStockofPouches;
