@@ -19,18 +19,16 @@ public class Assignment_9 {
 			iniPanipuriQ = iniPanipuriQ - purPanipuriQ;
 			iniMasalaQ = iniMasalaQ - purMasalaQ;
 		}
-		if (iniMagQ == 0 || iniDosaQ == 0 || iniOilPouchesQ == 0 || iniPanipuriQ == 0 || iniMasalaQ == 0) {
-			if (iniMagQ == 0)
+		if (iniMagQ == 0)
 			System.out.println("Maggie Running out of stock");
-			if (iniDosaQ == 0)
+		if (iniDosaQ == 0)
 			System.out.println("Dosa Running out of stock");
-			if (iniOilPouchesQ == 0)
+		if (iniOilPouchesQ == 0)
 			System.out.println("Oil Pouches Running out of stock");
-			if (iniPanipuriQ == 0)
+		if (iniPanipuriQ == 0)
 			System.out.println("Panipuri Running out of stock");
-			if (iniMasalaQ == 0)
+		if (iniMasalaQ == 0)
 			System.out.println("Masala's Running out of stock");
-		}
 	}
 	
 	void outOfStock() {
