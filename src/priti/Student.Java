@@ -1,6 +1,7 @@
 package priti;
-class Student {
-	
+
+public class Student {
+
 	String name = "Prit";
 	int rno = 1;
 	String lastName = "Vattanavar";
@@ -15,12 +16,12 @@ class Student {
 		System.out.println ("Student Last Name is  " + lastName);
 		System.out.println ("Student salary is "+ salary);
 		}
-	public static void main(String[] a) {
-		Student s1 = new Student();
-		Student s2 = new Student ();
-		System.out.println(s1);
-		s1.displayInfo();
-		s2.showInfo();
-		System.out.println(s1.rno);
+		public static void main(String[] a) {
+			Student s1 = new Student();
+			Student s2 = new Student ();
+			System.out.println(s1);
+			s1.displayInfo();
+			s2.showInfo();
+			System.out.println(s1.rno);
 		}
-}
+} 

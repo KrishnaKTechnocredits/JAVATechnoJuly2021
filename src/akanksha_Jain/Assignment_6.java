@@ -1,8 +1,6 @@
 package akanksha_Jain;
 
 public class Assignment_6 {
-	int P, T; //P is the principle amount, T is the time(Year)
-	float R, farhenheit; // R is the rate which can be in decimal, farhenheit is the temperature
 	
 	void calculateSimpleInterest(int P, int T, float R) {
 		float simpleinterest = (P * T * R)/100;
