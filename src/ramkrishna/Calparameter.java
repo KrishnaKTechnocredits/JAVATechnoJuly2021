@@ -1,6 +1,6 @@
 package ramkrishna;
 
-class Calculator{
+class Calparameter{
 	
 	void add(int x,int y){
 		int z= x+y;
@@ -23,7 +23,7 @@ class Calculator{
 	}
 
     public static void main(String[] args){
-		Calculator calculator = new Calculator();
+    	Calparameter calculator = new Calparameter();
 		calculator.add(10,5);
 		calculator.sub(50,5);
 		calculator.mul(100,5);
