@@ -7,38 +7,69 @@ public class Shop{
 	static int totalOilPouches = 39;
 	static int totalPanipuriPackets = 43;
 	static int totalMasalaPackets = 73;
-	void setCustomerDetails(String customer1) {
-		customerName = customer1;
+	void setQuantity(int maggie, int dosa, int oil, int panipuri, int masala) {
+		totalMaggieStock = maggie;
+		totalDosaStock = dosa;
+		totalOilPouches = oil;
+		totalPanipuriPackets = panipuri;
+		totalMasalaPackets = masala;
 	}
 	void purchaseProcess(int maggie,int dosa,int oil,int panipuri,int masala) {
 		displayOutofStockProduct();
-		if(maggie >  totalMaggieStock) {
-			System.out.println(totalMaggieStock+" maggie packets available");
-				
-		} else if(maggie <= totalMaggieStock) {
+		if (maggie > 0) {
+			if (maggie <= totalMaggieStock) {
 				totalMaggieStock = totalMaggieStock - maggie;
+
+			} else {
+				System.out.println("Dont have sufficient quantity of maggie, Requested maggie is " + maggie+ " but available qauntity is " + totalMaggieStock);
+			}
+		} else {
+			System.out.println(" Maggie is out of stock");
+			maggie = 0;
 		}
-		if(dosa > totalDosaStock) {
-			System.out.println(totalDosaStock+" Dosa available : ");
-		} else if ( dosa <= totalDosaStock) {
-			totalDosaStock = totalDosaStock - dosa;
+		if (dosa > 0) {
+			if (dosa <= totalDosaStock) {
+				totalDosaStock = totalDosaStock - dosa;
+
+			} else {
+				System.out.println("Dont have sufficient quantity of Dosa, Requested Dosa is " + dosa+ " but available qauntity is " + totalDosaStock);
+			}
+		} else {
+			System.out.println(" Dosa is out of stock");
 		}
-		if(oil > totalOilPouches) {
-			System.out.println(totalOilPouches+" Oil pouche available"  );
-		}else if(oil <= totalOilPouches) {
-			totalOilPouches = totalOilPouches - oil;
+		if (oil > 0) {
+			if (oil <= totalOilPouches) {
+				totalOilPouches = totalOilPouches - oil;
+
+			} else {
+				System.out.println("Dont have sufficient quantity of Oil, Requested Oil is " + oil+ " but available qauntity is " + totalOilPouches);			
+			}
+		} else {
+			System.out.println(" Oil is out of stock");
+			
 		}
-		if(panipuri > totalPanipuriPackets){
-			System.out.println(totalPanipuriPackets +" Panipuri packets available" );
-		}else if(panipuri <= totalPanipuriPackets) {
-			totalPanipuriPackets = totalPanipuriPackets - panipuri;
+		if (panipuri > 0) {
+			if (panipuri <= totalPanipuriPackets) {
+				totalPanipuriPackets = totalPanipuriPackets - panipuri;
+
+			} else {
+				System.out.println("Dont have sufficient quantity of PaniPuri, Requested PaniPuri is " + panipuri+ " but available qauntity is " + totalPanipuriPackets);
+			
+			}
+		} else {
+			System.out.println(" Panipuri is out of stock");
 		}
-		if(masala > totalMasalaPackets) {
-			System.out.println(totalMasalaPackets+" Masala Packets available" );
-		}else if(masala <= totalMasalaPackets) {
-			totalMasalaPackets = totalMasalaPackets - masala;
+		if (masala > 0) {
+			if (masala <= totalMasalaPackets) {
+				totalMasalaPackets = totalMasalaPackets - masala;
+
+			} else {
+				System.out.println("Dont have sufficient quantity of Masala, Requested Masala is " + masala+ " but available qauntity is " + totalMasalaPackets);
+			}
+		} else {
+			System.out.println(" Masala is out of stock");
 		}
-		
+				
 	}
 	void displayOutofStockProduct(){
 		if(totalMaggieStock <= 0)
@@ -53,18 +84,27 @@ public class Shop{
 			System.out.println("Masala running out of stock");
 	}
 	void displayAvailableinStock() {
-			System.out.println("***** Available Stocks *****");
+		if(totalMaggieStock > 0) {
 			System.out.println("Maggie Packets: "+totalMaggieStock);
+		}	
+		if(totalDosaStock > 0) {
 			System.out.println("Dosa Stock : "+totalDosaStock);
+		}
+		if(totalOilPouches > 0) {
 			System.out.println("Oil Pouches : "+totalOilPouches);
+		}
+		if(totalPanipuriPackets > 0) {
 			System.out.println("Pani Puri Packs: "+totalPanipuriPackets);
+		}
+		if(totalMasalaPackets > 0) {
 			System.out.println("Masala Packets : "+totalMasalaPackets);
+		}
 	}
 
 	public static void main(String[] args){
 		Shop shop = new Shop();
-		//shop.setCustomerDetails("Purshottam");
-		shop.purchaseProcess(50,10,20,25,30);
+		shop.setQuantity(80,80,80,80,80);
+		shop.purchaseProcess(100,80,20,25,30);
 		shop.displayOutofStockProduct();
 		shop.displayAvailableinStock();
 		
