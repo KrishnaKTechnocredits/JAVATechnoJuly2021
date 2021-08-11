@@ -17,11 +17,19 @@ package umakant;
 
 public class Shop {
 
-	static int maggieCount = 50;
-	static int dosaCount = 43;
-	static int oilCount = 39;
-	static int panipuriCount = 43;
-	static int masalaCount = 73;
+	static int maggieCount;
+	static int dosaCount;
+	static int oilCount;
+	static int panipuriCount;
+	static int masalaCount;
+
+	static void setInitialQuantity(int maggie, int dosa, int oil, int panipuri, int masala) {
+		maggieCount = maggie;
+		dosaCount = dosa;
+		oilCount = oil;
+		panipuriCount = panipuri;
+		masalaCount = masala;
+	}
 
 	static void outOfStockItems() {
 		if (maggieCount == 0 || dosaCount == 0 || oilCount == 0 || panipuriCount == 0 || masalaCount == 0) {
@@ -57,58 +65,41 @@ public class Shop {
 			System.out.println("No items are available.");
 	}
 
-	static void purchase(String item, int quantity) {
-		if (quantity > 0) {
-			if (item.equals("Maggie")) {
-				if (maggieCount >= quantity)
-					maggieCount -= quantity;
-				else
-					System.out.println(item + " is out of stock.");
-			} else if (item.equals("Dosa")) {
-				if (dosaCount >= quantity)
-					dosaCount -= quantity;
-				else
-					System.out.println(item + " is out of stock.");
-			} else if (item.equals("Oil")) {
-				if (oilCount >= quantity)
-					oilCount -= quantity;
-				else
-					System.out.println(item + " is out of stock.");
-			} else if (item.equals("Panipuri")) {
-				if (panipuriCount >= quantity)
-					panipuriCount -= quantity;
-				else
-					System.out.println(item + " is out of stock.");
-			} else if (item.equals("Masala")) {
-				if (masalaCount >= quantity)
-					masalaCount -= quantity;
-				else
-					System.out.println(item + " is out of stock.");
-			} else
-				System.out.println("We don't store " + item + ". Please choose item from the available stock.");
-		}else
+	static void purchase(int maggie, int dosa, int oil, int panipuri, int masala) {
+		if (maggie >= 0 && dosa >= 0 && oil >= 0 && panipuri >= 0 && masala >= 0) {
+			if (maggieCount >= maggie)
+				maggieCount -= maggie;
+			else
+				System.out.println("Maggie is running out of stock.");
+			if (dosaCount >= dosa)
+				dosaCount -= dosa;
+			else
+				System.out.println("Dosa is running out of stock.");
+			if (oilCount >= oil)
+				oilCount -= oil;
+			else
+				System.out.println("Oil is running out of stock.");
+			if (panipuriCount >= panipuri)
+				panipuriCount -= panipuri;
+			else
+				System.out.println("Panipuri is running out of stock.");
+			if (masalaCount >= masala)
+				masalaCount -= masala;
+			else
+				System.out.println("Masala is running out of stock.");
+		} else
 			System.out.println("Quantity of item must be greater than 0");
 	}
 
 	public static void main(String[] args) {
+		Shop.setInitialQuantity(50, 43, 39, 43, 73);
 		Shop.availableItems();
 		Shop.outOfStockItems();
-		Shop.purchase("Maggie", 45);
-		Shop.purchase("Cake", 45);
-		Shop.purchase("Dosa", 43);
-		Shop.purchase("Oil", 39);
-		Shop.purchase("Panipuri", 39);
-		Shop.purchase("Masala", 70);
-		Shop.purchase("Masala", 0);
+		Shop.purchase(5, 1, -1, 3, 3);
+		Shop.purchase(45, 43, 39, 40, 70);
 		Shop.availableItems();
 		Shop.outOfStockItems();
-		Shop.purchase("Maggie", 5);
-		Shop.purchase("Dosa", 1);
-		Shop.purchase("Oil", 1);
-		Shop.purchase("Panipuri", -2);
-		Shop.purchase("Panipuri", 4);
-		Shop.purchase("Masala", 3);
-		Shop.purchase("Biscuit", 45);
+		Shop.purchase(5, 1, 1, 3, 3);
 		Shop.availableItems();
 		Shop.outOfStockItems();
 	}
