@@ -84,12 +84,21 @@ public class Shop{
 			System.out.println("Masala running out of stock");
 	}
 	void displayAvailableinStock() {
-			System.out.println("***** Available Stocks *****");
+		if(totalMaggieStock > 0) {
 			System.out.println("Maggie Packets: "+totalMaggieStock);
+		}	
+		if(totalDosaStock > 0) {
 			System.out.println("Dosa Stock : "+totalDosaStock);
+		}
+		if(totalOilPouches > 0) {
 			System.out.println("Oil Pouches : "+totalOilPouches);
+		}
+		if(totalPanipuriPackets > 0) {
 			System.out.println("Pani Puri Packs: "+totalPanipuriPackets);
+		}
+		if(totalMasalaPackets > 0) {
 			System.out.println("Masala Packets : "+totalMasalaPackets);
+		}
 	}
 
 	public static void main(String[] args){
