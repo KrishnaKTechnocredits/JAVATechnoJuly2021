@@ -16,18 +16,11 @@ class Shop{
 			availableInStock(magq,ppq,dq,poq,masq);
 			count1--;
 		}
-		else{
-			outofStock(magq,ppq,dq,masq,poq);
-		}
-		
 		if(ppq<=panip){
 			panip=panip-ppq;
+			count2++;
 			availableInStock(magq,ppq,dq,poq,masq);
-		}
-		 else{
-			 count2++;
-			 outofStock( magq, ppq,dq,masq,poq);
-			 count2--;
+			count2--;
 		}
 		if(dq<=dosa){
 			dosa=dosa-dq;
@@ -35,22 +28,13 @@ class Shop{
 			availableInStock(magq,ppq,dq,poq,masq);
 			count3--;
 		}
-		 else {
-			 count3++;
-			 outofStock( magq, ppq,dq,masq,poq);
-			 count3--;
-		 }
 		 if(poq<=pouches){
 			pouches=pouches-poq;
 			count4++;
 			availableInStock(magq,ppq,dq,poq,masq);
 			count4--;
 		}
-		 else {
-			 count4++;
-			 outofStock( magq, ppq,dq,masq,poq);
-			 count4--;
-		 }
+		 
 		 if(masq<=masala){
 			masala=masala-masq;
 			count5++;
@@ -68,7 +52,7 @@ class Shop{
 		if(magq>maggie ) {
 			System.out.println("Maggie Running out of stock");
 			}
-		if(ppq<panip) {
+		if(ppq>panip) {
 			System.out.println("PaniPuri Running out of stock");
 			}
 		if(dq>dosa) {
@@ -82,29 +66,26 @@ class Shop{
 			}
 		}
 
-	void availableInStock(int magq,  int ppq,int  dq,int poq,int masq){
-		if(magq<maggie && count1==1) {
+	void availableInStock(int magq,int ppq,int dq,int poq,int masq){
+		if(magq<=maggie && count1==1) {
 		System.out.println("Quantities of maggie left are "+ maggie);
 		}
-		if(ppq<panip && count2==1) {
+		if(ppq<=panip && count2==1) {
 		System.out.println("Quantities of Panipuri left are "+ panip);
 		}
-		if(dq<dosa && count3==1) {
+		if(dq<=dosa && count3==1) {
 		System.out.println("Quantities of Dosa left are "+ dosa);
 		}
-		if(poq<pouches && count4==1) {
+		if(poq<=pouches && count4==1) {
 		System.out.println("Quantities of Pouches left are "+ pouches);
 		}
-		if(masq<masala && count5==1) {
+		if(masq<=masala && count5==1) {
 		System.out.println("Quantities of Masala left are "+ masala);
 		}
 	}
 	
 	public static void main(String args[]){
 		Shop shop=new Shop();
-		System.out.println("Customer");
-		shop.setQuantityreq(111,2,13,4,180);
-		//shop.outOfStock();
-		//shop.availableInStock();
+		shop.setQuantityreq(111,12,13,4,180);
 	}
 }
