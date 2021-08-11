@@ -19,7 +19,7 @@ class Assignment8 {
 		
 		currentBalance = currentBalance + creditAmount;
 		creditCount = creditCount + 1 ;
-		creditCount2 = creditCount2 + 2;
+		creditCount2 = creditCount2 + 1;
 	}void debitAmountBal(int debitAmount){
 		
 		currentBalance = currentBalance - debitAmount;
