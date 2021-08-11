@@ -13,14 +13,14 @@ public class Assignment9 {
 				System.out.println(product + " :Running out of stock");
 			} else {
 				maggieQnt = maggieQnt - qnt;
-				System.out.println(product + " is avaibale and remaining quntity will be " + maggieQnt);
+				System.out.println(product + " is avaibale and remaining quntity will be  " + maggieQnt);
 			}
 		} else if (product.equals("Dosa")) {
 			if (qnt > dosaQnt) {
 				System.out.println(product + " :Running out of stock");
 			} else {
 				dosaQnt = dosaQnt - qnt;
-				System.out.println(product + " is avaibale and remaining quntity will be " + dosaQnt);
+				System.out.println(product + " is avaibale and remaining quntity will be  " + dosaQnt);
 			}
 		} else if (product.equals("Panipuri")) {
 			if (qnt > panipuriQnt) {
