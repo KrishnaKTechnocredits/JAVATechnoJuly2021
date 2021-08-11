@@ -3,6 +3,7 @@ package nasir;
 class SimpleInterest
 {
 
+
 	void calulation(int P,int R, double T)
 	{
 
