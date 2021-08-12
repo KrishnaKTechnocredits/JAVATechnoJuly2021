@@ -11,7 +11,7 @@ public class Assignment_10 {
 		for (int index = 2; index < number; index++) {
 			if (number % index == 0) {
 				status = false;
-				System.out.println(number + " is not prime number");
+				//System.out.println(number + " is not prime number");
 				break;
 			}
 		}
@@ -20,7 +20,7 @@ public class Assignment_10 {
 			System.out.println(number + " is prime");
 			countPrime = countPrime + 1;
 			sumPrime = sumPrime + number;
-			avgPrime = avgPrime / countPrime;
+			avgPrime = sumPrime / countPrime;
 
 		}
 	}
