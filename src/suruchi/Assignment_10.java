@@ -4,8 +4,8 @@ public class Assignment_10 {
 
 	int startNumber;
 	int endNumber;
-	int counter;
-	int sumOfPrimeNumbers;
+	static int counter;
+	static int sumOfPrimeNumbers;
 
 	void verifyNumberIsPrime(int number) {
 		boolean flag = true;
@@ -53,6 +53,8 @@ public class Assignment_10 {
 	public static void main(String[] a) {
 		Assignment_10 assignment_10 = new Assignment_10();
 		assignment_10.verifyNumberIsPrime(19);
+		counter = 0;
+		sumOfPrimeNumbers = 0;
 		assignment_10.printPrimeNumbersInRange(100 , 120);
 		assignment_10.printCountOfPrimeNumbers();
 		assignment_10.printSumOfPrimeNumbers();
