@@ -43,7 +43,7 @@ public class Assignment_9 {
 		if(oilCount<=0)
 			System.out.println("OilPacket is running Out of Stock");
 		if(panipuriCount<=0)
-			System.out.println("Panipuri is running Out of Stock");
+			System.out.println("Panipuri Packet is running Out of Stock");
 		if(masalaCount<=0)
 			System.out.println("Masala Packet is running Out of Stock");
 	}
