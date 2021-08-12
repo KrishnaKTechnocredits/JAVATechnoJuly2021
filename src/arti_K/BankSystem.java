@@ -21,7 +21,7 @@ NOTE : You should have setUserDetails method to set username and initial Balance
 
 package arti_K;
 
-public class Banksystem {
+public class BankSystem {
 	
 	int debitcnt;
 	int creditcnt;
@@ -31,7 +31,6 @@ public class Banksystem {
 	static int totaldebitCount;
 	static int totalcreditCount;
 	static int totalprintBalCount;
-
 
 	void setUserDetails(String name, double balance){
 		userName = name;
@@ -65,8 +64,8 @@ public class Banksystem {
 	}
 	
 	public static void main(String[] args) {
-		Banksystem banksystem = new Banksystem();
-		Banksystem banksystem1 = new Banksystem();
+		BankSystem banksystem = new BankSystem();
+		BankSystem banksystem1 = new BankSystem();
 		
 		System.out.println("\n------- 1st User deatails :-----------");
 		banksystem.setUserDetails("Krishna", 50000);
