@@ -8,62 +8,6 @@ class AssignmentBk_9_class1{
 	static int masalaQnt= 73;
 	 
 	
-//	void checkQnt(String product, int qnt){
-//		if (product.equals("Maggi")){
-//			if (qnt > maggieQnt) {
-//				System.out.println(product + " :Running out of stock");
-//			    System.out.println( "---------------------");
-//			}    
-//			else {
-//				maggieQnt= maggieQnt-qnt;
-//				System.out.println(product+ " is avaibale and remaining quntity will be "+maggieQnt);
-//				System.out.println( "---------------------");
-//		    }
-//	    }
-//		else if (product.equals("Dosa")){
-//			if (qnt > dosaQnt) {
-//				System.out.println(product + " :Running out of stock");
-//				System.out.println( "---------------------");
-//			}	
-//			else { 
-//				dosaQnt= dosaQnt-qnt;
-//				System.out.println(product+ " is avaibale and remaining quntity will be "+dosaQnt);
-//				System.out.println( "---------------------");
-//			}	
-//		 }else if (product.equals("Panipuri")){
-//				if (qnt > panipuriQnt) {
-//					System.out.println(product + " :Running out of stock");
-//					System.out.println( "---------------------");
-//				}	
-//				else { 
-//					panipuriQnt= panipuriQnt-qnt;
-//					System.out.println(product+ " is avaibale and remaining quntity will be "+panipuriQnt);
-//					System.out.println( "---------------------");
-//				}	
-//				
-//		 }else if (product.equals("Masala")){
-//				if (qnt > masalaQnt) {
-//					System.out.println(product + " :Running out of stock");
-//					System.out.println( "---------------------");
-//				}	
-//				else { 
-//					masalaQnt= masalaQnt-qnt;
-//					System.out.println(product+ " is avaibale and remaining quntity will be "+masalaQnt);
-//					System.out.println( "---------------------");
-//				}	
-//		}else if (product.equals("Pouches")){
-//			if (qnt > pouchesQnt) {
-//				System.out.println(product + " :Running out of stock");
-//				System.out.println( "---------------------");	
-//			}	
-//			else { 
-//				pouchesQnt= pouchesQnt-qnt;
-//				System.out.println(product+ " is avaibale and remaining quntity will be "+pouchesQnt);
-//				System.out.println( "---------------------");
-//			}
-//		}
-//	}
-	
 	static void outOfStock() {
 		System.out.println("Below items out of stock:");
 		if (maggieQnt==0)
