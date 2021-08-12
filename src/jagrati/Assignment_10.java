@@ -1,9 +1,10 @@
 package jagrati;
 
 public class Assignment_10 {
-	int count;
-	int sum;
-	int avg;
+	int count= 0;
+	int sum =0;
+	float avg;
+	
 	void numberIsPrimeNumber(int number){
 		boolean status = true;
 		for (int index = 2; index<number; index++){
@@ -14,12 +15,14 @@ public class Assignment_10 {
 			
 		    }
 		}
-		if (status == true)
+		if (status == true) {
+			
 		System.out.println(number +" Number is prime");
-		count = count + 1;
+		count++;
 		sum = sum + number;
-		avg = sum / count;
+		avg = sum/ count;
 		
+		}
 	}
 	void primeNumberBTWrange(int startNumber, int endNumber){
 		for (int number =startNumber; number<=endNumber; number++){
@@ -42,7 +45,7 @@ public class Assignment_10 {
 	
 	public static void main(String []aa){
 		Assignment_10 assignment_10 = new Assignment_10();
-		System.out.println("Please fine below prime number between range 100 to 120 ");
+		System.out.println("Please find below prime number between range 100 to 120 ");
 		assignment_10.primeNumberBTWrange(100, 120);
 		assignment_10.dispayTotalCountOfPrimeNumber();
 		assignment_10.dispayTotalSumOfPrimeNumber();
