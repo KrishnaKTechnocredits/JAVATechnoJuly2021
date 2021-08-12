@@ -2,7 +2,7 @@ package amol_Vyas;
 
 public class Assignment_10 {
 	int sum;
-	float average;
+	int average;
 	int primeCount;
 
 	void isPrimeNumber(int number) {
