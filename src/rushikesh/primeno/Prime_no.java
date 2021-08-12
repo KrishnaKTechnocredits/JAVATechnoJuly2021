@@ -1,8 +1,8 @@
 package rushikesh.primeno;
 
 public class Prime_no {
-	int sumPrimeNo;
-	int countPrimeNo;
+	static int sumPrimeNo;
+	static int countPrimeNo;
 	
 	void verifyNumberIsPrime(int num) {
 		boolean status=true;
@@ -17,6 +17,7 @@ public class Prime_no {
 		if(status) {
 			System.out.println(num+" is prime number");
 			countPrimeNo++;
+			
 			sumPrimeNo=sumPrimeNo+num;
 		}
 	}
@@ -53,6 +54,8 @@ public class Prime_no {
 		Prime_no prime_no=new Prime_no();
 		prime_no.verifyNumberIsPrime(11);
 		System.out.println("-----------------");
+		countPrimeNo=0;
+		sumPrimeNo=0;
 		prime_no.primeNumbersInRange(100, 120);
 		
 	}
