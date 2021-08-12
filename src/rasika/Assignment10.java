@@ -3,19 +3,19 @@ package rasika;
 public class Assignment10 {
 	int count = 0;
 	int sum = 0;
-	void verifyPrimeNumber(int number) {
+	void verifyPrimeNumber(int isPrimeNumber) {
 		boolean status = true;
-		for(int index = 2; index < number; index++) {
-			if(number % 2 == 0) {
+		for(int index = 2; index < isPrimeNumber; index++) {
+			if(isPrimeNumber % index == 0) {
 				status = false;
-				System.out.println(number+ " is not prime number.");
+				System.out.println(isPrimeNumber+ " is not prime number.");
 				break;
 			}
 		}
 		if(status) {
 			count++;
-			System.out.println(number+ " is a prime number.");
-			sum = sum + number;
+			System.out.println(isPrimeNumber+ " is a prime number.");
+			sum = sum + isPrimeNumber												;
 		}
 	}
 	void verifyPrimeNumberBetweenRange(int startIndex, int endIndex) {
