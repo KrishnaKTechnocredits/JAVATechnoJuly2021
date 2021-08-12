@@ -1,3 +1,5 @@
+package shantanu;
+
 class Assignment3{
 	void displayWeekdayOrWeekend(int dayIndex){
 		if(dayIndex >= 1 && dayIndex <= 5){
