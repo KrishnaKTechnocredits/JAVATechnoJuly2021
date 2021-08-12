@@ -12,14 +12,14 @@ public class Assignment_10 {
 		for (int index = 2; index < number; index++) {
 			if (number % index == 0) {
 				flag = false;
-				//not a prime number
+				// not a prime number
 				break;
 			}
 		}
 		if (flag) {
 			System.out.println(number + " is a prime number");
 			counter++;
-			sumOfPrimeNumbers = sumOfPrimeNumbers +  number;
+			sumOfPrimeNumbers = sumOfPrimeNumbers + number;
 		}
 	}
 
@@ -44,7 +44,7 @@ public class Assignment_10 {
 	}
 
 	void printAvgOfPrimeNumbers() {
-		int average = sumOfPrimeNumbers / counter;
+		double average = sumOfPrimeNumbers / counter;
 		System.out.println();
 		System.out.println(
 				"Average of all prime numbers between " + startNumber + " and " + endNumber + " is: " + average);
@@ -55,7 +55,7 @@ public class Assignment_10 {
 		assignment_10.verifyNumberIsPrime(19);
 		counter = 0;
 		sumOfPrimeNumbers = 0;
-		assignment_10.printPrimeNumbersInRange(100 , 120);
+		assignment_10.printPrimeNumbersInRange(100, 120);
 		assignment_10.printCountOfPrimeNumbers();
 		assignment_10.printSumOfPrimeNumbers();
 		assignment_10.printAvgOfPrimeNumbers();
