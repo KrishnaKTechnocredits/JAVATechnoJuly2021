@@ -19,8 +19,8 @@ class Assignment8{
 	
 	void creditAmountBal(int creditAmount){
 		currentBalance=currentBalance+creditAmount;
-		creditCount=creditCount+1;
-		creditCount2=creditCount2+2;
+        creditCount++;
+        creditCount2++;
 	}
 
     void debitAmountBal(int debitAmount){
