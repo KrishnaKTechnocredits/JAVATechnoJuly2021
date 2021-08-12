@@ -1,8 +1,8 @@
 package husain;
 
 public class Assignment_10 {
-	int countOfPrime;
-	int sumOfPrime;
+	double countOfPrime;
+	double sumOfPrime;
 	
 	void printIfNumberIsPrime(int number) {
 		boolean status = true;
