@@ -18,7 +18,7 @@ class SimpleInterest{
 	    System.out.println("Simple interest is "+Interest);
 	}
 	
-	void FehrenheitToCelsius(int fahrenheit) {
+	void fehrenheitToCelsius(int fahrenheit) {
 		double Celsius = (fahrenheit - 32) * 5 / 9;
 		System.out.println("Celsius= "+Celsius);
 	}
@@ -26,7 +26,7 @@ class SimpleInterest{
 	public static void main(String[] args){
 	    SimpleInterest sI1 = new SimpleInterest();
 	    sI1.simpleInterest1(100, 8, 7.2);
-	    sI1.FehrenheitToCelsius(60);
+	    sI1.fehrenheitToCelsius(60);
 	}
 }
 		

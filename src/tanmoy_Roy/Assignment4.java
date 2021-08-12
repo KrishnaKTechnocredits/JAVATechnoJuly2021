@@ -1,5 +1,5 @@
 package tanmoy_Roy;
-class StudentInfo{
+class Assignment4{
 	
 	String   Name;
 	String   middleName;
@@ -18,7 +18,7 @@ class StudentInfo{
 	
 	
 	public static void main(String [] args){
-		StudentInfo studentInfo = new StudentInfo();
+		Assignment4 studentInfo = new Assignment4();
 		String  Name="Tanmoy";
 		String  middleName=null;
 		String  surName="Roy";

@@ -1,5 +1,5 @@
 package tanmoy_Roy; 
-class Bank{
+class Assignment2{
 
 	double currentBalance=10000.00;
 	
@@ -18,7 +18,7 @@ class Bank{
 	}
 	
 	public static void main(String[] args){
-		Bank bank = new Bank();
+		Assignment2 bank = new Assignment2();
 		bank.credit(1000.00);
 		bank.debit(235.96);
 		bank.displayInfo();
