@@ -1,48 +1,48 @@
 package aniket;
 
-public class Assignment_8 {
-	
+public class BankingSystem {
+
 	int debitCnt;
 	int creditCnt;
 	int printBalanceCount;
-	static int AlldebitCnt;
-	static int AllcreditCnt;
-	static int AllprintBalanceCount;
+	static int allDebitCnt;
+	static int allCreditCnt;
+	static int allPrintBalanceCount;
 	String customerName;
-	
+
 	void setCustomerName(String custName) {
-		customerName=custName;		
+		customerName = custName;
 	}
-	
+
 	void debitamt() {
 		debitCnt++;
-		AlldebitCnt++;		
+		allDebitCnt++;
 	}
-	
+
 	void creditamt() {
 		creditCnt++;
-		AllcreditCnt++;
+		allCreditCnt++;
 	}
-	
+
 	void printBalance() {
 		printBalanceCount++;
-		AllprintBalanceCount++;	
+		allPrintBalanceCount++;
 	}
-	
+
 	void individualTransactionSummary() {
-		System.out.println(customerName + " transaction summary: " + "Credit - " + creditCnt + 
-				"times, Debit - " +  debitCnt + " times, printBalance - " + printBalanceCount +" times");	
+		System.out.println(customerName + " transaction summary: " + "Credit - " + creditCnt + "times, Debit - "
+				+ debitCnt + " times, printBalance - " + printBalanceCount + " times");
 	}
-	
+
 	void allTransactionSummary() {
-		System.out.println("All transaction summary: " + "Credit - " + AllcreditCnt + 
-				"times, Debit - " +  AlldebitCnt + " times, printBalance - " + AllprintBalanceCount +" times");
-		
+		System.out.println("All transaction summary: " + "Credit - " + allCreditCnt + "times, Debit - " + allDebitCnt
+				+ " times, printBalance - " + allPrintBalanceCount + " times");
+
 	}
-	
+
 	public static void main(String[] args) {
-		Assignment_8 assignment8_1 = new Assignment_8();
-		Assignment_8 assignment8_2 = new Assignment_8();
+		BankingSystem assignment8_1 = new BankingSystem();
+		BankingSystem assignment8_2 = new BankingSystem();
 		assignment8_1.setCustomerName("User1");
 		assignment8_1.debitamt();
 		assignment8_1.debitamt();
@@ -52,14 +52,14 @@ public class Assignment_8 {
 		assignment8_1.printBalance();
 		assignment8_1.printBalance();
 		assignment8_1.individualTransactionSummary();
-		
+
 		assignment8_2.setCustomerName("User2");
 		assignment8_2.debitamt();
 		assignment8_2.debitamt();
 		assignment8_2.creditamt();
 		assignment8_2.printBalance();
 		assignment8_2.individualTransactionSummary();
-		
+
 		assignment8_1.allTransactionSummary();
 
 	}
