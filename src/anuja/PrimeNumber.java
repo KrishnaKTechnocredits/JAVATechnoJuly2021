@@ -3,28 +3,37 @@ package anuja;
 public class PrimeNumber {
 	
 	int sum=0;
-	int count=0;
-	int avg=0;
+	int count;
+	int count1=0;
+	double avg=0.00;
 	
 	void verifyNumberIsPrime(int number) {
-		int status=0;
+		boolean status=true;
 		for(int index=2;index<number;index++) {
 			if(number%index==0) {
-				status=1;
-				System.out.println(number + " is not a prime number");
+				status=false;
+				//System.out.println(number + " is not a prime number");
 				break;
+			}
+		} 
+		if(status==true) {
+			if(count==0) {
+				System.out.println(number + " is prime");
+				count++;
+			}
+			else {
+			System.out.println(number + " is prime");
+			sum=sum+number;
+			count1++;
+			avg=sum/count1;
+			}
 		}
-		
-	} 
-	if(status==0)
-		System.out.println(number + " is prime");
-		sum=sum+number;
-		count++;
+	}
+	
+	void display() {
 		System.out.println("Sum of prime nos is "+ sum);
-		System.out.println("Count of prime nos is "+ count);
-		avg=sum/count;
+		System.out.println("Count of prime nos is "+ count1);
 		System.out.println("Average of prime nos is " +avg);
-
 	}
 	
 	void verifyPrimeNumberInRange(int startNumber,int endEndNumber) {
@@ -32,9 +41,11 @@ public class PrimeNumber {
 			verifyNumberIsPrime(number);
 		}
 	}
+	
 	public static void main(String[] args) {
 		PrimeNumber primenumber=new PrimeNumber();
-		primenumber.verifyNumberIsPrime(21);
+		primenumber.verifyNumberIsPrime(19);
 		primenumber.verifyPrimeNumberInRange(100,120);
+		primenumber.display();
 	}
 }
