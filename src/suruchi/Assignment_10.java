@@ -34,7 +34,7 @@ public class Assignment_10 {
 
 	void printCountOfPrimeNumbers() {
 		System.out.println();
-		System.out.println("Number of prime numbers between " + startNumber + " and " + endNumber + " are: " + counter);
+		System.out.println("Count of prime numbers between " + startNumber + " and " + endNumber + " is: " + counter);
 	}
 
 	void printSumOfPrimeNumbers() {
