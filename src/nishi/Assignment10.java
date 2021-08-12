@@ -36,7 +36,7 @@ public class Assignment10 {
 	public static void main(String[] args)
 	{
 		Assignment10 assignment10 = new Assignment10();
-		assignment10.printNumberIsPrime(11);
+		assignment10.printNumberIsPrime(4);
 		assignment10.printPrimeInRange(100,120);
 		
 	}
