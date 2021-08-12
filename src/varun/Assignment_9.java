@@ -8,68 +8,90 @@ public class Assignment_9 {
 	int masalaStock = 73;
 
 	void stockOfItemsAvlbl(String itemName, int itemQuantity) {
-		if(itemName.equalsIgnoreCase("Maggie")) {
-			maggieStock = maggieStock-itemQuantity;
-			if(maggieStock<0) {
+		if (itemName.equalsIgnoreCase("Maggie")) {
+			if (maggieStock < itemQuantity)
 				outOfStock(itemName);
+			else if (maggieStock >= itemQuantity) {
+				System.out.println(itemName + " is availabe with " + maggieStock + " quantity");
+				maggieStock = maggieStock - itemQuantity;
+				System.out.println("User picked " + itemQuantity + " quantity of " + itemName);
+				if (maggieStock != 0) {
+					System.out.println(itemName + " is available in stock with " + maggieStock + " quantity remaining");
+					System.out.println("*****************************************");
+				} else
+					outOfStock(itemName);
 			}
-			else if(maggieStock<=10)
-			System.out.println(itemName+ " is running out of stock with only " +maggieStock+ " quantity remaining");
-			else
-				System.out.println(itemName+ " is available in stock with " +maggieStock+ " quantity");
-		}
-		else if(itemName.equalsIgnoreCase("Dosa")) {
-			dosaStock = dosaStock-itemQuantity;
-			if(dosaStock<0) {
+		} else if (itemName.equalsIgnoreCase("Dosa")) {
+			if (dosaStock < itemQuantity)
 				outOfStock(itemName);
+			else if (dosaStock >= itemQuantity) {
+				System.out.println(itemName + " is availabe with " + dosaStock + " quantity");
+				dosaStock = dosaStock - itemQuantity;
+				System.out.println("User picked " + itemQuantity + " quantity of " + itemName);
+				if (dosaStock != 0) {
+					System.out.println(itemName + " is available in stock with " + dosaStock + " quantity remaining");
+					System.out.println("*****************************************");
+				} else
+					outOfStock(itemName);
 			}
-			else if(dosaStock<=10)
-			System.out.println(itemName+ " is running out of stock");
-			else
-				System.out.println(itemName+ " is available in stock with " +dosaStock+ " quantity");
-		}
-		else if(itemName.equalsIgnoreCase("Pouches")) {
-			pouchesStock = pouchesStock-itemQuantity;
-			if(pouchesStock<0) {
+		} else if (itemName.equalsIgnoreCase("Pouches")) {
+			if (pouchesStock < itemQuantity)
 				outOfStock(itemName);
+			else if (pouchesStock >= itemQuantity) {
+				System.out.println(itemName + " is availabe with " + pouchesStock + " quantity");
+				pouchesStock = pouchesStock - itemQuantity;
+				System.out.println("User picked " + itemQuantity + " quantity of " + itemName);
+				if (pouchesStock != 0) {
+					System.out
+							.println(itemName + " is available in stock with " + pouchesStock + " quantity remaining");
+					System.out.println("*****************************************");
+				} else
+					outOfStock(itemName);
 			}
-			else if(pouchesStock<=10)
-			System.out.println(itemName+ " is running out of stock");
-			else
-				System.out.println(itemName+ " is available in stock with " +pouchesStock+ " quantity");
-		}
-		else if(itemName.equalsIgnoreCase("Panipuri")) {
-			panipuriStocks = panipuriStocks-itemQuantity;
-			if(panipuriStocks<0) {
+		} else if (itemName.equalsIgnoreCase("panipuri")) {
+			if (panipuriStocks < itemQuantity)
 				outOfStock(itemName);
+			else if (panipuriStocks >= itemQuantity) {
+				System.out.println(itemName + " is availabe with " + panipuriStocks + " quantity");
+				panipuriStocks = panipuriStocks - itemQuantity;
+				System.out.println("User picked " + itemQuantity + " quantity of " + itemName);
+				if (panipuriStocks != 0) {
+					System.out.println(
+							itemName + " is available in stock with " + panipuriStocks + " quantity remaining");
+					System.out.println("*****************************************");
+
+				} else
+					outOfStock(itemName);
 			}
-			else if(panipuriStocks<=10)
-			System.out.println(itemName+ " is running out of stock");
-			else
-				System.out.println(itemName+ " is available in stock with " +panipuriStocks+ " quantity");
-		}
-		else {
-			masalaStock = masalaStock-itemQuantity;
-			if(masalaStock<0) {
-			outOfStock(itemName);
-		}
-			else if(masalaStock<=10)
-				System.out.println(itemName+ " is running out of stock");
-			else
-				System.out.println(itemName+ " is available in stock with " +panipuriStocks+ " quantity");
+		} else {
+			if (masalaStock < itemQuantity)
+				outOfStock(itemName);
+			else if (masalaStock >= itemQuantity) {
+				System.out.println(itemName + " is availabe with " + masalaStock + " quantity");
+				masalaStock = masalaStock - itemQuantity;
+				System.out.println("User picked " + itemQuantity + " quantity of " + itemName);
+				if (masalaStock != 0) {
+					System.out.println(itemName + " is available in stock with " + masalaStock + " quantity remaining");
+					System.out.println("*****************************************");
+				} else
+					outOfStock(itemName);
+			}
 		}
 	}
-	
+
 	void outOfStock(String itemName) {
-		System.out.println(itemName+ " is out of stock " );
+		System.out.println(itemName + " is out of stock ");
 	}
-	
+
 	public static void main(String[] args) {
 		Assignment_9 assignment_9 = new Assignment_9();
 		assignment_9.stockOfItemsAvlbl("Maggie", 40);
-		assignment_9.stockOfItemsAvlbl("Dosa", 11);
-		assignment_9.stockOfItemsAvlbl("Pouches", 11);
 		assignment_9.stockOfItemsAvlbl("Panipuri", 11);
-		assignment_9.stockOfItemsAvlbl("Masala", 88);
+		assignment_9.stockOfItemsAvlbl("Pouches", 11);
+		assignment_9.stockOfItemsAvlbl("Dosa", 11);
+		assignment_9.stockOfItemsAvlbl("Masala", 65);
+		assignment_9.stockOfItemsAvlbl("Maggie", 15);
+		assignment_9.stockOfItemsAvlbl("Pouches", 70);
+
 	}
 }
