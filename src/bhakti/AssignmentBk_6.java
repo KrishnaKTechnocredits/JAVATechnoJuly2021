@@ -1,6 +1,6 @@
 package bhakti;
 
-public class Assignment7 {
+public class AssignmentBk_6 {
 	
 	void simpleInt(float p, int t, float r){
 		float simInt=(p * t * r)/100;
@@ -14,9 +14,9 @@ public class Assignment7 {
 	}
 	
 	public static void main(String [] rts) {
-		Assignment7 assignment7= new Assignment7();
-		assignment7.simpleInt( 34546.56f, 2019, 1.234f);
-		assignment7.celsius(234.45f);
+		AssignmentBk_6 assignmentBk_6= new AssignmentBk_6();
+		assignmentBk_6.simpleInt( 34546.56f, 2019, 1.234f);
+		assignmentBk_6.celsius(234.45f);
 		
 	}
 
