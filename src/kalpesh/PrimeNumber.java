@@ -1,25 +1,25 @@
 package kalpesh;
 
 public class PrimeNumber {
-	
+
 	int count = 0;
 	int sum = 0;
 	float average;
 
 	void verifyPrimeNumbers(int number) {
 		boolean status = true;
-		for(int index = 2; index < number; index++) {
-			if(number % index == 0) {
+		for (int index = 2; index < number; index++) {
+			if (number % index == 0) {
 				status = false;
-				//System.out.println(number + " is not a prime number");
+				// System.out.println(number + " is not a prime number");
 				break;
-			}	
+			}
 		}
 		if (status == true) {
 			System.out.println(number + " is prime number");
 			count++;
 			sum = sum + number;
-			average = (float)sum / count;
+			average = (float) sum / count;
 		}
 	}
 
@@ -37,7 +37,7 @@ public class PrimeNumber {
 	}
 
 	void averageofPrimeNumbers() {
-		System.out.println("Averag of prime number: " + average );
+		System.out.println("Averag of prime number: " + average);
 	}
 
 	public static void main(String[] args) {
@@ -50,16 +50,12 @@ public class PrimeNumber {
 	}
 }
 
-	
-		
-
-
-
-/*Assignment - 10 : 12th Aug'2021
-
-Create a class to satisfy below requirements. 
-                  a) Print Number is prime if Given number is prime. (parameterized method)
-                  b) Print all the prime numbers between range 100->120. (parameterized method)
-                  c) Print total count of prime numbers between 100->120.
-                  d) Find sum of all prime numbers between 100->120
-                  e) Find avg of prime numbers between 100->120*/
+/*
+ * Assignment - 10 : 12th Aug'2021
+ * 
+ * Create a class to satisfy below requirements. a) Print Number is prime if
+ * Given number is prime. (parameterized method) b) Print all the prime numbers
+ * between range 100->120. (parameterized method) c) Print total count of prime
+ * numbers between 100->120. d) Find sum of all prime numbers between 100->120
+ * e) Find avg of prime numbers between 100->120
+ */
