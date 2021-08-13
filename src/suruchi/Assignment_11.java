@@ -24,22 +24,22 @@ public class Assignment_11 {
 		System.out.println("First " + endIndex + " prime numbers are: ");
 		while (count < endIndex) {
 			if (verifyNumberIsPrime(number)) {
-				System.out.print(number+ " ");
+				System.out.print(number + " ");
 				count++;
 			}
 			number++;
 		}
 	}
-	
-	void requiredNumbersForSum(int startIndex, int  requiredSum) {
+
+	void requiredNumbersForSum(int startIndex, int requiredSum) {
 		int sum = 0;
 		int counter = 0;
-		while(sum<=requiredSum) {
-			sum=sum+startIndex;
+		while (sum <= requiredSum) {
+			sum = sum + startIndex;
 			counter++;
 			startIndex++;
 		}
-		System.out.println("Total numbers required to generate sum more than " + requiredSum + " are: " +counter);
+		System.out.println("Total numbers required to generate sum more than " + requiredSum + " are: " + counter);
 	}
 
 	public static void main(String[] a) {
