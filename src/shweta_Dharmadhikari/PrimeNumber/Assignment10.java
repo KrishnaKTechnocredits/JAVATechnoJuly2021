@@ -1,9 +1,9 @@
 package shweta_Dharmadhikari.PrimeNumber;
 
 public class Assignment10 {
-	int count = 0;
-	int sum = 0;
-	int average = 0;
+	int count;
+	int sum;
+	int average;
 
 	void verifyNumberIsPrime(int number) {
 
@@ -35,6 +35,7 @@ public class Assignment10 {
 	}
 
 	void verifyNumbersIsPrimeInRange(int startNumber, int endNumber) {
+		count = 0; sum = 0; average  = 0;
 		System.out.println("\nPrime numbers between " + startNumber + " to " + endNumber);
 		for (int number = startNumber; number < endNumber; number++) {
 			verifyNumberIsPrime(number);
