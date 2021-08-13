@@ -5,7 +5,7 @@
 
 package tanmoy_Roy;
 
-public class Assignment6 {
+public class Assignment5_6 {
 
 	void simpleInterest(double Principle, double Rate ,double Time) {
 		System.out.println("Principle(Rs.) : "+Principle+"\nRate(percent) : "+Rate+"\nTime(yrs) : "+Time);
@@ -18,7 +18,7 @@ public class Assignment6 {
 	}
 	
 	public static void main(String[] args){
-		Assignment6 assignment6 = new Assignment6();
+		Assignment5_6 assignment6 = new Assignment5_6();
 		assignment6.simpleInterest(1000, 8, 2.2);
 		assignment6.TempConvert(-40);
 	}
