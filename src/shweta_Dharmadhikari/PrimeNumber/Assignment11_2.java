@@ -11,7 +11,7 @@ public class Assignment11_2 {
 			number++;
 			count++;
 		}
-		System.out.println("Required numbers to generate sum more than 100: " + count);
+		System.out.println("Required numbers to generate sum more than 100 is : " +count);
 
 	}
 
