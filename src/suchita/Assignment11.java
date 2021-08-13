@@ -39,7 +39,7 @@ class Assignment11 {
 			num++;
 			numCount++;
 		}
-		System.out.println("\n " +numCount +" is number required to generate sum of "+ number );
+		System.out.println("\n " +numCount +"  numbers are required to generate sum of "+ number );
 		
 	}
 	
