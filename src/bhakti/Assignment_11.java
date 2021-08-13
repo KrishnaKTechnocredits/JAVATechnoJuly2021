@@ -52,7 +52,7 @@ public class Assignment_11 {
 		int count=0;
 		while (sum <= requiredSum) {
 			index++;
-			sum = sum+ index;
+			sum+= index;
 			//System.out.println(sum);
 			count++;
 		}
