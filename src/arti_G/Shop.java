@@ -1,5 +1,5 @@
 package arti_G;
-
+//Assignment9
 public class Shop {
 
 	int initialStocksMaggie;
