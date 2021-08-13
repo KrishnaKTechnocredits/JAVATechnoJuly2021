@@ -20,7 +20,7 @@ public class Assignment_11
 			System.out.print(number+ " , ");
 		}
 		return status;
-		}
+	}
 			
 	void verifyprimeNumbers(int Range)
 	{
@@ -60,6 +60,6 @@ public class Assignment_11
 		System.out.println("Total count is:");
 		Primeno.verifyCount(100);
 	}
-	}
+}
 
 
