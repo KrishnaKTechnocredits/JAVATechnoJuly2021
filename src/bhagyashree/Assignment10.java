@@ -3,7 +3,7 @@ package bhagyashree;
 public class Assignment10 {
 	int count = 0;
 	int sum = 0;
-	int average;
+	int average=0;
 
 	void isPrimeNumber(int number) {
 		boolean status = true;
@@ -14,11 +14,12 @@ public class Assignment10 {
 				break;
 			}
 		}
-		if (status == true)
+		if (status == true) {
 			System.out.println(number + " is prime");
-		count++;
-		sum = sum + number;
-		average = sum / number;
+			count++;
+			sum = sum + number;
+			average = sum / count;
+		}
 
 	}
 
