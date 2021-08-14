@@ -28,7 +28,7 @@ public class Mall_Assignment12 {
 	 */
 
 	void decideSection() {
-		if (finalItemCount < 10 && finalPaymentMode.equals("VISA card"))
+		if (finalItemCount < 10 && finalPaymentMode.equals("Cash"))
 			section = "1A";
 		else if (finalItemCount > 10 && finalPaymentMode.equals("VISA card"))
 			section = "1B";
