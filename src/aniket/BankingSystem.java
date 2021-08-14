@@ -11,7 +11,7 @@ public class BankingSystem {
 	static int allPrintBalanceCount;
 	String customerName;
 
-	void setCustomerName(String custName,double balance) {
+	void setUserDetails (String custName,double balance) {
 		System.out.println(custName + " Bank details :");
 		customerName = custName;
 		currentBalance=balance;
@@ -46,7 +46,7 @@ public class BankingSystem {
 	public static void main(String[] args) {
 		BankingSystem assignment8_1 = new BankingSystem();
 		BankingSystem assignment8_2 = new BankingSystem();
-		assignment8_1.setCustomerName("Aniket",10000);
+		assignment8_1.setUserDetails("Aniket",10000);
 		assignment8_1.debitamt();
 		assignment8_1.debitamt();
 		assignment8_1.debitamt();
@@ -56,7 +56,7 @@ public class BankingSystem {
 		assignment8_1.printBalance();
 		assignment8_1.individualTransactionSummary();
 
-		assignment8_2.setCustomerName("Sushama",20000);
+		assignment8_2.setUserDetails("Sushama",20000);
 		assignment8_2.debitamt();
 		assignment8_2.debitamt();
 		assignment8_2.creditamt();
