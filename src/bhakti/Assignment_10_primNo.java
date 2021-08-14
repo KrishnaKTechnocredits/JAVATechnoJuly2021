@@ -17,7 +17,7 @@ public class Assignment_10_primNo {
 		boolean status= false;
 		
 		for( int index =2; index < number ; index++){
-			if (number % 2 ==0){
+			if (number % index ==0){
 				System.out.println (number+ "  is not prime number");
 				status= true;
 				break;
@@ -55,7 +55,7 @@ public class Assignment_10_primNo {
 	
 	public static void main(String[]ang) {
 		Assignment_10_primNo assignment_10_primNo =new Assignment_10_primNo();
-		assignment_10_primNo.prime_nonprimeNumberInRane(100,115);
+		assignment_10_primNo.prime_nonprimeNumberInRane(2,15);
 		assignment_10_primNo.countofPrimeNumber();
 		assignment_10_primNo.avrageOfPrimeNumber();
 		assignment_10_primNo.sumOfPrimeNo();
