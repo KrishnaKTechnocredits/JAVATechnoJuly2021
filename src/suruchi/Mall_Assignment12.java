@@ -4,7 +4,7 @@ public class Mall_Assignment12 {
 
 	String firstName, section, finalPaymentMode;
 	int finalItemCount;
-	//boolean carryBagProvided, billRequested;
+	// boolean carryBagProvided, billRequested;
 
 	void customerName(String fname) {
 		firstName = fname;
@@ -20,14 +20,12 @@ public class Mall_Assignment12 {
 
 	}
 
-	/*void haveCarryBag(boolean carryBag) {
-		if(!carryBag)
-			carryBagProvided = carryBag;
-	}
-
-	void needBill(boolean billNeeded) {
-		billRequested = billNeeded;
-	}*/
+	/*
+	 * void haveCarryBag(boolean carryBag) { if(!carryBag) carryBagProvided =
+	 * carryBag; }
+	 * 
+	 * void needBill(boolean billNeeded) { billRequested = billNeeded; }
+	 */
 
 	void decideSection() {
 		if (finalItemCount < 10 && finalPaymentMode.equals("VISA card"))
@@ -41,10 +39,10 @@ public class Mall_Assignment12 {
 	}
 
 	void displayCustomerInfo() {
-		if (finalItemCount > 0) 
-				System.out.println(firstName + " bought " + finalItemCount
-						+ " items and payment done using " + finalPaymentMode + " in section " + section + ".");
-		else 
+		if (finalItemCount > 0)
+			System.out.println(firstName + " bought " + finalItemCount + " items and payment done using "
+					+ finalPaymentMode + " in section " + section + ".");
+		else
 			System.out.println("No items bought by " + firstName);
 	}
 
@@ -54,8 +52,9 @@ public class Mall_Assignment12 {
 		mall_Assignment12.customerName("Harsh");
 		mall_Assignment12.itemAddedToCart(12);
 		mall_Assignment12.paymentDoneUsing("VISA card");
-		/*mall_Assignment12.haveCarryBag(true);
-		mall_Assignment12.needBill(false);*/
+		/*
+		 * mall_Assignment12.haveCarryBag(true); mall_Assignment12.needBill(false);
+		 */
 		mall_Assignment12.decideSection();
 		mall_Assignment12.displayCustomerInfo();
 	}
