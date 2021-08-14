@@ -22,6 +22,9 @@ public class Assignment_6 {
 		f = fahrenheit;
 		Celsius = (f - 32) * 5 / 9;
 		System.out.println("Temperature from fahrenheit to celsius = " + Celsius);
+		int simpleInterest;
+		simpleInterest = (p * t * r) / 100;
+		System.out.println("SimpleInterest = " + simpleInterest);
 	}
 
 	public static void main(String[] args) {
