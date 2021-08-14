@@ -1,3 +1,4 @@
+//Purches item, shown item quanity, out of stock 
 package bhakti;
 
 class AssignmentBk_9{
