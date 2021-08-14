@@ -4,7 +4,7 @@ public class Mall_Assignment12 {
 
 	String firstName, section, finalPaymentMode;
 	int finalItemCount;
-	boolean carryBagProvided, billRequested;
+	//boolean carryBagProvided, billRequested;
 
 	void customerName(String fname) {
 		firstName = fname;
