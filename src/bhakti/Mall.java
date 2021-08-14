@@ -28,7 +28,7 @@ public class Mall{
 	
 	String custName;
 	boolean itemlessThan10;
-	boolean needBill;
+	String needBill;
 	int totalItem;
 	String userPaymentMethod;
 	String section; 
@@ -54,7 +54,7 @@ public class Mall{
 		if (carrybag.equals("Yes"))
 		needCarryBag=true;
 		else if (carrybag.equals("No")) 
-			needCarryBag=false;	
+		needCarryBag=false;	
 		
 		
 	}
@@ -83,19 +83,21 @@ public class Mall{
 	
 	void needBill(String billstatus) {
 		if (billstatus.equals("Yes"))
-			needBill=true;
+			System.out.println("Bill is  required");
 		else if (billstatus.equals("No")) {
-			needBill=false;
+			System.out.println("Bill is not required");
 		}else 
 			System.out.println("Bill status is not yet mentioned ");
 	}
 	
 	void displayCutomerInfo() {
-		if (needBill==false) {
-			System.out.println(custName+" Customer do not need bill");
-		}else {
-			System.out.println(custName+ "  brought "+totalItem+ " items and payment done using "+userPaymentMethod+ " in section " +section);
-		}
+		 System.out.println(custName+ "  brought "+totalItem+ " items and payment done using "+userPaymentMethod+ " in section " +section );
+		 if (needCarryBag) {
+			 System.out.println("Need carry bag");
+		 }else if (!needCarryBag) {
+			 System.out.println("No carry bag");
+		 }
+		 
 	}
 	
 	public static void main (String[] df){
@@ -104,6 +106,7 @@ public class Mall{
 		mall.itemAddedToCart(9);
 		mall.paymentDoneUsing("Cash");
 		mall.needBill("Yes");
+		mall.haveCarryBag("Yes");
 		mall.decideSection();
 		mall.displayCutomerInfo();	
 		
