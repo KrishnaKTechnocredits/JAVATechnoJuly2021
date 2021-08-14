@@ -5,13 +5,16 @@ public class BankingSystem {
 	int debitCnt;
 	int creditCnt;
 	int printBalanceCount;
+	double currentBalance;
 	static int allDebitCnt;
 	static int allCreditCnt;
 	static int allPrintBalanceCount;
 	String customerName;
 
-	void setCustomerName(String custName) {
+	void setCustomerName(String custName,double balance) {
+		System.out.println(custName + " Bank details :");
 		customerName = custName;
+		currentBalance=balance;
 	}
 
 	void debitamt() {
@@ -43,7 +46,7 @@ public class BankingSystem {
 	public static void main(String[] args) {
 		BankingSystem assignment8_1 = new BankingSystem();
 		BankingSystem assignment8_2 = new BankingSystem();
-		assignment8_1.setCustomerName("User1");
+		assignment8_1.setCustomerName("Aniket",10000);
 		assignment8_1.debitamt();
 		assignment8_1.debitamt();
 		assignment8_1.debitamt();
@@ -53,7 +56,7 @@ public class BankingSystem {
 		assignment8_1.printBalance();
 		assignment8_1.individualTransactionSummary();
 
-		assignment8_2.setCustomerName("User2");
+		assignment8_2.setCustomerName("Sushama",20000);
 		assignment8_2.debitamt();
 		assignment8_2.debitamt();
 		assignment8_2.creditamt();
