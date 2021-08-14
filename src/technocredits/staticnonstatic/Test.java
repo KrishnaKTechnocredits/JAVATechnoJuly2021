@@ -1,4 +1,4 @@
-package technoCredits.staticnonstatic;
+package technocredits.staticnonstatic;
 
 public class Test {
 	int x = 10;
