@@ -28,7 +28,6 @@ public class Mall {
 	String paymentMethod;
 	boolean billNeeded;
 	boolean carryBagNeeded;
-	String section;
 
 	void itemAddedToCart(int items) {
 		if (items > 0)
