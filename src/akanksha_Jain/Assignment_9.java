@@ -20,41 +20,42 @@ public class Assignment_9 {
 			iniMasalaQ = iniMasalaQ - purMasalaQ;
 		}
 		if (iniMagQ == 0)
-			System.out.println("Maggie Running out of stock");
+			System.out.println("Running out of stock: Maggie");
 		if (iniDosaQ == 0)
-			System.out.println("Dosa Running out of stock");
+			System.out.println("Running out of stock: Dosa");
 		if (iniOilPouchesQ == 0)
-			System.out.println("Oil Pouches Running out of stock");
+			System.out.println("Running out of stock: Oil Pouches");
 		if (iniPanipuriQ == 0)
-			System.out.println("Panipuri Running out of stock");
+			System.out.println("Running out of stock: Panipuri");
 		if (iniMasalaQ == 0)
-			System.out.println("Masala's Running out of stock");
+			System.out.println("Running out of stock: Masala");
 	}
 	
 	void outOfStock() {
 		if (iniMagQ == 0)
-			System.out.println("Out of stock(Maggie)");
+			System.out.println("Out of stock: Maggie");
 		if (iniDosaQ == 0)
-			System.out.println("Out of Stock(Dosa)");
+			System.out.println("Out of Stock: Dosa");
 		if (iniOilPouchesQ == 0)
-			System.out.println("Out of Stock(Oil Pouches)");
+			System.out.println("Out of Stock: Oil Pouches");
 		if (iniPanipuriQ == 0)
-			System.out.println("Out of Stock(Panipuri)");
+			System.out.println("Out of Stock: Panipuri");
 		if (iniMasalaQ == 0)
-			System.out.println("Out of Stock(Masala)");
+			System.out.println("Out of Stock: Masala");
 	}
 	
 	void availableInStock() {
+		System.out.println("List of items available in stock:-");
 		if (iniMagQ > 0)
-			System.out.println("Available in Stock(Maggie): " + iniMagQ);
+			System.out.println("Maggie: " + iniMagQ);
 		if (iniDosaQ > 0)
-			System.out.println("Available in Stock(Dosa): " + iniDosaQ);
+			System.out.println("Dosa: " + iniDosaQ);
 		if (iniOilPouchesQ > 0)
-			System.out.println("Available in Stock(Oil Pouches): " + iniOilPouchesQ);
+			System.out.println("Oil Pouches: " + iniOilPouchesQ);
 		if (iniPanipuriQ > 0)
-			System.out.println("Available in Stock(Panipuri): " + iniPanipuriQ);
+			System.out.println("Panipuri: " + iniPanipuriQ);
 		if (iniMasalaQ > 0)
-			System.out.println("Available in Stock(Masala): " + iniMasalaQ);
+			System.out.println("Masala: " + iniMasalaQ);
 	}
 	
 	public static void main(String[] args) {
