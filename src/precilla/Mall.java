@@ -48,7 +48,7 @@ public class Mall {
 		if(itemChoice<=0)
 			System.out.println("\nNothing to print!!!");
 		else
-			System.out.println(customerName + " brought " + itemChoice+ " items and payment done using "+paymentMode+" in "+decideSection());
+			System.out.println(customerName + " brought " + itemChoice+ " items and payment done using "+paymentMode+" in section "+decideSection());
 				
 	}
 	String decideSection() {
