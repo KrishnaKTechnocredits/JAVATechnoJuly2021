@@ -2,9 +2,9 @@ package umakant;
 
 public class Assignment13_3 {
 
-	int[] getFiveSmallerNumbers(int number) {
-		int[] output = new int[5];
-		for (int index = 0; index < 5; index++) {
+	int[] getSmallerNumbers(int number,int count) {
+		int[] output = new int[count];
+		for (int index = 0; index < count; index++) {
 			number--;
 			output[index] = number;
 		}
@@ -14,7 +14,8 @@ public class Assignment13_3 {
 	public static void main(String[] args) {
 		Assignment13_3 assignment13_3 = new Assignment13_3();
 		int input = 50;
-		int[] output = assignment13_3.getFiveSmallerNumbers(input);
+		int count =5;
+		int[] output = assignment13_3.getSmallerNumbers(input,count);
 		for (int index = 0; index < output.length; index++) {
 			System.out.print(output[index] + " ");
 		}
