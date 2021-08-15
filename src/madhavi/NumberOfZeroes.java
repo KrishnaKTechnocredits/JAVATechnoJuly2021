@@ -15,7 +15,7 @@ public class NumberOfZeroes {
 	public static void main(String[] args) {
 		NumberOfZeroes numberOfZeroes = new NumberOfZeroes();
 
-		System.out.println("Count of postive number in given array");
+		System.out.println("Count of zeroes in given array");
 		int[] input = { 1, -11, 0, 0, 55, 0, -23, 0 };
 		System.out.println(numberOfZeroes.findNumberOfZeroes(input));
 
