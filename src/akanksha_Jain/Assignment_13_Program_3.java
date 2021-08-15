@@ -5,6 +5,7 @@ public class Assignment_13_Program_3 {
 
 	void getSmallerNumbers(int input) {
 		int output[] = new int[5];
+		System.out.println("5 smaller numbers from the number " + input + " are:- ");
 		for(int index=0; index<5; index++) {
 				input --;
 				output[index] = input;
