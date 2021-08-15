@@ -16,7 +16,7 @@ public class MinNumberFromArray {
 	public static void main(String[] args) {
 		MinNumberFromArray minNumberFromArray = new MinNumberFromArray();
 
-		System.out.println("Print max number from given array");
+		System.out.println("Print min number from given array");
 		int[] inputArray1 = { 1, 11, 44, 23, 55, 99, 23 };
 		System.out.println(minNumberFromArray.getMinnumber(inputArray1));
 		

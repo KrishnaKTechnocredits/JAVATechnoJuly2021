@@ -9,6 +9,7 @@ public class DifferenceBetweenMaxandMinArrayItem {
 		MaxNumberFromArray maxNumberFromArray = new MaxNumberFromArray();
 		MinNumberFromArray minNumberFromArray = new MinNumberFromArray();
 		
+		System.out.println("Print difference between max and min number from given array");
 		System.out.println(maxNumberFromArray.getMaxnumber(inputArray1) - minNumberFromArray.getMinnumber(inputArray1));
 
 	}
