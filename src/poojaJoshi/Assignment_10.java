@@ -11,7 +11,7 @@ public class Assignment_10 {
 		for (int index = 2; index < number; index++) {
 			if (number % index == 0) {
 				status = false;
-				//System.out.println(number + " is not prime number");
+				System.out.println(number + " is not prime number");
 				break;
 			}
 		}
@@ -29,30 +29,29 @@ public class Assignment_10 {
 		for (int number = startNum; number <= endNum; number++) {
 			verifyPrimeNumber(number);
 		}
-	}
+}
 
 	void CountOfPrimeNumber() {
 		System.out.println("Total prime number count is-> " + countPrime);
 
 	}
 
-	void SumOfPrimeNumber() {
-		System.out.println("Total sum of all prime number-> " + sumPrime);
+void SumOfPrimeNumber() {
+	System.out.println("Total sum of all prime number-> " + sumPrime);
 
 	}
 
 	void AvgPrimeNumber() {
 		System.out.println("Total average of prime number-> " + avgPrime);
 	}
-
-	public static void main(String[] args) {
+	 public static void main(String[] args) {
 		Assignment_10 assignment_10 = new Assignment_10();
 		System.out.println("Find prime nos in range 10 to 50");
 		assignment_10.primeNumberRange(10, 50);
 		assignment_10.CountOfPrimeNumber();
 		assignment_10.SumOfPrimeNumber();
 		assignment_10.AvgPrimeNumber();
-
-	}
+		assignment_10.verifyPrimeNumber(66);
+}
 
 }

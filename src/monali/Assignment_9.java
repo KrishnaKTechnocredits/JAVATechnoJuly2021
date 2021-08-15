@@ -39,30 +39,44 @@ class Assignment_9 {
 		if (orderedMaggieQty <= maggieQuantity) {
 			maggieQuantity = maggieQuantity - orderedMaggieQty;
 			System.out.println("Available in stock " + maggieQuantity);
-		} else
+		} 
+		else if(orderedMaggieQty>maggieQuantity) {
+			System.out.println("Sorry!!!!---we have maggi in stock is only : " + maggieQuantity);
+		}
+			else
 			outOfStock();
 
 		if (orderedDosaQty <= dosaQuantity) {
 			dosaQuantity = dosaQuantity - orderedDosaQty;
 			System.out.println("Available in stock " + dosaQuantity);
-		} else
+		}
+		else if(orderedDosaQty>dosaQuantity) {
+			System.out.println("Sorry!!!!---we have dosa in stock is only : " + dosaQuantity);
+		}else
 			outOfStock();
 
 		if (orderedPouchesQty <= pouchesQuantity) {
 			pouchesQuantity = pouchesQuantity - orderedPouchesQty;
 			System.out.println("Available in stock " + pouchesQuantity);
-		} else
+		} 
+		else if(orderedPouchesQty>dosaQuantity) {
+			System.out.println("Sorry!!!!---we have dosa in stock is only : " + dosaQuantity);
+		}else
 			outOfStock();
 
 		if (orderedPanipuriQty <= panipuriQuantity) {
 			panipuriQuantity = panipuriQuantity - orderedPanipuriQty;
 			System.out.println("Available in stock " + panipuriQuantity);
+		}else if(orderedPanipuriQty>dosaQuantity) {
+			System.out.println("Sorry!!!!---we have Panipuri in stock is only : " + panipuriQuantity);
 		} else
 			outOfStock();
 
 		if (orderedMasalaQty <= masalaQuantity) {
 			masalaQuantity = masalaQuantity - orderedMasalaQty;
 			System.out.println("Available in stock " + masalaQuantity);
+		}else if(orderedMasalaQty>dosaQuantity) {
+			System.out.println("Sorry!!!!---we have Masala in stock is only : " + masalaQuantity);
 		} else
 			outOfStock();
 

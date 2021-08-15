@@ -39,7 +39,7 @@ public class Assignment_11 {
 			index++;
 			count++;
 		}
-	System.out.println("Required number to generate sum more than 100 is:-- "+count);
+	System.out.println("Required number to generate sum more than 100 is:--- "+count);
 	}	
 	
 	public static void main(String[] args) {
