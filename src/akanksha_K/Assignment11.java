@@ -7,11 +7,11 @@ public class Assignment11 {
 		boolean status= true;
 		int index=2;
 		while (index<num) {
-			if(index%2==0) {
+			if(num%index==0) {
 				status = false;
-				index++;
 				break;
-			}	
+			}
+			index++;
 		}
 		return status;		
 	}
