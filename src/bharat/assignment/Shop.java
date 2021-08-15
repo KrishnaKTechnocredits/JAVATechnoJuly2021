@@ -93,7 +93,7 @@ public class Shop {
 				System.out.println("oil out of stock");
 			
 			if(totalPanipuriPacketsQty == 0)
-				System.out.println("panipuri out of stock");
+				System.out.println("panipuri  out of stock");
 			
 			if(totalMasalaPacketsQty == 0)
 				System.out.println("masala out of stock");
