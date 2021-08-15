@@ -28,5 +28,6 @@ public class Assignment14_3 {
 		System.out.println(assignment14.arryToSinglelineString(array2,6)+" array has "
 				+assignment14.diffMinAndMaxElements(array2,6)+" as difference between Maximum and Minimum element");
 		
+		
 	}
 }

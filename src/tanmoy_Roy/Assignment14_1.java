@@ -34,5 +34,6 @@ public class Assignment14_1 {
 		int[] array2= {1,11,-44,23,55,23};
 		System.out.println(assignment14.arryToSinglelineString(array2,6)+" array has " +assignment14.getMaxElement(array2,6)+
 				" as Maximum element");
+		
 	}
 }
