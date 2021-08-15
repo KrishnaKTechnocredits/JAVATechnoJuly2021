@@ -17,7 +17,7 @@ Note : score == 10
 String browser = "Chrome";
 *Hint: browser.equals("Chrome") || browser.equals("IE") || browser.equals("Edge") */
 
-package arti_K;
+package arti_K.Assignment_1_5;
 
 class Test{
 

@@ -4,7 +4,7 @@ N should be passed as parameter in the method.
 Hint : 10 pass as parameter, method should print first 10 prime numbers.
 */
 
-package arti_K;
+package arti_K.Assignment_11;
 
 public class Primewhileloop {
 
