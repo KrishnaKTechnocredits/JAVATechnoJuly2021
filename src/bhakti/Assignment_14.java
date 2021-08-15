@@ -77,6 +77,6 @@ public class Assignment_14 {
 			
 		System.out.println("Maximum number from porvided array is: "+assignment_14.getmaxNumberFromArray(input));
 		System.out.println("Minium number from porvided array is: "+assignment_14.getminNumberFromArray(input));
-		System.out.println("Difference is : "+assignment_14.getDifferenceBewMinMax(input));
+		System.out.println("Difference between Minnium and maximum number of array is : "+assignment_14.getDifferenceBewMinMax(input));
 	}	
 }
