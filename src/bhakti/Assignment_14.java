@@ -52,21 +52,45 @@ public class Assignment_14 {
 		return diffrence;
 	}
 	
-	//program 4 : print difference between max odd number and max even number from given array. difference should be positive
+	//program 4 : print difference between sum of  odd number and   even number from given array. difference should be positive
 	int getDiffMaxMinOddnumber(int[] input) {
 		int sumofeven=0;
 		int sumofodd=0;
 		int difference=0;
 		for (int index=0; index< input.length; index++) {
 			if (input[index]%2==0)
-				sumofeven+=sumofeven;
+				sumofeven+=input[index];
 			else
-				sumofodd+=sumofodd;
+				sumofodd+=input[index];
 		}	
+		
 			if (sumofeven>sumofodd)
 				difference=sumofeven-sumofodd;
 			else
 				difference=sumofodd-sumofeven;
+	return difference;	
+				
+	}
+	//program 5 : print difference between max odd number and max even number from given array. difference should be positive	
+	int getDiffMaxevenAndMaxoddnumber(int[] input) {
+		int maxEven=input[0];
+		int maxOdd=input[0];
+		int difference;
+		 
+		for (int index=0; index< input.length; index++) {
+			if (input[index]%2==0) {
+				if (input[index]>maxEven)
+					maxEven =input[index];
+			}else {
+				if (input[index]>maxOdd)
+					maxOdd=input[index];
+			} 
+		}	
+		
+			if (maxEven>maxOdd)
+				difference=maxEven-maxOdd;
+			else
+				difference=maxOdd-maxEven;
 	return difference;	
 				
 	}
@@ -78,5 +102,7 @@ public class Assignment_14 {
 		System.out.println("Maximum number from porvided array is: "+assignment_14.getmaxNumberFromArray(input));
 		System.out.println("Minium number from porvided array is: "+assignment_14.getminNumberFromArray(input));
 		System.out.println("Difference between Minnium and maximum number of array is : "+assignment_14.getDifferenceBewMinMax(input));
+		System.out.println("Difference between maxmium odd and maximiun even number: "+assignment_14.getDiffMaxevenAndMaxoddnumber(input));
+		System.out.println("Difference between sum of odd and even number is: "+assignment_14.getDiffMaxMinOddnumber(input));
 	}	
 }
