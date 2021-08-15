@@ -11,7 +11,7 @@ public class ArrayAssignment13 {
 		}
 		return positiveNumerCount;
 	}
-	
+
 	int getCountNumberOfZeros() {
 		int[] input = { 1, -11, 0, 0, 55, 0, -23, 0 };
 		int zeroCount = 0;
@@ -21,33 +21,31 @@ public class ArrayAssignment13 {
 		}
 		return zeroCount;
 	}
-		
+
 	int[] smallerNumber(int num) {
-		int[] arr = new int [5];
+		int[] arr = new int[5];
 		for (int index = 0; index < arr.length; index++) {
 			num--;
-			arr[index]=num;
-			//int[] smallerNumber=arr[index];
+			arr[index] = num;
+
 		}
 		return arr;
-	
-	} 
 
-	
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ArrayAssignment13 arrayAssignment13 = new ArrayAssignment13();
 		arrayAssignment13.getCountOfPositiveNumbers();
-		System.out.println("Count of Positive Number From Given Array: "+arrayAssignment13.getCountOfPositiveNumbers());
-		System.out.println("\nCount Number of Zero's From Given Array: "+arrayAssignment13.getCountNumberOfZeros());
-		int[] smallerNumber=arrayAssignment13.smallerNumber(50);
-		System.out.println("5 Smaller numbers of the given given number:");
+		System.out
+				.println("Count of Positive Number From Given Array: " + arrayAssignment13.getCountOfPositiveNumbers());
+		System.out.println("\nCount Number of Zero's From Given Array: " + arrayAssignment13.getCountNumberOfZeros());
+		int[] smallerNumber = arrayAssignment13.smallerNumber(50);
+		System.out.println("\n5 Smaller numbers of the given given number:");
 		for (int index = 0; index < smallerNumber.length; index++) {
-			System.out.print(smallerNumber[index]+" ");
+			System.out.print(smallerNumber[index] + " ");
 		}
-		
-		
+
 	}
 
 }
