@@ -1,6 +1,6 @@
 // Print name
 
-package arti_K;
+package arti_K.Aarti_Practice;
 
 public class ForloopExample1 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package arti_K;
+package arti_K.Assignment_1_5;
 
 public class Firstprogram {
 	

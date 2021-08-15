@@ -10,7 +10,7 @@ Call displayInfo method, it should print username, password (updated password) a
  
 NOTE : consider bank account number as Integer [for example : 13164]   */
 
-package arti_K;
+package arti_K.Assignment_1_5;
 
 class BankAccount{
 	

@@ -1,6 +1,6 @@
 // Understand the Static variable and Non-Static variable concept
 
-package arti_K;
+package arti_K.Aarti_Practice;
 
 public class StaticNonStaticVariable {
 	

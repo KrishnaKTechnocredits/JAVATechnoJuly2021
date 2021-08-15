@@ -1,7 +1,7 @@
 /* Assignment No 1 - 1st Aug 
  Calculator functions using parametarized methods: */
 
-package arti_K;
+package arti_K.Assignment_1_5;
 
 
 class Calculator1 {

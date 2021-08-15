@@ -57,7 +57,7 @@ output : 19
          11
   */
 
-package arti_K;
+package arti_K.Assignment_07;
 
 public class Assignment7 {
 

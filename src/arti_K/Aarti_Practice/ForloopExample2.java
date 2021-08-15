@@ -1,5 +1,5 @@
 // Print numbers from 1 to 100
-package arti_K;
+package arti_K.Aarti_Practice;
 
 public class ForloopExample2 {
 	
