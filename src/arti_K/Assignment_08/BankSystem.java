@@ -19,7 +19,7 @@ All transaction summary : Credit - 7 times, Debit - 3 times, printBalance - 1 ti
 
 NOTE : You should have setUserDetails method to set username and initial Balance .  */
 
-package arti_K;
+package arti_K.Assignment_08;
 
 public class BankSystem {
 	

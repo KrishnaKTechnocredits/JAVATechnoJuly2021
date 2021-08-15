@@ -1,6 +1,6 @@
 // Print in reverse order
 
-package arti_K;
+package arti_K.Aarti_Practice;
 
 public class ForloopExample3 {
 	

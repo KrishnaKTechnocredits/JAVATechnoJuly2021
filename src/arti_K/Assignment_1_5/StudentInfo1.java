@@ -22,7 +22,7 @@ Patel
 G-809, Heaven Apartment, Baner, Pune.
 34  */
 
-package arti_K;
+package arti_K.Assignment_1_5;
 
 class StudentInfo1{
 		

@@ -5,7 +5,7 @@
 - variable balance to hold current balance.
 - create only one object and call methods multiple times   */
 
-package arti_K;
+package arti_K.Assignment_1_5;
 
 class Bankoperations{
 

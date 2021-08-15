@@ -12,7 +12,7 @@ Write a method to compute simple interest
  Write a method to convert temperature from Fahrenheit to Celsius degree.
 	 Celsius = (fahrenheit - 32) * 5 / 9      */
 
-package arti_K;
+package arti_K.Assignment_06;
 
 public class Assignment6 {
 	double sI;

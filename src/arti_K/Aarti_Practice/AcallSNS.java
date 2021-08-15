@@ -1,4 +1,4 @@
-package arti_K;
+package arti_K.Aarti_Practice;
 
 public class AcallSNS {
 	

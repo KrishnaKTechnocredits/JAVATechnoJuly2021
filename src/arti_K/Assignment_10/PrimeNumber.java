@@ -1,4 +1,4 @@
-package arti_K;
+package arti_K.Assignment_10;
 
 public class PrimeNumber {
 	int count;
