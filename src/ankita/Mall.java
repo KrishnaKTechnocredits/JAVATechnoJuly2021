@@ -57,6 +57,14 @@ public class Mall {
 		}
 	}
 	
+	boolean needBill(boolean flag) {
+		return flag=true;
+	}
+		
+	boolean needCarryBag(boolean flag) {
+		return flag=true;
+	}
+	    
 	public static void main(String[] args) {
 		Mall mall=new Mall();
 		mall.customerName("Ram");
