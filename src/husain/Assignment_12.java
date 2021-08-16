@@ -11,22 +11,7 @@ public class Assignment_12 {
 
 	void itemAddedToCart(int items) {
 		itemCount = items;
-		if (itemCount == 0)
-			decideSection("Invalid");
-		else if (itemCount == 10)
-			decideSection("Decision Pending");
-		else if (itemCount < 10 && paymentMethod.equals("Cash"))
-			decideSection("1A");
-		else if (itemCount > 10 && paymentMethod.equals("Visa card"))
-			decideSection("1B");
-		else if (itemCount > 10 && paymentMethod.equals("Cash"))
-			decideSection("1C");
-		else if (itemCount < 10 && paymentMethod.equals("Visa card"))
-			decideSection("1D");
-		else
-			System.out.println("Decision Pending");
-
-	}
+			}
 
 	void customerName(String name) {
 		custName = name;
@@ -38,13 +23,13 @@ public class Assignment_12 {
 	}
 
 	void displayCutomerInfo() {
-		if (decision.equals("Invalid"))
-			System.out.println("Please ener valid count of items.");
-		else if (decision.equals("Decision Pending"))
+		if (decideSection().equals("Invalid"))
+			System.out.println("Please enter valid count of items.");
+		else if (decideSection().equals("Decision Pending"))
 			System.out.println("Section under construction");
 		else
 			System.out.println(custName + " brought " + itemCount + " items and payment done using " + paymentMethod
-					+ " in section " + decision);
+					+ " in section " + decideSection());
 
 	}
 
@@ -74,8 +59,21 @@ public class Assignment_12 {
 		
 	}
 
-	void decideSection(String status) {
-		decision = status;
+	String decideSection() {
+		if(itemCount == 0)
+			return "Invalid";
+		else if(itemCount==10)
+			return "Decision Pending";
+		else if (itemCount < 10 && paymentMethod.equals("Cash"))
+			return "1A";
+		else if (itemCount > 10 && paymentMethod.equals("Visa card"))
+			return "1B";
+		else if (itemCount > 10 && paymentMethod.equals("Cash"))
+			return "1C";
+		else 
+			return "1D";
+
+
 	}
 
 	public static void main(String[] args) {
