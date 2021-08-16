@@ -39,6 +39,7 @@ public class Assignment14 {
 			return maximumEven - maximumOdd;
 	}
 	public static void main(String[] args) {
+		
 		int [] input = {1,11,44,23,55,99,23};
 		Assignment14 assignment14 = new Assignment14();
 		
