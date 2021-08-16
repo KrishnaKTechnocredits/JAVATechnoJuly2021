@@ -25,7 +25,7 @@ public class Assignment15_Program3 {
 			System.out.print(arr1[index] + " ");
 		System.out.println();
 		int diff1 = assignment15_Program3.getDifferenceBetweenSumEvenOddNumbers(arr1);
-		System.out.println("Difference between even and odd length names of the array is: " + Math.abs(diff1));
+		System.out.println("Difference between sum of even and odd numbers in the array is: " + Math.abs(diff1));
 
 		System.out.println();
 		System.out.println("Array of elements is as displayed: ");
@@ -33,6 +33,6 @@ public class Assignment15_Program3 {
 			System.out.print(arr2[index] + " ");
 		System.out.println();
 		int diff2 = assignment15_Program3.getDifferenceBetweenSumEvenOddNumbers(arr2);
-		System.out.println("Difference between even and odd length names of the array is: " + Math.abs(diff2));
+		System.out.println("Difference between sum of even and odd numbers in the array is: " + Math.abs(diff2));
 	}
 }
