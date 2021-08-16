@@ -21,7 +21,7 @@ public class Assignment14 {
 		return minimumNumber;
 	}
 	
-	int getminimumAndMaximumNumberDiffrence(int [] number) {
+	int getMaximumEvenAndMaximumOddNumberDiffrence(int [] number) {
 		int maximumEven = 0;
 		int maximumOdd = 0;
 		
@@ -46,6 +46,6 @@ public class Assignment14 {
 		
 		System.out.println("Minimum number from given array : "+ assignment14.getMinNumberFromArray(input));
 	
-		System.out.println("Diffrence between maximum even number and maximum odd number from given array : "+assignment14.getminimumAndMaximumNumberDiffrence(input));
+		System.out.println("Diffrence between maximum even number and maximum odd number from given array : "+assignment14.getMaximumEvenAndMaximumOddNumberDiffrence(input));
 	}
 }
