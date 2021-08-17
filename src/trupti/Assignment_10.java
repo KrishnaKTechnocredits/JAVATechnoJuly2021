@@ -43,7 +43,7 @@ public class Assignment_10 {
 
 		Assignment_10 assignment_10 = new Assignment_10();
 		assignment_10.isPrimeNumber(7);
-		assignment_10.printPrimeNumberInRange(100, 120);
+		assignment_10.printPrimeNumberInRange(100, 200);
 		assignment_10.printPrimeNumberCount();
 		assignment_10.printPrimeNumberSum();
 		assignment_10.printPrimeNumberAverage();
