@@ -3,7 +3,7 @@ package rushikesh.assignment14;
 public class FindDiff {
 	int findDiff(int[] input) {	
 		int maxNum=input[0];
-		int minNum=input[0];
+		int minNum=input[1];
 
 		for(int index=0;index<input.length;index++) {
 			if(input[index]>maxNum) {

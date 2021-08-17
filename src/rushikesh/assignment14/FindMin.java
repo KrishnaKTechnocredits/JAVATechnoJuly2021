@@ -3,7 +3,7 @@ package rushikesh.assignment14;
 public class FindMin {
 	int getMinNum(int[] input) {
 		int minNum=input[0];
-		for(int index=0;index<input.length;index++) {
+		for(int index=1;index<input.length;index++) {
 			if(input[index]<minNum) {
 				minNum=input[index];
 			}

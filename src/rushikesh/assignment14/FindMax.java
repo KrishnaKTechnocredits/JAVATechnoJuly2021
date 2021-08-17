@@ -6,7 +6,7 @@ public class FindMax {
 	
 	int arr(int[] input) {
 		int maxNum=input[0];
-		for(int index=0;index<input.length;index++) {
+		for(int index=1;index<input.length;index++) {
 			if(input[index]>maxNum) {
 				maxNum=input[index];
 			}

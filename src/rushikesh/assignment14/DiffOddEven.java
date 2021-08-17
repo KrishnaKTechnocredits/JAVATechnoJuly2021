@@ -4,7 +4,7 @@ public class DiffOddEven {
 
 	int getDiff(int[] input) {
 	int maxOdd=input[0];
-	int maxEven=input[0];
+	int maxEven=input[2];
 	
 	for(int index=0;index<input.length;index++) {
 		if(input[index]%2==0) {
