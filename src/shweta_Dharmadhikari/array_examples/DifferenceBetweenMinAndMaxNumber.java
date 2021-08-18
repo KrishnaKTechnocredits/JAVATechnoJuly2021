@@ -21,7 +21,7 @@ public class DifferenceBetweenMinAndMaxNumber {
 
 	public static void main(String[] args) {
 		DifferenceBetweenMinAndMaxNumber differenceBetweenMinAndMaxNumber = new DifferenceBetweenMinAndMaxNumber();
-		System.out.println("Difference between max odd number and max even number is :" + differenceBetweenMinAndMaxNumber.diffBetweenMaxOddAndMaxEvenNumber());
+		System.out.println("Difference between max odd number and max even number is :"
+				+ differenceBetweenMinAndMaxNumber.diffBetweenMaxOddAndMaxEvenNumber());
 	}
-
 }
