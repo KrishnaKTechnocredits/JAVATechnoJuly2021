@@ -18,17 +18,29 @@ public class Assignment15 {
 	}
 	
 	void middleChar(String[] input) {
+		
 		for(int i=0;i<input.length;i++) {
+			char[] output=new char[input.length];
+			//output[i]=input[i];
 			l=input[i].length();
 			if(l%2==0) {
 				index=l/2;
-				System.out.println("Middle character of "+input[i]+ " is "+ input[i].charAt(index));
+				//   System.out.println("Middle character of "+input[i]+ " is "+ input[i].charAt(index));
+				output[i]= input[i].charAt(index);
+				//System.out.println(output);
 			}
 			else {
 				index=(l-1)/2;
-				System.out.println("Middle character of "+input[i]+ " is "+ input[i].charAt(index));
+				//System.out.println("Middle character of "+input[i]+ " is "+ input[i].charAt(index));
+				output[i]= input[i].charAt(index);
+				//System.out.println(output);
 			}
+			output[i]= input[i].charAt(index);
+			System.out.print(output);
+			
 		}
+		System.out.println(" ");
+		
 	}
 	
 	void diff(int[] techno) {
