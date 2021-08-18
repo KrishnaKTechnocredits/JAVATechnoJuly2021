@@ -15,8 +15,8 @@ public class Assignment_17 {
 		Assignment_17 assignment_17=new Assignment_17();
 		String input="Technocredits";
 		System.out.println("String is "+input);
-		assignment_17.getReverseString(input);
-		System.out.println("Reverse String is "+assignment_17.getReverseString(input));
+		String ans=assignment_17.getReverseString(input);
+		System.out.println("Reverse String is "+ans);
 		}
 	}
 
