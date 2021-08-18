@@ -24,7 +24,7 @@
 
 package bhakti;
 
-public class Mall{
+public class Mall_12{
 	
 	String custName;
 	boolean itemlessThan10;
@@ -54,13 +54,11 @@ public class Mall{
 		if (carrybag.equals("Yes"))
 		needCarryBag=true;
 		else if (carrybag.equals("No")) 
-		needCarryBag=false;	
-		
-		
+		needCarryBag=false;		
 	}
 	void paymentDoneUsing(String paymentMethod) {
-//		if (!paymentMethod.equals("Cash") || !paymentMethod.equals("Card")) {
-//			System.out.println("Not valid Payment method");	}
+        if (!paymentMethod.equals("Cash") || !paymentMethod.equals("Card")) {
+        	System.out.println("Not valid Payment method");	}
 
 		userPaymentMethod=paymentMethod;
 	}
@@ -96,12 +94,11 @@ public class Mall{
 			 System.out.println("Need carry bag");
 		 }else if (!needCarryBag) {
 			 System.out.println("No carry bag");
-		 }
-		 
+		 } 
 	}
 	
 	public static void main (String[] df){
-		Mall mall = new Mall();
+		Mall_12 mall = new Mall_12();
 		mall.setCustomerName("Bhakti");
 		mall.itemAddedToCart(9);
 		mall.paymentDoneUsing("Cash");

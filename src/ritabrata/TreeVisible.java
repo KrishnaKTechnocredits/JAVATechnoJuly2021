@@ -17,12 +17,12 @@ public class TreeVisible {
 			}
 		}
 		System.out.println("The number of visible trees: "+ count);
-		
+		//return count;
 	}
 
 	public static void main(String[] args) {
 		TreeVisible tree= new TreeVisible();
 		int[] arr = {3,5,5,11,9,10,15,14};
 		tree.visibleTree(arr);
-	}
+  }
 }
