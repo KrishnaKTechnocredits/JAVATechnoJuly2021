@@ -28,6 +28,6 @@ public class DiffMinOddMaxOdd {
 	public static void main(String[] args) {
 		int[] input = {1,11,44,23,65,100,23};
 		DiffMinOddMaxOdd diff = new DiffMinOddMaxOdd();
-		System.out.println("Difference between Maximum and Minimum number is "+diff.differencebetMinOddMaxOddnum(input));
+		System.out.println("Difference between Maximum Odd and Minimum Odd number is "+diff.differencebetMinOddMaxOddnum(input));
 	}
 }
