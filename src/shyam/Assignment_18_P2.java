@@ -26,7 +26,7 @@ public class Assignment_18_P2 {
 		String[] input = {"techno","credits","krishna","advika"};
 		Assignment_18_P2 assignment18_P2 = new Assignment_18_P2();
 		String[] output = assignment18_P2.getReverseStringPositionArray(input);
-		System.out.println("Reverse all elements of an array " + Arrays.toString(input) + " at the same position-> ");
+		System.out.println("Reverse all elements of an array " + Arrays.toString(input) + " at the Reverse position-> ");
 		System.out.println("Output:- " + Arrays.toString(output));
 	}
 
