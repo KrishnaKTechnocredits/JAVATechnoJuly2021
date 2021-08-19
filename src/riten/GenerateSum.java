@@ -11,6 +11,7 @@ class GenerateSum {
 		while (index <= num) {
 			Sum = Sum + index;
 			if (Sum >= num) {
+
 				break;
 			}
 			index++;
@@ -20,10 +21,10 @@ class GenerateSum {
 		System.out.println("Total num to get 100 is " + totalCount);
 	}
 
+
 	public static void main(String[] args) {
 		GenerateSum generatesum = new GenerateSum();
 		generatesum.generateTotal(100);
-
 	}
 
 }
