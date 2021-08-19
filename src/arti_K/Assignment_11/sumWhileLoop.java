@@ -2,7 +2,7 @@
  Write a method to find out required numbers to generate sum more than 100
  */
 
-package arti_K;
+package arti_K.Assignment_11;
 
 public class sumWhileLoop {
 	
