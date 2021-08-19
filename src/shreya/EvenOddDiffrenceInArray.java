@@ -1,33 +1,34 @@
+// return difference between sum of even number - sum of odd numbers. Difference has to be positive. print the answer in main method
 package shreya;
 
 public class EvenOddDiffrenceInArray {
-
-    int getMaxEvenNumber(int[] num)	{
-    	int maxodd=0;
-    	int maxeven=0;
-    	for(int index=0;index<num.length;index++) {
-    		if(num[index]%2==0) {
-    			if(num[index]>maxeven) 
-    				maxeven=num[index];
-    			}else if(num[index]>maxodd) 
-    				maxodd=num[index];
-    		}
-    		
-    	
-    		if(maxeven-maxodd>0) 
-    			return maxeven-maxodd;
-    		else 
-    		
-    			return maxodd-maxeven;
-    	
-    
-    }
-	public static void main(String[] args) {
-		int[] input = {1,11,44,23,55,99,23,22};
-		EvenOddDiffrenceInArray evenOddDiffrenceInArray=new EvenOddDiffrenceInArray();
-		int difference=evenOddDiffrenceInArray.getMaxEvenNumber(input);
-	System.out.println("Difference between maximum even and maximum odd number from given array "+difference);
+	int evenSumOddSumDiff(int[] num) {
+		int evenSum = 0;
+		int oddSum = 0;
+		for (int index = 0; index < num.length; index++) {
+			if (num[index] % 2 == 0)
+				evenSum = evenSum + num[index];
+			else
+				oddSum = oddSum + num[index];
+		}
+		if (evenSum > oddSum)
+			return evenSum - oddSum;
+		else
+			return oddSum - evenSum;
 	}
-	
+
+	public static void main(String[] args) {
+		int input[] = { 12, 2, 13, 9 };
+		EvenOddDiffrenceInArray evenOddDifferenceInArray = new EvenOddDiffrenceInArray();
+		int sumOfDifference = evenOddDifferenceInArray.evenSumOddSumDiff(input);
+		System.out.println("Difference between sum of even number and odd number for int[] arr={12,2,13,9} is  "
+				+ sumOfDifference);
+		int input1[] = { 13, 22, 10, 3 };
+		EvenOddDiffrenceInArray evenOddDifferenceInArray1 = new EvenOddDiffrenceInArray();
+		int sumOfDifference1 = evenOddDifferenceInArray1.evenSumOddSumDiff(input1);
+		System.out.println("Difference between sum of even number and odd number for int[] arr={13,22,10,3} is  "
+				+ sumOfDifference1);
+
+	}
 
 }
