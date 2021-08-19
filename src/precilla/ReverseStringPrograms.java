@@ -17,7 +17,7 @@ public class ReverseStringPrograms {
 	String reverseStringArray1(String[] array) {	
 		String[] reverse=new String[array.length];
 		int indexReverse=0;
-		for(int index=0;index<array.length;index++)  {
+		for(int index=array.length-1;index>0;index--)  {
 			String reverse1="";
 			for(int index1=array[index].length()-1;index1>=0;index1--) {
 				reverse1=reverse1+array[index].charAt(index1);
