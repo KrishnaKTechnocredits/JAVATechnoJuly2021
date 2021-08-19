@@ -11,12 +11,10 @@ public class TreeVisible {
 		int count=0;
 		int output=0;
 		for(int index=0;index<input.length;index++){
-
 			if(input[index]>output){
 				count++;
 				output=input[index];
 			}
-			
 		}
 		System.out.println("The number of visible trees: "+ count);
 		//return count;
@@ -26,11 +24,5 @@ public class TreeVisible {
 		TreeVisible tree= new TreeVisible();
 		int[] arr = {3,5,5,11,9,10,15,14};
 		tree.visibleTree(arr);
-		
-		
-		
-		
-
-	}
-
+  }
 }
