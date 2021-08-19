@@ -1,4 +1,4 @@
-package varun_Loop_assignment;
+package varun.varun_Loop_assignment;
 
 public class Assignment_11 {
 	int countForgnrt100num = 0;

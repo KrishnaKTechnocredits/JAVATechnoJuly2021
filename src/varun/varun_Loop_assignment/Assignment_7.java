@@ -1,4 +1,4 @@
-package varun_Loop_assignment;
+package varun.varun_Loop_assignment;
 
 public class Assignment_7 {
 	int sum = 0;
