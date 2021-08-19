@@ -2,7 +2,7 @@
 input : 50
 output : 49, 48, 47, 46, 45*/
 
-package varun_array_assignment;
+package varun.varun_array_assignment;
 
 public class Assignment_13_2 {
 	int[] input = new int[5];

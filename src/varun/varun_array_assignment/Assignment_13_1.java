@@ -3,7 +3,7 @@ int[] input = {1,-11,0,0,55,0,-23,0};
 
 output : 4*/
 
-package varun_array_assignment;
+package varun.varun_array_assignment;
 
 public class Assignment_13_1 {
 	int count;
