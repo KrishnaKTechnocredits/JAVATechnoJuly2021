@@ -31,7 +31,6 @@ class ReverseStringArray {
 
 		ReverseStringArray reverseString = new ReverseStringArray();
 		String[] input = { "Technocredits", "Aashvi", "Monali", "Mahi" };
-		String output[] = reverseString.getStringReverseArray(input);
-		System.out.println(Arrays.toString(output));
+		System.out.println(Arrays.toString(reverseString.getStringReverseArray(input)));
 	}
 }

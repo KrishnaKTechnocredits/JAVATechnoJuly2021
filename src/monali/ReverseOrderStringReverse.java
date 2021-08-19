@@ -19,10 +19,10 @@ public class ReverseOrderStringReverse {
 	}
 
 	String[] getStringReverseArray(String[] input) {
-	
-		int resultIndex=0;
+
+		int resultIndex = 0;
 		String output[] = new String[input.length];
-		for (int index=input.length-1; index>=0; index--) {
+		for (int index = input.length - 1; index >= 0; index--) {
 			output[resultIndex] = getReverseString(input[index]);
 			resultIndex++;
 		}
@@ -32,8 +32,7 @@ public class ReverseOrderStringReverse {
 	public static void main(String[] args) {
 		ReverseOrderStringReverse reverseOrderStringRev = new ReverseOrderStringReverse();
 		String[] input = { "techno", "credits", "krishna", "harsh" };
-		String[] output = reverseOrderStringRev.getStringReverseArray(input);
-		System.out.println(Arrays.toString(output));
+		System.out.println(Arrays.toString(reverseOrderStringRev.getStringReverseArray(input)));
 	}
 
 }
