@@ -9,7 +9,7 @@ public class Assignment_17 {
 			reverseChar = input.charAt(index);
 			System.out.print(reverseChar);
 		}
-		return "Invalid Input";
+		return "Reverse";
 	}
 
 	public static void main(String[] args) {
