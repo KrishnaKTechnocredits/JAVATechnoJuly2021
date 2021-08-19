@@ -34,6 +34,17 @@ public class Assignment_18 {
 		}
 		return output;
 	}
+	
+	String[] reverseStringArray2(String[] input) {
+		String[] output = new String[input.length];
+		int ind=0;
+		for (int i = input.length-1; i<=0; i--) {
+			String reverse = reverseString(input[i]);
+			output[ind] = reverse;
+		}
+		
+		return output;
+	}
 
 	public static void main(String[] args) {
 		String[] input= {"madhvi","Surbhi","Neha","Sandesh","Ankit","Vaibhav"};
@@ -41,9 +52,10 @@ public class Assignment_18 {
 		String[] ans=assignment_18.reverseStringArray(input);
 		System.out.println(Arrays.toString(ans));
 		String[] arr= {"techno","credits","krishna","harsh"};
-		String[] answer=assignment_18.reverseStringArray1(arr);
-		
-		System.out.println(Arrays.toString(answer));
+		String[] answer1=assignment_18.reverseStringArray1(arr);
+		System.out.println(Arrays.toString(answer1));
+		String[] answer2=assignment_18.reverseStringArray1(arr);
+		System.out.println(Arrays.toString(answer2));
 		}
 	}
 
