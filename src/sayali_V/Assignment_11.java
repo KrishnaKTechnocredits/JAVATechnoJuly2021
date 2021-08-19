@@ -17,7 +17,7 @@ public class Assignment_11
 		}
 		if(status) 
 		{
-			System.out.print(number+ " , ");
+			System.out.print(number+ "  ");
 		}
 		return status;
 	}
@@ -47,7 +47,7 @@ public class Assignment_11
 			num1=num1+1;
 			totalcount++;
 		}
-		System.out.print(totalcount);
+		System.out.print("Total count is :" +totalcount);
 	}
 
 	public static void main(String args[])
@@ -57,7 +57,6 @@ public class Assignment_11
 		System.out.println("First 10 prime numbers are:");
 		Primeno.verifyprimeNumbers(10);
 		System.out.println(" ");
-		System.out.println("Total count is:");
 		Primeno.verifyCount(100);
 	}
 }
