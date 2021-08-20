@@ -3,13 +3,8 @@ package akanksha_Jain;
 public class Assignment_19 {
 
 	void getWordsFromString(String input) {
-		int count = 0;
-		for(int index=0; index<input.length()-1; index++) {
-			char ch = input.charAt(index);
-			if (ch == ' ')
-				count ++;
-		}
-		System.out.println("Number of words in a string '" + input + "' is- " + ++count);
+		String[] arr = input.split(" ");
+		System.out.println("Number of words in a string '" + input + "' is- " + arr.length);
 	}
 	
 	void getMaxLengthWordFromString(String input) {
