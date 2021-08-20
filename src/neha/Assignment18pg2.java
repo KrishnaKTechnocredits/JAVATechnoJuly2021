@@ -27,7 +27,7 @@ public class Assignment18pg2 {
 
 	public static void main(String[] args) {
 		Assignment18pg2 assignment18pg2 = new Assignment18pg2();
-		String[] input = { "madhvi", "surbhi", "neha", "sandesh", "ankit", "vaibhav" };
+		String[] input = {"techno", "credits", "krishna","harsh"};
 		System.out.println("Reversed elements of string array are in reverse order are: "
 				+ Arrays.toString(assignment18pg2.reverseStringArray(input)));
 	}
