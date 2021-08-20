@@ -15,6 +15,6 @@ class Assignment19d{
 	public static void main (String[] args){
 		Assignment19d assignment19d = new Assignment19d();	
 		String output = "10 20 30 40";
-		System.out.println("min length of words in the given String is : " + assignment19d.getSumOfString(output));
+		System.out.println("Sum of words in the given String is : " + assignment19d.getSumOfString(output));
 	}	
 }
