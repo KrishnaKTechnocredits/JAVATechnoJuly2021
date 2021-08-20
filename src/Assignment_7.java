@@ -1,3 +1,4 @@
+package ashit;
 
 class Assignment_7{
 	
