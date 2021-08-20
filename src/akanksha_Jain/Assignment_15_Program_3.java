@@ -1,7 +1,5 @@
 package akanksha_Jain;
 
-import chaitanya.ass6SITemp;
-
 public class Assignment_15_Program_3 {
 	static int oddNumber=0, evenNumber=0, diff=0;
 	
