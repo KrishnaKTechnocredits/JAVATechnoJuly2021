@@ -31,7 +31,7 @@ public class A18_ReverseStringArray {
 		System.out.println("The Array in String Values - " + Arrays.toString(input));
 		obj.printArrayWithReversedString(input);
 		System.out.println("The Array with Reversed String values - " + Arrays.toString(input));
-		System.out.println("          ------------------------------          ");
+		System.out.println("          -------------------------------          ");
 		String arr[] = { "Techno", "Credits", "Krishna", "Harsh" };
 		System.out.println("The Array in Both Array & String Values - " + Arrays.toString(arr));
 		String outputArr[] = obj.printReversedArray(arr);

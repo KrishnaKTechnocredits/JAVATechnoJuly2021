@@ -1,4 +1,5 @@
 package ashit;
+
 class Assignment_7{
 	
 	void simpleInterest(int p,int t, int r){
