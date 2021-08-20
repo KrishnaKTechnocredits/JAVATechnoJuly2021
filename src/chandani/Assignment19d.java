@@ -1,3 +1,5 @@
+package chandani;
+
 class Assignment19d{
 
 	int getSumOfString(String str){

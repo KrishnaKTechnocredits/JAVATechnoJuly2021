@@ -1,3 +1,5 @@
+package chandani;
+
 class Assignment19c{
 
 	String getMinlengthWordinString(String str){

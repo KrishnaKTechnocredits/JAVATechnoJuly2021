@@ -1,3 +1,5 @@
+package chandani;
+
 class Assignment19a{
 
 	int getCountOfWordsinString(String str){
