@@ -1,4 +1,4 @@
-package technocredits.arrayDemo;
+package technoCredits.arrayDemo;
 
 // char charAt(int index)
 public class StringReverse {
