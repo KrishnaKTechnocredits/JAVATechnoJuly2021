@@ -11,7 +11,7 @@ public class UniqueCharacter {
 				count++;
 			}
 		}
-		System.out.println("In word " + input + ", freq of: " + ch);
+		System.out.println("In word " + input + ", unique characters is: " + ch);
 		return count;
 	}
 

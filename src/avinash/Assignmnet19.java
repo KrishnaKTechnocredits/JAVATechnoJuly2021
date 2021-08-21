@@ -25,27 +25,30 @@ import java.util.Scanner;
 public class Assignmnet19 {
 	
 	int getWordCount(String str){
-		String[] input = new String[str.length()];
-		input = str.split(" ");
-		int output = input.length;
-		return output;	
-	}
-	
-	String maxWordLength(String str1) {
-		int max = 0;
-		String output ="";
-		String[] input = new String[str1.length()];
-		input = str1.split(" ");
-		for(int index=0;index<input.length-1;index++){
-			if(max<input[index].length()) {
-				max = input[index].length();
-				output = input[index];
-			}
-			
-		}
+		String[] input= new String[str.length()];
+		input=str.split(" ");
+		int output=input.length;
 		return output;
 	}
-	
+
+	String maxWordLength(String str1){
+		int max=0;
+		String output="";
+		String[] input= new String[str1.length()];
+		input=str1.split(" ");
+		for(int index=0;index<=input.length-1;index++){
+			if(max<input[index].length()){
+				max=input[index].length();
+				output=input[index];
+			}
+		}
+
+		return output;
+	}
+
+
+
+
 	String minWordLength(String str2){
 		String output="";
 		String[] input= new String[str2.length()];
@@ -55,15 +58,11 @@ public class Assignmnet19 {
 			if(min>input[index].length()){
 				min=input[index].length();
 				output=input[index];
-
 			}
 
 		}
-
 		return output;
 	}
-	
-	
 
 	int sumOfNumbers(String str3){
 		int sum=0;
@@ -75,41 +74,39 @@ public class Assignmnet19 {
 			sum=sum+input[index];
 		}
 		return sum;
+
 	}
 
+	public static void main(String[] args){
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Assignmnet19 assignment19 = new Assignmnet19();
-		Scanner scanner = new Scanner(System.in);
+		Assignmnet19 assignment19=new Assignmnet19();
+		Scanner scanner=new Scanner(System.in);
+
 		System.out.println("*****Count of Words*****");
 		System.out.println("Enter the String: ");
 		String str=scanner.nextLine();
 		System.out.println("Count of words: ");
 		System.out.println(assignment19.getWordCount(str));
-		
-		
+
 		System.out.println("*****Maximum length word*****");
 		System.out.println("Enter the String: ");
 		String str1=scanner.nextLine();
 		System.out.println("Maximum length word from given statement: ");
 		System.out.println(assignment19.maxWordLength(str1));
-		
+
 		System.out.println("*****Minimum length word*****");
 		System.out.println("Enter the String: ");
 		String str2=scanner.nextLine();
 		System.out.println("Minimum length word from given statement: ");
 		System.out.println(assignment19.minWordLength(str2));
-		
-		
+
 		System.out.println("*****Sum Of Numbers*****");
 		System.out.println("Enter the String: ");
 		String str3=scanner.nextLine();
 		System.out.println("Sum of all numbers in given statement: ");
 		System.out.println(assignment19.sumOfNumbers(str3));
-		
-		
-		
+
 	}
+
 
 }
