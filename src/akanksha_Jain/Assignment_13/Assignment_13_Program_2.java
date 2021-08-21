@@ -1,4 +1,4 @@
-package akanksha_Jain;
+package akanksha_Jain.Assignment_13;
 
 public class Assignment_13_Program_2 {
 	static int count;

@@ -1,4 +1,4 @@
-package akanksha_Jain;
+package akanksha_Jain.Assignment_18;
 import java.util.Arrays;
 
 public class Assignment_18_Program_1 {
