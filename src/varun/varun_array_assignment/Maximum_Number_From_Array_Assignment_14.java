@@ -3,7 +3,7 @@
 int[] input = {1,11,44,23,55,99,23};
 output : 99*/
 
-package varun_array_assignment;
+package varun.varun_array_assignment;
 
 public class Maximum_Number_From_Array_Assignment_14 {
 	int max = 0;

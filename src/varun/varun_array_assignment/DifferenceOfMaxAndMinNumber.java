@@ -1,4 +1,4 @@
-package varun_array_assignment;
+package varun.varun_array_assignment;
 
 public class DifferenceOfMaxAndMinNumber {
 	int max = 0;
