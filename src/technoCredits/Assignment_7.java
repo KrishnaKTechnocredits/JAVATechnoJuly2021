@@ -1,4 +1,4 @@
-package technocredits;
+package technoCredits;
 
 public class Assignment_7 {
 
