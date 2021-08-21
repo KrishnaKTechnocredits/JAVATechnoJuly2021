@@ -31,10 +31,11 @@ public class ReverseStringArraySameOrder {
 	}
 	
 	String[] reversingStringArrayElements(String[] arr1) {
+		String[] arr2 = new String[arr1.length];
 		for(int i=0; i<arr1.length; i++) {
-			arr1[i] = reversingString(arr1[i]);
+			arr2[i] = reversingString(arr1[i]);
 		}
-		return arr1;
+		return arr2;
 	}
 	
 	public static void main(String[] a) {
