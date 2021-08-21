@@ -12,8 +12,7 @@ public class Assignment20A {
 			{
 				count++;
 			}			
-		}
-		System.out.println(c+"->"+count);
+		}		
 		return count;
 	}
 	
@@ -24,7 +23,8 @@ public class Assignment20A {
 		String input=sc.next();
 		System.out.println("Enter Character");
 		char c=sc.next().charAt(0);
-		new Assignment20A().findFrequencyOfCharacter(input,c);
+		int count=new Assignment20A().findFrequencyOfCharacter(input,c);
+		System.out.println(c+"->"+count);
 		sc.close();
 		
 		

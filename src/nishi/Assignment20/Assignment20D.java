@@ -11,7 +11,7 @@ public class Assignment20D {
 			int count=0;
 			if(i==input.indexOf(input.charAt(i)))
 			{
-				 count=new Assignment20C().findFrequencyOfCharacter(input, input.charAt(i));
+				 count=new Assignment20A().findFrequencyOfCharacter(input, input.charAt(i));
 			}			
 			if(count>1)
 			{

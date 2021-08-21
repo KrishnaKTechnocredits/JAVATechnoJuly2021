@@ -6,12 +6,15 @@ public class Assignment20B {
 	
 	void printFrequencyOfEachCharacter(String input)
 	{
+		int count=0;
 		for(int i=0;i<input.length();i++)
 		{
 			if(i==input.indexOf(input.charAt(i)))
 			{
-				new Assignment20A().findFrequencyOfCharacter(input, input.charAt(i));
-			}
+				count=new Assignment20A().findFrequencyOfCharacter(input, input.charAt(i));
+				System.out.println(input.charAt(i)+"->"+count);
+			}		
+			
 		}
 	}
 	
