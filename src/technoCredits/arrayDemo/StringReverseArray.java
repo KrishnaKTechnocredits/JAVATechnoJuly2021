@@ -1,4 +1,4 @@
-package technoCredits.arrayDemo;
+package technocredits.arrayDemo;
 
 import java.util.Arrays;
 

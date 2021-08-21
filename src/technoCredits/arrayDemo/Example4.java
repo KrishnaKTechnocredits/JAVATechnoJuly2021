@@ -1,4 +1,4 @@
-package technoCredits.arrayDemo;
+package technocredits.arrayDemo;
 
 public class Example4 {
 	static void processData(String[] arr) {

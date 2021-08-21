@@ -1,4 +1,4 @@
-package technoCredits;
+package technocredits;
 
 class Bank {
 
