@@ -1,4 +1,4 @@
-package technocredits.arrayDemo;
+package technoCredits.arrayDemo;
 
 public class Example1 {
 
