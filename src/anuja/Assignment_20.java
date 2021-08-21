@@ -107,5 +107,6 @@ class Assignment_20 {
 		System.out.println("******************");
 		System.out.println("Program 4");
 		assignment_20.getDuplicateChar("aakanksha");
+		scanner.close();
 	}
 }
