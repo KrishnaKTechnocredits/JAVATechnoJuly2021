@@ -2,7 +2,7 @@ package purshottamJoshi;
 
 class Assignment20_4{
 	void printFreqOfEachChar(String input) {
-		System.out.println("Unique characters in a string : ");
+		System.out.println("Duplicate characters in a string : ");
 		for(int index=0; index <input.length();index++) {
 			int count =0;
 			char ch = input.charAt(index);
