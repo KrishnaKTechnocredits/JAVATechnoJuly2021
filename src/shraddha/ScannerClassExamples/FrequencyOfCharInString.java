@@ -41,16 +41,16 @@ public class FrequencyOfCharInString {
 		FrequencyOfCharInString newObject = new FrequencyOfCharInString();
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Hello !! Please Enter a String: ");
-		String input = scanner.nextLine();
+		String input = scanner.nextLine().toLowerCase();
 		System.out.println("Enter a char to know the frequncy in the above string :- ");
-		char ch = scanner.nextLine().charAt(0);
+		char ch = scanner.nextLine().toLowerCase().charAt(0);
 		newObject.getFreqOfGivenCharFromString(input, ch);
 		System.out.println("Enter String to get frequency of each character :- ");
-		newObject.getFreqOfEachCharFromString(scanner.nextLine());
+		newObject.getFreqOfEachCharFromString(scanner.nextLine().toLowerCase());
 		System.out.println("Enter String to get all the unique characters entered :- ");
-		newObject.getFreqOfUniqueCharFromString(scanner.nextLine());
+		newObject.getFreqOfUniqueCharFromString(scanner.nextLine().toLowerCase());
 		System.out.println("Enter String to get frequency of duplicate characters :- ");
-		newObject.getFreqOfDuplicateCharFromString(scanner.nextLine());
+		newObject.getFreqOfDuplicateCharFromString(scanner.nextLine().toLowerCase());
 	}
 	
 	//method to print count of each character in a given String 
