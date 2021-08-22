@@ -12,10 +12,10 @@ public class Assignment_21 {
 	}
 
 	int getYoungMember(int[] input) {
-		int minAge = 0;
+		int minAge = input[0];
 		for (int i = 0; i < input.length; i++) {
-			if (input.length - 1 > minAge) {
-				minAge = input.length - 1;
+			if (input[i] < minAge) {
+				minAge = input[i];
 			}
 		}
 		return minAge;
