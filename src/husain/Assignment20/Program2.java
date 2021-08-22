@@ -1,9 +1,9 @@
-package husain.Assignment19;
+package husain.Assignment20;
 
 import java.util.Scanner;
 
-public class Program4 {
-	
+public class Program2 {
+
 	void captureInput() {
 		System.out.println("Please enter a word: ");
 		Scanner scanner = new Scanner(System.in);
@@ -21,21 +21,18 @@ public class Program4 {
 				count++;
 		}
 
-		System.out.println("The frequency of duplicate character " + ch + " -> " + count);
+		System.out.println("The frequency of character " + ch + " is: " + count);
 	}
 
 	void charFrequency(String str) {
 		for (int index = 0; index < str.length(); index++)
-			if (str.indexOf(str.charAt(index)) != str.lastIndexOf(str.charAt(index)))
-				if(str.indexOf(str.charAt(index))== index)
-					printFrequency(str, str.charAt(index));
+			if (str.indexOf(str.charAt(index)) == index)
+				printFrequency(str, str.charAt(index));
 	}
-
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		Program4 freq = new Program4();
+		Program2 freq = new Program2();
 		freq.captureInput();
 
 	}

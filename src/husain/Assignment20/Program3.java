@@ -1,16 +1,14 @@
-package husain.Assignment19;
+package husain.Assignment20;
 
 import java.util.Scanner;
 
-public class Program1 {
-
+public class Program3 {
+	
 	void captureInput() {
 		System.out.println("Please enter a word: ");
 		Scanner scanner = new Scanner(System.in);
 		String str = scanner.next();
-		System.out.println("Please enter the character for which you want to calculate frequency: ");
-		char ch = scanner.next().charAt(0);
-		printFrequency(str, ch);
+		charFrequency(str);
 
 	}
 
@@ -23,12 +21,20 @@ public class Program1 {
 				count++;
 		}
 
-		System.out.println("The frequency of character " + ch + " is: " + count);
+		System.out.println("The frequency of unique characters " + ch + " is: " + count);
 	}
+
+	void charFrequency(String str) {
+		for (int index = 0; index < str.length(); index++)
+			if (str.indexOf(str.charAt(index)) == str.lastIndexOf(str.charAt(index)))
+				printFrequency(str, str.charAt(index));
+	}
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Program1 freq = new Program1();
+		
+		Program3 freq = new Program3();
 		freq.captureInput();
 
 	}

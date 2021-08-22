@@ -1,8 +1,8 @@
-package husain.Assignment19;
+package husain.Assignment20;
 
 import java.util.Scanner;
 
-public class Program3 {
+public class Program4 {
 	
 	void captureInput() {
 		System.out.println("Please enter a word: ");
@@ -21,20 +21,21 @@ public class Program3 {
 				count++;
 		}
 
-		System.out.println("The frequency of unique characters " + ch + " is: " + count);
+		System.out.println("The frequency of duplicate character " + ch + " -> " + count);
 	}
 
 	void charFrequency(String str) {
 		for (int index = 0; index < str.length(); index++)
-			if (str.indexOf(str.charAt(index)) == str.lastIndexOf(str.charAt(index)))
-				printFrequency(str, str.charAt(index));
+			if (str.indexOf(str.charAt(index)) != str.lastIndexOf(str.charAt(index)))
+				if(str.indexOf(str.charAt(index))== index)
+					printFrequency(str, str.charAt(index));
 	}
 
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Program3 freq = new Program3();
+		Program4 freq = new Program4();
 		freq.captureInput();
 
 	}
