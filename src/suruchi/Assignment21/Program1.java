@@ -40,7 +40,7 @@ public class Program1 {
 		int ageDifference = program1.getOldestFamilyMemberAge(age) - program1.getYoungestFamilyMemberAge(age);
 
 		System.out.println("Age difference between oldest and youngest family member is: " + Math.abs(ageDifference));
-   
+
 		scanner.close();
 	}
 }
