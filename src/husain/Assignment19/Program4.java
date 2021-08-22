@@ -21,7 +21,7 @@ public class Program4 {
 				count++;
 		}
 
-		System.out.println("The frequency of character " + ch + " -> " + count);
+		System.out.println("The frequency of duplicate character " + ch + " -> " + count);
 	}
 
 	void charFrequency(String str) {
