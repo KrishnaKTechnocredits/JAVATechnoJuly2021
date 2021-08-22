@@ -35,7 +35,7 @@ public class Assignment_11 {
 	//Method 1.2: main method  to find first "xYZ" prime numbers 	
 	void findPrimeNumber(int count) {
 		int number=2;
-		System.out.println("Frist "+count+ " prime numbers:");
+		System.out.println("Frist   "+count+ " prime numbers:");
 		while (primeNumberCount < count ) {
 			isPrimeNumber(number);
 			number++;
