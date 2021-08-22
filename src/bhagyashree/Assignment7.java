@@ -127,7 +127,7 @@ public class Assignment7 {
 		Assignment7 assignment7_5=new Assignment7();
 		assignment7_5.sumOddEvenNumber(3,9);
 		
-		Assignment7 assignment7_6=new Assignment7();
+		Assignment7 assignment7_6= new Assignment7();
 		assignment7_6.printReverseOddNumber(20,10);
 			
 	}

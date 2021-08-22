@@ -1,29 +1,29 @@
 package tarang;
 
 class Bank{
+	int currentBal=10000;
 
-    int currentBalance = 10000;
+	void debit(int amt){
+	     currentBal=currentBal-amt;
+	     System.out.println("Debited amount is= "+ currentBal);
+	}
 
-    void credit(int amount){
-	  currentBalance = currentBalance + amount;
-	  }
-	  
-	void debit(int amount){
-	  currentBalance = currentBalance - amount;
-	  }
-	  
-	void displayCurrentBalance(){
-	   System.out.println("Current balance of your account is:" + currentBalance);
-	  }
-	  
-    public static void main (String[] a){
-       Bank bank = new Bank();
-       bank.credit(1000);	  
-       bank.credit(3000);
-       bank.debit(2000);
-       bank.credit(4000);
-       bank.debit(1000);
-       bank.debit(3200);
-       bank.displayCurrentBalance();
-     }
-}	 
+	void credit(int amt){
+	     currentBal=currentBal+amt;
+	     System.out.println("Credited amount is= "+ currentBal);
+	}
+
+	void displayBalance(){
+    	System.out.println("Current amount is= "+ currentBal);
+	}
+   
+	public static void main(String[] a){
+        Bank bank = new Bank();
+        bank.displayBalance();
+        bank.debit(250);
+        bank.credit(2000);
+        bank.debit(1000);
+        bank.credit(5000);
+        bank.displayBalance();
+	}
+}
