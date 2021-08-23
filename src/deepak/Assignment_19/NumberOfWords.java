@@ -1,5 +1,5 @@
 //Assignment 19 [Program 1 - Find how many words in a given statement.] DATE: 08/20
-package basic.Assignment_19;
+package deepak.Assignment_19;
 
 public class NumberOfWords {
 	String[] getNumberOfWords(String input) {

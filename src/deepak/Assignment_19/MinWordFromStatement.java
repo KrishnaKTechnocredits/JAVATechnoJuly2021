@@ -1,7 +1,7 @@
 /*Assignment 19 [program 3 : Find minimum word length from given statement.] DATE: 08/20
 input = "good morning technocredits hi hello";
 output : hi*/
-package basic.Assignment_19;
+package deepak.Assignment_19;
 
 public class MinWordFromStatement {
 

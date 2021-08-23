@@ -1,7 +1,7 @@
 /*//Assignment 19 [program 2: Find maximum word length from given statement.] DATE: 08/20
 input = "good morning technocredits hi hello";
 output : technocredits*/
-package basic.Assignment_19;
+package deepak.Assignment_19;
 
 public class MaxWordFromStatement {
 	String[] getNumberOfWords(String input) {

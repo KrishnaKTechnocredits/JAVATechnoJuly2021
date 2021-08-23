@@ -1,7 +1,7 @@
 /*Assignment 19 [program 4: sum of all numbers in given statement.] DATE: 08/20
 input = "10 10 20 30";
 output : 70*/
-package basic.Assignment_19;
+package deepak.Assignment_19;
 
 public class SumOfNumbers {
 	String[] getStringOfNumbers(String numbers) {
