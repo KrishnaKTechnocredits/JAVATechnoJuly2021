@@ -1,4 +1,4 @@
-package varun_string_assignment;
+package varun.varun_string_assignment;
 
 public class ReverseAString {
 

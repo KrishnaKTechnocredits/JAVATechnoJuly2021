@@ -1,4 +1,4 @@
-package varun_array_assignment;
+package varun.varun_array_assignment;
 
 public class Minimum_Number_From_Array_Assignment_14_1 {
 	int min = 0;
