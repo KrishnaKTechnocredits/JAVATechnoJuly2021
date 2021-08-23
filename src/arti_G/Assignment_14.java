@@ -82,7 +82,7 @@ public class Assignment_14 {
 	public static void main(String[] args) {
 		Assignment_14 assignment_14 = new Assignment_14();
 		int[] input = { 1, 11, 44, 23, 55, 99, 23 };
-		System.out.println("Maximum number from given Array : ");
+		System.out.println("Maximum number from given Array: ");
 		System.out.println(assignment_14.maxNumbers(input));
 
 		Assignment_14 assignment_14_1 = new Assignment_14();
