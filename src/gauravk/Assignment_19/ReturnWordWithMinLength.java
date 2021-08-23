@@ -18,20 +18,21 @@ program 4: sum of all numbers in given statement.
 input = "10 10 20 30";
 output : 70
  */
-public class ReturnWordWithMaxLength {
-	
-	String maxLengthWord(String str) {
+
+public class ReturnWordWithMinLength {
+
+	String minLengthWord(String str) {
 		String[] arr = str.split(" ");
-		String max = "";
-		for(int i=0; i<arr.length; i++) {
-			if(max.length()<arr[i].length())
-				max = arr[i];
+		String min = arr[0];
+		for(int i=1; i<arr.length; i++) {
+			if(min.length()>arr[i].length())
+				min = arr[i];
 		}
-		return max;
+		return min;
 	}
 	
 	public static void main(String[] args) {
 		String input = "good morning technocredits hi hello";
-		System.out.println("Maximum length word from the sentence: "+input+"\nis: "+new ReturnWordWithMaxLength().maxLengthWord(input));
+		System.out.println("Minimum length word from the sentence: "+input+"\nis: "+new ReturnWordWithMinLength().minLengthWord(input));
 	}
 }
