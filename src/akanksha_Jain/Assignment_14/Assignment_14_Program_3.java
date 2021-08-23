@@ -1,4 +1,4 @@
-package akanksha_Jain;
+package akanksha_Jain.Assignment_14;
 
 public class Assignment_14_Program_3 {
 	static int max=0;

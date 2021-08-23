@@ -1,4 +1,4 @@
-package akanksha_Jain;
+package akanksha_Jain.Assignment_15;
 
 public class Assignment_15_Program_2 {
 

@@ -1,4 +1,4 @@
-package akanksha_Jain;
+package akanksha_Jain.Assignment_14;
 
 public class Assignment_14_Program_4 {
 	static int maxEven=0, maxOdd=0, diff;
