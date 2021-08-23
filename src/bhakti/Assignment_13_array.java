@@ -18,6 +18,7 @@
 
 package bhakti;
 
+import java.util.Arrays;
 import java.util.concurrent.SynchronousQueue;
 
 public class Assignment_13_array {
@@ -45,7 +46,6 @@ public class Assignment_13_array {
 	//program 3 : write a method which returns 5 smaller numbers of the given number.
 	int[] get5smallerNumber(int num) {
 		int[] numers= new int[5];
-		 
 		
 		for (int index=0; index <5; index++) {
 			num--;
@@ -53,6 +53,25 @@ public class Assignment_13_array {
 		}
 		return numers;
 	}
+	
+	//option for above 
+//	void get5smallerNumber1(int num) {
+//		int[] numers= new int[5];
+//		String strOutPut="";
+//
+//		for (int index=0; index <5; index++) {
+//			num--;
+//			numers[index]= num;
+//			strOutPut += numers[index]+",";
+//		}
+//		System.out.println(strOutPut.substring(0, strOutPut.length()-1));
+//	}
+//	
+	
+	
+	
+	
+	//
 			
 	public static void main (String[] sss) {
 		int[] input = {1,-11,-44,23,55,-99,-23,-22};
@@ -67,9 +86,9 @@ public class Assignment_13_array {
 		// please suggest if anything can be written in better manner 
 		int num=55;
 		number1=assignment_13_array.get5smallerNumber(num);
-		System.out.println("5 smaller number from "+num+" :");
-		for (int index=0; index<5; index++) 
-			System.out.println(number1[index]);
+		System.out.println("5 smaller number from "+Arrays.toString(number1)+" :");
+		//for (int index=0; index<5; index++) 
+			//System.out.println(number1[index]);
 		
 	}
 
