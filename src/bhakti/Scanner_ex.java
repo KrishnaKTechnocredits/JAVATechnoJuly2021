@@ -20,7 +20,7 @@
 
 package bhakti;
 
-public class Assignment_19_StringWord {
+public class Scanner_ex {
 	
 	//program 1: Find how many words in a given statement.
 	 void getNumberOfWordFromString(String srt1) {
@@ -77,7 +77,7 @@ public class Assignment_19_StringWord {
 	// below main  method entry point while running the code 
 	public static void main(String[] hsghs) {
 		 String srt2= "Priya is best employee";
-		Assignment_19_StringWord assignment_19_StringWord = new Assignment_19_StringWord();
+		Scanner_ex assignment_19_StringWord = new Scanner_ex();
 		assignment_19_StringWord.getNumberOfWordFromString(srt2);
 		assignment_19_StringWord.getMaxWordFromString();
 		assignment_19_StringWord.getMinWordFromString();
