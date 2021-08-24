@@ -18,20 +18,26 @@ program 4: sum of all numbers in given statement.
 input = "10 10 20 30";
 output : 70
  */
-public class ReturnWordWithMaxLength {
+public class SumOfNumsInStatement {
 	
-	String maxLengthWord(String str) {
+	int sumOfNumsInString(String str) {
+		int sum = 0;
 		String[] arr = str.split(" ");
-		String max = "";
 		for(int i=0; i<arr.length; i++) {
-			if(max.length()<arr[i].length())
-				max = arr[i];
+			int lengthString=0;
+			for(int j=0; j<arr[i].length(); j++) {
+				if(Character.isDigit(arr[i].charAt(j)))
+						lengthString++;
+			}
+			if(arr[i].length()==lengthString) {
+				sum = sum+ Integer.parseInt(arr[i]);
+			}
 		}
-		return max;
+		return sum;
 	}
 	
 	public static void main(String[] args) {
-		String input = "good morning technocredits hi hello";
-		System.out.println("Maximum length word from the sentence: "+input+"\nis: "+new ReturnWordWithMaxLength().maxLengthWord(input));
+		String input = "10 10 20 30";
+		System.out.println("Sum of all numbers from the sentence: "+input+"\nis: "+new SumOfNumsInStatement().sumOfNumsInString(input));
 	}
 }
