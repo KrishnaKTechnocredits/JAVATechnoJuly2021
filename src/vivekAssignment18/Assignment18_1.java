@@ -1,8 +1,8 @@
-package vivek;
+package vivekAssignment18;
 
 import java.util.Arrays;
 
-public class Assignment18 {
+public class Assignment18_1 {
 
 	String reverseString(String input) {
 		String output = "";
@@ -20,9 +20,9 @@ public class Assignment18 {
 	}
 
 	public static void main(String[] args) {
-		Assignment18 assignment18 = new Assignment18();
+		Assignment18_1 assignment18_1 = new Assignment18_1();
 		String[] input = { "madhvi", "surbhi", "neha", "sandesh", "ankit", "vaibhav" };
-		assignment18.reverseArray(input);
+		assignment18_1.reverseArray(input);
 		System.out.println(Arrays.toString(input));
 	}
 }
