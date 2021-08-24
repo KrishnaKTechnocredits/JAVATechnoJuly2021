@@ -1,3 +1,7 @@
+/* 	Program1: return count of positive numbers from given array.
+	program2: count number of zero's in given array.
+	Program3: write a method which returns 5 smaller numbers of the given number.
+ */
 package atul_K.Assignments.Ass13;
 
 public class Assignment13 {
