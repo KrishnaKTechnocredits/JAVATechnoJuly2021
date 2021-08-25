@@ -12,7 +12,7 @@ class Assignment21{
 			if(age[index] > maxAge) {
 				maxAge=age[index];
 			}
-			if(age[index] < minAge]) {
+			if(age[index] < minAge) {
 				minAge = age[index];
 			}
 		}
