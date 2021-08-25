@@ -2,7 +2,7 @@ package himanshu;
 
 public class Assignment_13_Program1 {
 
-	void positiveCount(int[] num) {
+	void positiveCount(int[] num)     {
 		for (int index = 0; index < num.length; index++) {
 			if (num[index] >= 0) {
 				System.out.println("Positive Nunber are: " + num[index]);

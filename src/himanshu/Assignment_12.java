@@ -2,7 +2,7 @@ package himanshu;
 
 public class Assignment_12 {
 
-	String customerName;
+	String customerName  ;
 	int itemCount;
 	String paymentMode;
 	String section;
