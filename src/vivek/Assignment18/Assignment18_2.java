@@ -1,4 +1,4 @@
-package vivekAssignment18;
+package vivek.Assignment18;
 
 import java.util.Arrays;
 
