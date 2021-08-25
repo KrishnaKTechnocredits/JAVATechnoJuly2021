@@ -1,5 +1,5 @@
 //Assingment 5
-package deepakkankhar;
+package deepak.deepakkankhar;
 class BankAccount{
 	String userName;
 	String password;

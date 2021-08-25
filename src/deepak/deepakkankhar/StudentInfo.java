@@ -1,4 +1,4 @@
-package deepakkankhar;
+package deepak.deepakkankhar;
 class StudentInfo{
 		
 	void studentName(String fName,String mName, String sName){

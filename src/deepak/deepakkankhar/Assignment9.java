@@ -1,5 +1,5 @@
 // Assignment 9  DATE: 08/11/2021
-package deepakkankhar;
+package deepak.deepakkankhar;
 
 public class Assignment9 {
 	static int maggieCnt;

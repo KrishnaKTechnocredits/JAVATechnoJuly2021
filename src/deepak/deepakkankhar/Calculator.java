@@ -1,4 +1,4 @@
-package deepakkankhar;
+package deepak.deepakkankhar;
 
 class Calculator{
 	int num1=10;

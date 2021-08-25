@@ -1,4 +1,4 @@
-package deepakkankhar;
+package deepak.deepakkankhar;
 
 public class Assignment_1 {
 
