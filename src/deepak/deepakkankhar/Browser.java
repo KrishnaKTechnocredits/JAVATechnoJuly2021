@@ -1,5 +1,5 @@
 //Assignment 3.2 - Browser Identification
-package deepakkankhar;
+package deepak.deepakkankhar;
 
 class Browser{
 	

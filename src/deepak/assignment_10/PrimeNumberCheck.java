@@ -1,6 +1,6 @@
 // Assignment 10 [Various Prime Number Functions] DATE: 08/12/2021
 
-package deepak;
+package deepak.assignment_10;
 
 public class PrimeNumberCheck {
 	int primeNumCnt;

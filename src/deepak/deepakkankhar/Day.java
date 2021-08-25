@@ -1,5 +1,5 @@
 //Assignment 3.1 - If Else Assignment Weekdays/Weekends 
-package deepakkankhar;
+package deepak.deepakkankhar;
 class Day{
 	
 	void IdentifyDay(int dayIndex){

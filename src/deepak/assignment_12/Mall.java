@@ -1,5 +1,5 @@
 //Assignment 12 [Mall} DATE: 08/14/2021
-package deepak;
+package deepak.assignment_12;
 
 public class Mall {
 	int itemCnt;

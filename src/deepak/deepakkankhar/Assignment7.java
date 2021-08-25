@@ -1,5 +1,5 @@
 //Assignment 7
-package deepakkankhar;
+package deepak.deepakkankhar;
 
 public class Assignment7 {
 	int i;

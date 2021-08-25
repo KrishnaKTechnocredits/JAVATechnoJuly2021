@@ -1,5 +1,5 @@
 //Assignment 2.1 - Day 3  BANK CLASS
-package deepakkankhar;
+package deepak.deepakkankhar;
 class Bank{
 
 	double currentBalance=10000.0;

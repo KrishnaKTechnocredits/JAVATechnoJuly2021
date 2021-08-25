@@ -1,6 +1,6 @@
 //Assignment - 11  [While loop] : DATE: 08/13/2021
 
-package deepak;
+package deepak.assignment_11;
 
 public class WhileLoop {
 	int sum;

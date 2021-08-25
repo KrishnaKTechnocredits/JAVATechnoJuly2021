@@ -1,5 +1,5 @@
 //Assignment 6 DATE: 08/07/2021 [Simple Interest and Temperature]
-package deepakkankhar;
+package deepak.deepakkankhar;
 
 public class Assignment6 {
 	
