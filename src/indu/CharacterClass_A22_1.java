@@ -38,7 +38,7 @@ public class CharacterClass_A22_1 {
 		System.out.println("Enter Input String : ");
 		String str = scan.nextLine();
 		System.out.println("Total digits in given string is : " + characterClass_A22_1.findTotalDigitInString(str));
-		System.out.println("Total digits in given string is : " + characterClass_A22_1.findSumofTotalDigitInString(str));
+		System.out.println("Sum of Total digits in given string is : " + characterClass_A22_1.findSumofTotalDigitInString(str));
 		
 	}
 }
