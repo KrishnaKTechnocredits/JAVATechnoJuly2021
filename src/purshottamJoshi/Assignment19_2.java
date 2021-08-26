@@ -12,7 +12,7 @@ class Assignment19_2{
 				//if(arr[index])
 				if(output[index].length() > maxWord.length()){
 					maxWord=output[index];
-				System.out.println(output[index]+"-->"+output[index].length());
+				//System.out.println(output[index]+"-->"+output[index].length());
 					
 				}
 				
