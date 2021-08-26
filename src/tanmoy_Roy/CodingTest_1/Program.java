@@ -19,7 +19,7 @@ public class Program {
 			String[] arr = input[k].replaceAll("[A-Za-z]+"," ").split(" ");
 			int i=0,n=arr.length;
 			if(n==0)
-				continue;
+				sum+=0;
 			else {
 				if(arr[0].equals("") && n>0)				//adjust if alphabet is before numeric value
 					i=1;
@@ -35,7 +35,7 @@ public class Program {
 	public static void main(String[] args) {
 		Program prg = new Program();
 		Scanner scan =new Scanner(System.in);
-		String[] input = {"t2e4c","2h7no","3h6h2h5", "1mk3", "k9g8"}; 
+		String[] input = {"t2e4c","2h7no","3h6h2h5", "1mk3", "k9g8","100","100fwg100","gyfyebf"}; 
 		System.out.println("The sum of digits is :"+ prg.getCountOfDigits(input));
 		scan.close();
 	}
