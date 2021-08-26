@@ -1,9 +1,5 @@
 package nishi;
 
-import java.util.Scanner;
-
-import nishi.Assignment22.Assignment22B;
-
 public class SurpriseTest1 {
 	
 	int getSumOfAllDigitsInString(String str)
