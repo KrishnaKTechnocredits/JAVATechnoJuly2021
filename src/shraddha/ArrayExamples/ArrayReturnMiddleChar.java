@@ -1,4 +1,4 @@
-package shraddha;
+package shraddha.ArrayExamples;
 
 public class ArrayReturnMiddleChar {
 	public static void main(String[] args) {

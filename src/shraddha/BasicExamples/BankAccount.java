@@ -1,4 +1,4 @@
-package shraddha;
+package shraddha.BasicExamples;
 class BankAccount{
 	String username;
 	String pwd;

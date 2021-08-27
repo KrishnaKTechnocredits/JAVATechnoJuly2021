@@ -1,4 +1,4 @@
-package shraddha;
+package shraddha.ArrayExamples;
 
 public class DiffMaxMinNoArray {
 	int maxNumber;

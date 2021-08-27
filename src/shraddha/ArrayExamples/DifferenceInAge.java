@@ -2,7 +2,7 @@
 Age is in the form of array.
 int[] age = {10,34,38,68,72,95,6};
 output : 89*/
-package shraddha;
+package shraddha.ArrayExamples;
 
 public class DifferenceInAge {
 	int oldestMember;

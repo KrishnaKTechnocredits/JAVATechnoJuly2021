@@ -1,4 +1,4 @@
-package shraddha;
+package shraddha.BasicExamples;
 
 class Calculator{
 	int num1 = 30;

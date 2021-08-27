@@ -1,4 +1,4 @@
-package shraddha;
+package shraddha.IfConditionExamples;
 class DayIndex{
 
 	public static void main(String[] args){

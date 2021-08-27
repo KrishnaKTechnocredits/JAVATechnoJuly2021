@@ -8,7 +8,7 @@ return output;
 
 input : technocredits
 output : stiderconhcet*/
-package shraddha;
+package shraddha.StringExamples;
 
 public class PrintReverseString {
 	public static void main(String[] args) {
