@@ -32,17 +32,11 @@ public class Assignment21 {
 		}
 		scanner.close();
 		return input;
-		
-		
-		
 	}
 
 	public static void main(String[] args) {
 		Assignment21 ageDiff= new Assignment21();
 		int[] input= ageDiff.getAge();
 		System.out.println("The difference between the maximum and minimum age is: "+ageDiff.getAgeDif(input));
-		
-
 	}
-
 }
