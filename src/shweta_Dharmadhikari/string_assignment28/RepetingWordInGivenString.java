@@ -20,7 +20,7 @@ public class RepetingWordInGivenString {
 			}
 
 		}
-		System.out.println(repetingWord + "is" + totalCount);
+		System.out.println(repetingWord + " -> " + totalCount);
 	}
 
 	public static void main(String[] args) {
