@@ -65,7 +65,7 @@ public class Program1 {
 
 		String input = "Hi Hello Hi Techno Hello Hi";
 		System.out.println("String is as displayed: " + input);
-		  
+
 		System.out.println();
 		program1.getMaxRepeatingWordInString(input);
 
