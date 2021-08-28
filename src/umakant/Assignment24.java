@@ -1,9 +1,10 @@
 package umakant;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Assignment24 {
-	int getNumberOfVowels(String input) {
+	char[] getNumberOfVowels(String input) {
 		int aCount = 0, eCount = 0, iCount = 0, oCount = 0, uCount = 0;
 		for (int index = 0; index < input.length(); index++) {
 			char ch = Character.toUpperCase(input.charAt(index));
@@ -18,7 +19,19 @@ public class Assignment24 {
 			else if (ch == 'U')
 				uCount = 1;
 		}
-		return aCount + eCount + iCount + oCount + uCount;
+		char[] output = new char[aCount + eCount + iCount + oCount + uCount];
+		int index = 0;
+		if (aCount == 1)
+			output[index++] = 'a';
+		if (eCount == 1)
+			output[index++] = 'e';
+		if (iCount == 1)
+			output[index++] = 'i';
+		if (oCount == 1)
+			output[index++] = 'o';
+		if (uCount == 1)
+			output[index++] = 'u';
+		return output;
 	}
 
 	void showMaxRepeatingWord(String input) {
@@ -42,7 +55,7 @@ public class Assignment24 {
 				word = words[index];
 			}
 		}
-		System.out.println(word + ":" + maxFrequency);
+		System.out.println(word + "->" + maxFrequency);
 	}
 
 	public static void main(String[] args) {
@@ -53,7 +66,7 @@ public class Assignment24 {
 		assignment24.showMaxRepeatingWord(input);
 		System.out.println("Enter the String to get the vowel count:");
 		input = scanner.next();
-		System.out.println("Number of distinct vowels in " + input + " is: " + assignment24.getNumberOfVowels(input));
+		System.out.println("Vowels are : " + Arrays.toString(assignment24.getNumberOfVowels(input)));
 		scanner.close();
 	}
 }
