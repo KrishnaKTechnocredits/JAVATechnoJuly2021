@@ -1,4 +1,4 @@
-package shraddha;
+package shraddha.ArrayExamples;
 
 import java.util.Arrays;
 

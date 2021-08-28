@@ -1,4 +1,4 @@
-package shraddha;
+package shraddha.LoopExamples;
 
 public class TestForLoop {
 	public static void main(String[] args) {

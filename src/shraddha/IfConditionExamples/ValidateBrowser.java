@@ -1,4 +1,4 @@
-package shraddha;
+package shraddha.IfConditionExamples;
 class ValidateBrowser{
 	public static void main(String[] args){
 	ValidateBrowser vb = new ValidateBrowser();

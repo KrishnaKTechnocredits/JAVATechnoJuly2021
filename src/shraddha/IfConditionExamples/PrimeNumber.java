@@ -1,4 +1,4 @@
-package shraddha;
+package shraddha.IfConditionExamples;
 
 public class PrimeNumber {
 	int totalCount;

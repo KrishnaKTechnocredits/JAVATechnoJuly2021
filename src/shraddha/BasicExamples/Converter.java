@@ -1,4 +1,4 @@
-package shraddha;
+package shraddha.BasicExamples;
 
 class Converter{
 	public static void main(String[] args){

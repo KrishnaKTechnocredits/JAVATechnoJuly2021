@@ -1,4 +1,4 @@
-package shraddha;
+package shraddha.BasicExamples;
 class StudentInfo{ 
 	int rollNumber=40;
 	String name = "Shraddha";

@@ -17,7 +17,7 @@ program 4: sum of all numbers in given statement.
 input = "10 10 20 30";
 output : 70
  * */
-package shraddha;
+package shraddha.StringExamples;
 
 public class StringToArrayExamples {
 

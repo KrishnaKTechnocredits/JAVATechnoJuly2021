@@ -1,4 +1,4 @@
-package shraddha;
+package shraddha.BasicExamples;
 class BankBalance{
 	int initialBalance = 50000;
 	

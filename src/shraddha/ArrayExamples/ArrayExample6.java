@@ -1,4 +1,4 @@
-package shraddha;
+package shraddha.ArrayExamples;
 
 public class ArrayExample6 {
 	int maxOddNumber;
