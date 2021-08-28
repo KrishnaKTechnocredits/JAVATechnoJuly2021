@@ -3,36 +3,53 @@ package husain.Assignment24;
 import java.util.Scanner;
 
 public class Program1 {
+	
+	int aCount, eCount, iCount, oCount, uCount;
 
-	int findCountOfVowels(String str) {
-		int count = 0;
-
+	void findCountOfVowels(String str) {
+		
+		String vowel = "";
 		for (int index = 0; index < str.length(); index++) {
 			switch (str.charAt(index)) {
 
 			case 'a':
 			case 'A':
-				count++;
+				if(aCount<1) {
+					aCount++;
+					vowel = vowel + str.charAt(index) + ",";
+				}
 				break;
 
 			case 'e':
 			case 'E':
-				count++;
+				if(eCount<1) {
+					eCount++;
+					vowel = vowel + str.charAt(index) + ",";
+				}
 				break;
 
 			case 'i':
 			case 'I':
-				count++;
+				if(iCount<1) {
+					iCount++;
+					vowel = vowel + str.charAt(index) + ",";
+				}
 				break;
 
 			case 'o':
 			case 'O':
-				count++;
+				if(oCount<1) {
+					oCount++;
+					vowel = vowel + str.charAt(index) + ",";
+				}
 				break;
 
 			case 'u':
 			case 'U':
-				count++;
+				if(uCount<1) {
+					uCount++;
+					vowel = vowel + str.charAt(index) + ",";
+				}
 				break;
 
 			default:
@@ -41,22 +58,27 @@ public class Program1 {
 
 		}
 
-		return count;
+		displayData(vowel);
+		
 
 	}
 
-	int getInput() {
+	void getInput() {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Please enter a string:");
 		String str = scanner.nextLine();
-		return findCountOfVowels(str);
+		findCountOfVowels(str);
 
+	}
+
+	void displayData(String str) {
+		System.out.println("The list of vowels is " + str);
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Program1 obj = new Program1();
-		System.out.println("The number of vowels in the given string is: " + obj.getInput());
+		obj.getInput();
 
 	}
 

@@ -6,23 +6,29 @@ public class Program2 {
 
 	void findFrequency(String str) {
 		String arr[] = str.split(" ");
-
+		int maxCount = 0;
+		String maxStr = "";
 		for (int i = 0; i < arr.length; i++) {
 			int count = 1;
 			for (int j = i + 1; j < arr.length; j++) {
 				if (arr[i].equalsIgnoreCase(arr[j])) {
 					count++;
-					arr[j] = "0";
+				}
+				if (count > maxCount) {
+					maxCount = count;
+					maxStr = arr[j];
+
 				}
 
 			}
-			displayData(arr[i], count);
+
 		}
+		displayData(maxStr, maxCount);
 	}
 
 	void displayData(String str, int count) {
-		if (count > 1 && !str.equals("0"))
-			System.out.println("String " + str + " and count " + count);
+
+		System.out.println("Max String " + str + " and count " + count);
 
 	}
 
