@@ -22,7 +22,8 @@ import java.util.Scanner;
 
 public class Assignmnet19 {
 
-	int getWordCount(String str) {
+	
+	int getWordCount(String str){
 		String[] input = new String[str.length()];
 		input = str.split(" ");
 		int output = input.length;
@@ -69,8 +70,10 @@ public class Assignmnet19 {
 		for (int index = 0; index <= input.length - 1; index++) {
 			input[index] = Integer.parseInt(arr[index]);
 			sum = sum + input[index];
+
 		}
 		return sum;
+
 	}
 
 	public static void main(String[] args) {
@@ -82,8 +85,7 @@ public class Assignmnet19 {
 		String str = scanner.nextLine();
 		System.out.println("Count of words: ");
 		System.out.println(assignment19.getWordCount(str));
-
-		System.out.println("*****Maximum length word*****");
+  	System.out.println("*****Maximum length word*****");
 		System.out.println("Enter the String: ");
 		String str1 = scanner.nextLine();
 		System.out.println("Maximum length word from given statement: ");
@@ -94,13 +96,10 @@ public class Assignmnet19 {
 		String str2 = scanner.nextLine();
 		System.out.println("Minimum length word from given statement: ");
 		System.out.println(assignment19.minWordLength(str2));
-
 		System.out.println("*****Sum Of Numbers*****");
 		System.out.println("Enter the String: ");
 		String str3 = scanner.nextLine();
 		System.out.println("Sum of all numbers in given statement: ");
 		System.out.println(assignment19.sumOfNumbers(str3));
-
 	}
-
 }
