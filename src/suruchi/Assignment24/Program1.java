@@ -63,9 +63,10 @@ public class Program1 {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Enter a string:");
-		String input = scanner.nextLine();
+		String input = "Hi Hello Hi Techno Hello Hi";
+		System.out.println("String is as displayed: " + input);
 		  
+		System.out.println();
 		program1.getMaxRepeatingWordInString(input);
 
 		System.out.println();
