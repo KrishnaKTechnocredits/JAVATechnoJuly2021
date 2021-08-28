@@ -66,24 +66,40 @@ public class Assignment_23 {
 		case "Debit":
 			switch(bAccountName) {
 			case "ICICI":
-				totalICICIBal -= amt;
-				iciciDebitCount ++;
-				totalDebitCount ++;
+				if(totalICICIBal>amt) {
+					totalICICIBal -= amt;
+					iciciDebitCount ++;
+					totalDebitCount ++;
+				}
+				else 
+					System.out.println("Not enough balance");
 				break;
 			case "HDFC":
-				totalHDFCBal -= amt;
-				hdfcDebitCount ++;
-				totalDebitCount ++;
+				if(totalHDFCBal>amt) {
+					totalHDFCBal -= amt;
+					hdfcDebitCount ++;
+					totalDebitCount ++;
+				}
+				else 
+					System.out.println("Not enough balance");
 				break;
 			case "BOB":
-				totalBOBBal -= amt;
-				bobDebitCount ++;
-				totalDebitCount ++;
+				if(totalBOBBal>amt) {
+					totalBOBBal -= amt;
+					bobDebitCount ++;
+					totalDebitCount ++;
+				}
+				else 
+					System.out.println("Not enough balance");
 				break;
 			case "SBI":
-				totalSBIBal -= amt;
-				sbiDebitCount ++;
-				totalDebitCount ++;
+				if(totalSBIBal>amt) {
+					totalSBIBal -= amt;
+					sbiDebitCount ++;
+					totalDebitCount ++;
+				}
+				else 
+					System.out.println("Not enough balance");
 				break;
 			default:
 				System.out.println("Invalid");
