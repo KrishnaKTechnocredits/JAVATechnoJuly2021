@@ -13,7 +13,7 @@ public class Assignment24B {
 		for(int i=0;i<str.length;i++)
 		{
 			 count=0;
-			for(int j=1;j<str.length;j++)
+			for(int j=0;j<str.length;j++)
 			{
 				if(str[i].equalsIgnoreCase(str[j]))
 				{
