@@ -38,7 +38,8 @@ public class Program1 {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Enter a word:"); String str = scanner.next();
+		System.out.println("Enter a word:"); 
+		String str = scanner.next();
 	 
 		System.out.println(program1.getSortedString(str));
 
@@ -49,6 +50,5 @@ public class Program1 {
 		System.out.println("Sum of Numbers in the string is: " + sumOfNumberInString);
 
 		scanner.close();
-
 	}
 }
