@@ -46,8 +46,7 @@ public class Program1 {
 		System.out.println("Enter another word:");
 		String str1 = scanner.next();
 
-		int sumOfNumberInString = program1.getSumOfNumbersInString(str1);
-		System.out.println("Sum of Numbers in the string is: " + sumOfNumberInString);
+		System.out.println("Sum of Numbers in the word is: " + program1.getSumOfNumbersInString(str1));
 
 		scanner.close();
 	}
