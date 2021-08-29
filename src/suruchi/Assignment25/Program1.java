@@ -41,8 +41,9 @@ public class Program1 {
 		System.out.println("Enter a word:"); 
 		String str = scanner.next();
 	 
-		System.out.println(program1.getSortedString(str));
+		System.out.println("Characters sorted in the word displayed as: " + program1.getSortedString(str));
 
+		System.out.println();
 		System.out.println("Enter another word:");
 		String str1 = scanner.next();
 
