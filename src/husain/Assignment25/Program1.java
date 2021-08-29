@@ -19,7 +19,7 @@ public class Program1 {
 		if (temp.length() > 0)
 			sum = sum + Integer.parseInt(temp);
 
-		System.out.println("The sum of numbers in teh given string " + str + " is " + sum);
+		System.out.println("The sum of numbers in the given string " + str + " is " + sum);
 	}
 
 	public static void main(String[] args) {
