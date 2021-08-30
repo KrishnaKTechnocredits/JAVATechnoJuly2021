@@ -3,9 +3,7 @@ package nishi;
 public class ScodingTest2 {
 	String getOutput(String input)
 	{		
-		String str1="";
-		int num=0;
-		
+		String str1="";		
 		for(int i=0;i<input.length();i++)
 		{
 			if(Character.isUpperCase(input.charAt(i)))
