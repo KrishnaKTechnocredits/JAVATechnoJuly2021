@@ -46,7 +46,6 @@ public class Assignment20 {
 	}
 	
 	public static void main(String[] args){
-		Assignment20 assignment20 = new Assignment20();
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter input string: ");
 		String temp = scanner.next();
@@ -56,5 +55,6 @@ public class Assignment20 {
 		frequencyOfEachChar("hello");
 		getUniqueChar("akanksha");
 		getDuplicateChar("akanksha");
+		scanner.close();
 	}
 }
