@@ -12,7 +12,7 @@ public class ConvertingLowerToUpperAndUpperToLowerCase {
 
 	String output = "";
 
-	String convertingLetterCaseFromString(String str) {
+	String changeCharacterCase(String str) {
 		char ch[] = str.toCharArray();
 		for (int index = 0; index < ch.length; index++) {
 			if (Character.isUpperCase(ch[index])) {
@@ -30,8 +30,7 @@ public class ConvertingLowerToUpperAndUpperToLowerCase {
 	public static void main(String[] args) {
 		String str = "A1ashVi6";
 		ConvertingLowerToUpperAndUpperToLowerCase convertingLowerToUpperAndUpperToLowerCase = new ConvertingLowerToUpperAndUpperToLowerCase();
-		String output = convertingLowerToUpperAndUpperToLowerCase.convertingLetterCaseFromString(str);
-		System.out.println(output);
+		System.out.println("Output : " + convertingLowerToUpperAndUpperToLowerCase.changeCharacterCase(str));
 	}
 
 }
