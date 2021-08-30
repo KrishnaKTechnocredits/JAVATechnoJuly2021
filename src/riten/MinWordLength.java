@@ -3,23 +3,21 @@ package riten;
 class MinWordLength {
 
 	void minLength(String stg) {
-		int cnt = 0;
-		int countMin = 0;
+
+		int countmin = 0;
 		String word[] = stg.split(" ");
 		for (int index = 0; index < word.length; index++) {
-			if (word[index].length() < word[index].length() + 1 || word[index].length() == word[index].length() + 1) {
-				cnt = word[index].length();
-				if (countMin == 0)
-					countMin = cnt;
+			if (countmin == 0) {
+				countmin = word[index].length();
 			}
-			if (cnt <= countMin) {
-				countMin = cnt;
+			if (word[index].length() < countmin) {
+				countmin = word[index].length();
 			}
 
 		}
 
 		for (int i = 0; i < word.length; i++) {
-			if (countMin == word[i].length()) {
+			if (countmin == word[i].length()) {
 				System.out.println("Min word is: " + word[i]);
 			}
 		}
@@ -27,7 +25,7 @@ class MinWordLength {
 
 	public static void main(String[] args) {
 		MinWordLength minlen = new MinWordLength();
-		String input = "good morning technocredits hi hello";
+		String input = "good morning technocredits hi hello ";
 		minlen.minLength(input);
 
 	}
