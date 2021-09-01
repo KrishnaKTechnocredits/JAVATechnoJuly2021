@@ -8,7 +8,7 @@ public class SwapNumberWithout3rdVar_A26_4 {
 		num1 = num1 + num2;
 		num2 = num1 - num2;
 		num1 = num1 - num2;
-		System.out.println("Numbers after swapping using third variable are :\nnum1 : "+num1+" num2 : "+num2);
+		System.out.println("Numbers after swapping without third variable are :\nnum1 : "+num1+" num2 : "+num2);
 	}
 	public static void main(String[] st)
 	{
