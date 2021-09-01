@@ -45,8 +45,9 @@ class Assignment26{
 	}
 	
 	void swapNumbersWithoutThirdVariable(int num1,int num2){
-		num2=num2-num1;
 		num1=num1+num2;
+		num2=num1-num2;
+		num1=num1-num2;
 		System.out.println("Swap result of 2 numbers without using 3rd variable :");
 		System.out.println(num1+ "," +num2);
 	}
@@ -57,6 +58,6 @@ class Assignment26{
 		System.out.println("Reverse of the String is :" +assignment26.getReverse("This is technocredits"));
 		System.out.println("Reverse of the given string array is :" +Arrays.toString(assignment26.getReverseStringArray(input)));
 		assignment26.swapNumbersWithThirdVariable(30,40);
-		assignment26.swapNumbersWithThirdVariable(10,30);
+		assignment26.swapNumbersWithoutThirdVariable(10,30);
 	}
 }
