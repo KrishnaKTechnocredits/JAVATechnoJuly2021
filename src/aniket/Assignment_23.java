@@ -1,4 +1,6 @@
-package akanksha_Jain;
+package aniket;
+
+
 
 public class Assignment_23 {
 	static int totalCreditCount, totalDebitCount;
@@ -7,31 +9,31 @@ public class Assignment_23 {
 	static int iciciDebitCount, hdfcDebitCount, bobDebitCount, sbiDebitCount;
 	int totalICICIBal=10000, totalHDFCBal=15000, totalBOBBal=5000, totalSBIBal=50000;
 	String operation, bankName;
-	
+
 	void getTotalBalance() {
 		totalBalance = totalICICIBal + totalHDFCBal + totalBOBBal + totalSBIBal;
 		System.out.println("Total balance of all accounts= " + totalBalance);
 	}
-	
+
 	void getTotalCreditDebitCount() {
 		System.out.println("Total credit operation- " + totalCreditCount + " times");
 		System.out.println("Total debit operation- " + totalDebitCount + " times");
 	}
-	
+
 	void getIndividualBankCreditCount() {
 		System.out.println("ICICI bank credit operation- " + iciciCreditCount + " times");
 		System.out.println("HDFC bank credit operation- " + hdfcCreditCount + " times");
 		System.out.println("BOB bank credit operation- " + bobCreditCount + " times");
 		System.out.println("SBI bank credit operation- " + sbiCreditCount + " times");
 	}
-	
+
 	void getIndividualBankDebitCount() {
 		System.out.println("ICICI bank debit operation- " + iciciDebitCount + " times");
 		System.out.println("HDFC bank debit operation- " + hdfcDebitCount + " times");
 		System.out.println("BOB bank debit operation- " + bobDebitCount + " times");
 		System.out.println("SBI bank debit operation- " + sbiDebitCount + " times");
 	}
-	
+
 	void callOperation(String operation, String bankName, int amount) {
 		String operations = operation;
 		String bAccountName = bankName;
@@ -66,40 +68,24 @@ public class Assignment_23 {
 		case "Debit":
 			switch(bAccountName) {
 			case "ICICI":
-				if(totalICICIBal>amt) {
-					totalICICIBal -= amt;
-					iciciDebitCount ++;
-					totalDebitCount ++;
-				}
-				else 
-					System.out.println("Not enough balance");
+				totalICICIBal -= amt;
+				iciciDebitCount ++;
+				totalDebitCount ++;
 				break;
 			case "HDFC":
-				if(totalHDFCBal>amt) {
-					totalHDFCBal -= amt;
-					hdfcDebitCount ++;
-					totalDebitCount ++;
-				}
-				else 
-					System.out.println("Not enough balance");
+				totalHDFCBal -= amt;
+				hdfcDebitCount ++;
+				totalDebitCount ++;
 				break;
 			case "BOB":
-				if(totalBOBBal>amt) {
-					totalBOBBal -= amt;
-					bobDebitCount ++;
-					totalDebitCount ++;
-				}
-				else 
-					System.out.println("Not enough balance");
+				totalBOBBal -= amt;
+				bobDebitCount ++;
+				totalDebitCount ++;
 				break;
 			case "SBI":
-				if(totalSBIBal>amt) {
-					totalSBIBal -= amt;
-					sbiDebitCount ++;
-					totalDebitCount ++;
-				}
-				else 
-					System.out.println("Not enough balance");
+				totalSBIBal -= amt;
+				sbiDebitCount ++;
+				totalDebitCount ++;
 				break;
 			default:
 				System.out.println("Invalid");
@@ -109,7 +95,7 @@ public class Assignment_23 {
 			System.out.println("Invalid details");
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		Assignment_23 assignment_23 = new Assignment_23();
 		assignment_23.callOperation("Credit", "ICICI", 4000);
@@ -139,3 +125,50 @@ public class Assignment_23 {
 		assignment_23.getIndividualBankDebitCount();
 	}
 }
+
+// aniket has account in 4 banks ;
+/*
+ * //showTotalBalance(); // public class Assignment_23 { static int
+ * totalBalance=0; int credit; int debit; int totalCredit; int totalDebit; int
+ * currentbalance;
+ * 
+ * void creditAmount() {
+ * 
+ * 
+ * }
+ * 
+ * void debitAmount() {
+ * 
+ * 
+ * }
+ * 
+ * void showTotalBalance() {
+ * 
+ * 
+ * }
+ * 
+ * 
+ * 
+ * void processData(String bankName) {
+ * 
+ * switch (bankName) { case "ICICI": creditAmount(); debitAmount();
+ * showTotalBalance();
+ * 
+ * break; case "HDFC": creditAmount(); debitAmount(); showTotalBalance(); break;
+ * 
+ * case "BOB": creditAmount(); debitAmount(); showTotalBalance(); break;
+ * 
+ * case "SBI": creditAmount(); debitAmount(); showTotalBalance(); break;
+ * 
+ * default: break; }
+ * 
+ * }
+ * 
+ * public static void main(String[] args) {
+ * 
+ * 
+ * 
+ * }
+ * 
+ * }
+ */
