@@ -11,11 +11,12 @@ public class Assignment25pg1 {
 			char ch = str.charAt(index);
 			if (Character.isDigit(ch)) {
 				numStr += ch;
-			} else {
-				if (numStr != "") {
+				if(index== str.length()-1) {
 					sum += Integer.parseInt(numStr);
-					numStr = "";
 				}
+			} else if (numStr != "") {
+				sum += Integer.parseInt(numStr);
+				numStr = "";
 			}
 		}
 		return sum;
@@ -23,7 +24,8 @@ public class Assignment25pg1 {
 
 	public static void main(String[] args) {
 		Assignment25pg1 assignment25pg1 = new Assignment25pg1();
-		String strInput = "te12ch33no3credit4s";
+		//String strInput = "te12ch33no3credit4s";
+		String strInput = "te12ch33no3credit4s11";
 		System.out.println("Sum of consecutive digits is: " + assignment25pg1.sumOfConsecutiveDigits(strInput));
 	}
 }
