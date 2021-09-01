@@ -42,7 +42,7 @@ public class Assignment_26_string {
 			output+=input.charAt(index);
 		System.out.println("Reverse string : ");
 		System.out.println(output);
-			
+		System.out.println("------------------------------------------");	
 	}
 	//Program : 2 :	reverse given string array.
 	void reverseArray(String[] arrayStr) {
@@ -55,18 +55,19 @@ public class Assignment_26_string {
 			x++;
 		}	
 		System.out.println("Reverse Array "+Arrays.toString(revereTest));
+		System.out.println("------------------------------------------");
 		
 	}
 	
 	//Program : 3:	swap 2 numbers with using 3rd variable
-	void swapNumberUsing3rdVariable() {
-		int number1=35;
-		int number2= 11;
+	void swapNumberUsing3rdVariable(int number1, int number2) {
+		 
 		int temp=0;
 		temp=number1;
 		number1= number2;
 		number2= temp;
 		System.out.println(number1+ "," +number2);
+		System.out.println("------------------------------------------");
 			
 	}
 	
@@ -80,19 +81,20 @@ public class Assignment_26_string {
 		for (int index= numberString.length()-1; index>=0; index--)
 			revreseNumber=revreseNumber+ numberString.charAt(index);
 		System.out.print(revreseNumber);
+		System.out.println("------------------------------------------");
 	}
 	
 	// Program : 4:	swap 2 numbers with using 3rd variable
 	
-	void swapNumberWIthoutvariable() {
-		int number1= 30;
-		int number2=50;
+	void swapNumberWIthoutvariable(int number1, int number2) {
+		
 		System.out.println("Number 1: "+number1+", Number2: "+number2);
 		number1=number1+number2;  
 		number2=number1-number2;
 		number1= number1-number2;
 		System.out.println("Post swap");
 		System.out.println("Number 1: "+number1+", Number2: "+number2);
+		System.out.println("------------------------------------------");
 	}
 	
 	
@@ -107,8 +109,8 @@ public class Assignment_26_string {
 		String[] test= {"Bhakti","Mohit", "Priya" , "Vaishanvi"};
 		assignment_25_string.reverseArray(test);
 		
-		assignment_25_string.swapNumberUsing3rdVariable();
-		assignment_25_string.swapNumberWIthoutvariable();
+		assignment_25_string.swapNumberUsing3rdVariable(20, 30);
+		assignment_25_string.swapNumberWIthoutvariable(20, 30);
 		
 	}
 
