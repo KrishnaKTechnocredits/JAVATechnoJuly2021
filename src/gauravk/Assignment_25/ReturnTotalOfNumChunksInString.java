@@ -18,14 +18,16 @@ public class ReturnTotalOfNumChunksInString {
 		for(int i=0; i<str.length(); i++) {
 			char ch = str.charAt(i);
 			if(Character.isDigit(ch)) {
-				s = s + Character.toString(ch);
-				sum += Integer.parseInt(s);
-				continue;
+				s = s + ch;
+				//sum += Integer.parseInt(s);
 			}
-			if(!Character.isDigit(ch)) {
-				s="";
-			}	
-		}
+			else {
+				if (s.length()>0) {
+					sum = sum + Integer.parseInt(s);
+					s="";
+				}
+			}
+		}	
 		System.out.println("The sum of numbers in the string ["+str+"] is "+sum);
 	}
 	
