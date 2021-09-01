@@ -8,10 +8,14 @@ public class Assignment25_1 {
 		for (int index = 0; index < str.length(); index++) {
 			if (Character.isDigit(str.charAt(index)))
 				temp += str.charAt(index);
-			else if (!temp.equals("")) {
-				sum += Integer.parseInt(temp);
+			else {
+				if (temp.length() > 0)
+					sum = sum + Integer.parseInt(temp);
 				temp = "";
 			}
+		}
+		if (temp != "") {
+			sum = sum + Integer.parseInt(temp);
 		}
 		return sum;
 	}
