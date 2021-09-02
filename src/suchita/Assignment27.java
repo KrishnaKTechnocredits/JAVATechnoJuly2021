@@ -10,14 +10,17 @@ class Assignment27 {
 		
 		boolean flag = false;
 		System.out.println("\n Given array1 = " + Arrays.toString(arr1) +"\n       array2 = " + Arrays.toString(arr2));
-		if(arr1.length == arr2.length) {
-			for(int index=0;index<arr1.length;index++) {
-				if(arr1[index] == arr2[index]) {
+		
+		if (arr1.length == arr2.length) {
+			for (int index = 0; index < arr1.length; index++) {
+				if (arr1[index] == arr2[index]) {
 					flag = true;
-				}else 
+				} else {
 					flag = false;
+					break;
+				}
 			}
-		}else
+		} else
 			flag = false;
 		
 		if(flag)
