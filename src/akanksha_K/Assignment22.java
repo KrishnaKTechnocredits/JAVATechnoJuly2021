@@ -31,6 +31,6 @@ public class Assignment22 {
 		Assignment22 assignment22  = new Assignment22();
 		
 		System.out.println("Number of digits in " + str1+ " are : " + assignment22.getStringCount(str1));
-		System.out.println("Number of digits in " + str1+ " are : " + assignment22.getStringSum(str2));
+		System.out.println("sum of digits in " + str2+ " are : " + assignment22.getStringSum(str2));
 	}
 }
