@@ -1,6 +1,5 @@
 package laxman;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 //Program : 1 
