@@ -30,15 +30,28 @@ public class ReverseString {
 			System.out.print(reversedStrArray[index] + ",");
 		}
 		System.out.print("}");
+		System.out.println("");
 
 	}
 
 	public static void main(String[] args) {
 		ReverseString newObject = new ReverseString();
+		System.out.println("-----------------Program1---------------------");
 		String inputString = "This is technocredits";
 		System.out.println("The reversed string is: " + newObject.reverseGivenString(inputString));
+		System.out.println("-----------------Program2---------------------");
 		String[] inputArr = { "Credits", "Techno", "From", "Diwali", "Happy" };
 		newObject.reverseStringArray(inputArr);
+
+		VariableSwap newObject1 = new VariableSwap();
+		System.out.println("-----------------Program3---------------------");
+		System.out.println("Calling method to swap variables using 3rd variable");
+		System.out.println("The passed values are 10, 15");
+		newObject1.swapVariableUsingThirdVariable(10, 15);
+		System.out.println("-----------------Program4---------------------");
+		System.out.println("Calling method to swap variables without using 3rd variable");
+		System.out.println("The passed values are  5, 8");
+		newObject1.swapVariableWithoutThirdVariable(5, 8);
 
 	}
 

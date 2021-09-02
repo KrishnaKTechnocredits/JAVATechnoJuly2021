@@ -20,11 +20,4 @@ public class VariableSwap {
 
 	}
 
-	public static void main(String[] args) {
-		VariableSwap newObject = new VariableSwap();
-		newObject.swapVariableUsingThirdVariable(10, 15);
-		newObject.swapVariableWithoutThirdVariable(5, 8);
-
-	}
-
 }
