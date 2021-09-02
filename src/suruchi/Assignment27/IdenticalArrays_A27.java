@@ -1,7 +1,6 @@
 package suruchi.Assignment27;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class IdenticalArrays_A27 {
 
@@ -36,7 +35,7 @@ public class IdenticalArrays_A27 {
 
 		System.out.println();
 		identicalArrays_A27.verifyIdenticalArrays(arr1, arr2);
-		
+
 		int[] arr3 = { 10, 12, 55, 32, 17, 99 };
 		int[] arr4 = { 10, 12, 55, 32, 17 };
 
