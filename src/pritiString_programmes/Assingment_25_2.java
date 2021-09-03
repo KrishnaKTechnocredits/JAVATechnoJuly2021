@@ -1,4 +1,4 @@
-package pritiString_programmes;
+package pritiString_Programmes;
 
 public class Assingment_25_2 {
 	String str= "";
