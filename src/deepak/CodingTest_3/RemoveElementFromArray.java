@@ -1,4 +1,4 @@
-package basic.CodingTest_3;
+package deepak.CodingTest_3;
 
 import java.util.Arrays;
 
