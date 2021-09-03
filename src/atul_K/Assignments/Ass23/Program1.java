@@ -98,51 +98,57 @@ public class Program1 {
 	
 	void creaditOperation(String bname, int amt) {
 		bname = bname.toUpperCase();
-		switch(bname) {
-			case "ICICI":
-				ibalance += amt;
-				iCreditOp++;
-				break;
-			case "HDFC":
-				ibalance += amt;
-				hCreditOp++;
-				break;
-			case "SBI":
-				ibalance += amt;
-				sCreditOp++;
-				break;
-			case "BOB":
-				ibalance += amt;
-				bCreditOp++;
-				break;
-			default:
-				System.out.println("invalid Operation");
-				break;
-		}
+		if (amt>0) {
+			switch(bname) {
+				case "ICICI":
+					ibalance += amt;
+					iCreditOp++;
+					break;
+				case "HDFC":
+					ibalance += amt;
+					hCreditOp++;
+					break;
+				case "SBI":
+					ibalance += amt;
+					sCreditOp++;
+					break;
+				case "BOB":
+					ibalance += amt;
+					bCreditOp++;
+					break;
+				default:
+					System.out.println("invalid Operation");
+					break;
+			}
+		} else 
+				System.out.println("enter the valid amount");
 	}
 	
 	void debitOperation(String bname, int amt) {
 		bname = bname.toUpperCase();
-		switch(bname) {
-			case "ICICI":
-				ibalance -= amt;
-				iDeditOp++;
-				break;
-			case "HDFC":
-				ibalance -= amt;
-				hDeditOp++;
-				break;
-			case "SBI":
-				ibalance -= amt;
-				sDeditOp++;
-				break;
-			case "BOB":
-				ibalance -= amt;
-				bDeditOp++;
-				break;
-			default:
-				System.out.println("invalid Operation");
-				break;
-		}
+		if(amt>0) {
+			switch(bname) {
+				case "ICICI":
+					ibalance -= amt;
+					iDeditOp++;
+					break;
+				case "HDFC":
+					ibalance -= amt;
+					hDeditOp++;
+					break;
+				case "SBI":
+					ibalance -= amt;
+					sDeditOp++;
+					break;
+				case "BOB":
+					ibalance -= amt;
+					bDeditOp++;
+					break;
+				default:
+					System.out.println("invalid Operation");
+					break;
+			}
+		}  else 
+				System.out.println("enter the valid amount");
 	}
 }
