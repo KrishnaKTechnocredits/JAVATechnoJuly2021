@@ -17,13 +17,6 @@ public class Test3_RemoveSpecificElementFromArray {
 		System.out.println("After removing number " + numToDelete + " from Array,  Elements Are :" + Arrays.toString(output));	
 	}
 	
-	void removeElementUsingIndex(int array[], int numIndexToDelete) {
-		System.out.println("Array before removing Elements : "+ Arrays.toString(array));
-		for(int index1=numIndexToDelete; index1 <= array.length-1; index1 ++) {
-				array[index1]=array[index1+1];
-		}
-		System.out.println("Array before removing Elements : "+ Arrays.toString(array));
-	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
