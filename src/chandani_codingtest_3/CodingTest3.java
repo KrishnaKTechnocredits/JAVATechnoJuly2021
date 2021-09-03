@@ -7,11 +7,12 @@ public class CodingTest3{
 		int[] getArrayAfterRemovingANumber(int[] input){
 			int output[] = new int[input.length-1];
 			output[0] = input[0];
-			for(int index = 1 ; index < input.length-1; index++) {
-					output[index] = input[(index+1)];
-				}
+			
+			for(int index = 1 ; index < input.length-1; index++){
+				output[index] = input[(index+1)];
+			}
 			return output;
-			}	
+		}	
 			
 	
 		public static void main(String[] args){
