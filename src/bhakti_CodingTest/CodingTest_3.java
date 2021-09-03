@@ -21,8 +21,9 @@ public class CodingTest_3 {
 			}
 		}
 		
-		System.out.println("Input array "+ Arrays.toString(input) );
-		System.out.println("New array "+ Arrays.toString(output));
+		System.out.println("Input array: "+ Arrays.toString(input) );
+		System.out.println("Element to be removed: "+ element );
+		System.out.println("New array: "+ Arrays.toString(output));
 		
 	}
 	
