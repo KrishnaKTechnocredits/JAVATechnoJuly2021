@@ -12,9 +12,9 @@ public class CodingTest3{
 					output[count] = input[(index)];
 					count++;
 				}
-			}
+		}
 		return output;
-		}	
+	}	
 		
 
 	public static void main(String[] args){
