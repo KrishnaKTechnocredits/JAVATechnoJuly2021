@@ -1,7 +1,5 @@
 package nishi.Assignment28;
 
-import java.util.Arrays;
-
 public class Assignment28A {
 	int[] input= {10,23,2,11,55,43,99};
 	
