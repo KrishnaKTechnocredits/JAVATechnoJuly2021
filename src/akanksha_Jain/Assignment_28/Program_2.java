@@ -26,6 +26,6 @@ public class Program_2 {
 	
 	public static void main(String[] args) {
 		Program_2 program_2 = new Program_2();
-		System.out.println("The nth maximum number in array is " + program_2.nthMaxNumber(4));
+		System.out.println("The nth maximum number in array is " + program_2.nthMaxNumber(3));
 	}
 }
