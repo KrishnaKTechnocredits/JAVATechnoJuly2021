@@ -22,7 +22,7 @@ public class Assignment28_Program_1 {
 			
 			if(array[index]>firstMax) {
 				secondMax=firstMax;
-				firstMax=array[];
+				firstMax=array[index];
 			}
 			else if(secondMax>array[index]){
 				secondMax=array[index];
