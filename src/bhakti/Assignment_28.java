@@ -12,7 +12,7 @@ output : 43*/
 package bhakti;
 
 import java.util.Arrays;
- 
+
 
 public class Assignment_28 {
 	
@@ -21,16 +21,9 @@ public class Assignment_28 {
 	void findGrestestSeconnumber(int[] input) {
 		 
 		int firstnumber=input[0];
-		int secondNumber=input[1];
+		int secondNumber=input[0];
 		 
-		if (input[0]>input[1]) {
-			firstnumber=input[0];
-			secondNumber=input[1];
-		}else {
-			firstnumber=input[1];
-			secondNumber=input[0];
-		}
-			
+		 			
 		for (int index=0; index< input.length; index++) {
 			if (input[index]>firstnumber) {
 				secondNumber=firstnumber;
