@@ -7,7 +7,7 @@ Program 2 : Max repeating word with its freq.
 input : Hi Hello Hi Techno Hello Hi
 output : Hi -> 3 */
 
-package chandani_Assignment_24;
+package chandani.Assignment_24;
 
 class Assignment24a{
 		

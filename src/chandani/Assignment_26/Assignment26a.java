@@ -14,7 +14,7 @@ swap 2 numbers with using 3rd variable
 Program : 4 
 swap 2 numbers without using 3rd variable*/
 
-package chandani_Assignment_26;
+package chandani.Assignment_26;
 
 public class Assignment26a{
 

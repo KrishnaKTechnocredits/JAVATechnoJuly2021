@@ -1,4 +1,4 @@
-package chandani_Coding_Test2;
+package chandani.chandani_Coding_Test2;
 
 public class CodingTest2{
 

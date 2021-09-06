@@ -13,7 +13,7 @@ int[] arr1 = {10,12,55,32,17};
 int[] arr2 = {10,12,99,32,17}};
 output : Not Identical */
 
-package chandani_Assignment_27;
+package chandani.Assignment_27;
 
 import java.util.Arrays;
 
