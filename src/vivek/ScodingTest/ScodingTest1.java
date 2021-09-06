@@ -1,4 +1,4 @@
-package vivek;
+package vivek.ScodingTest;
 
 public class ScodingTest1 {
 
