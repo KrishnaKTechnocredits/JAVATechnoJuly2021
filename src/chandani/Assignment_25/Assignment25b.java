@@ -1,4 +1,4 @@
-package chandani_Assignment_25;
+package chandani.Assignment_25;
 
 public class Assignment25b{
 

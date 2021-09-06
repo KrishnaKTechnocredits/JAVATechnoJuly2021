@@ -7,7 +7,7 @@ output = 12+33+3+4
 Program 1:
 String str = "Ma1U2liK"
 output : MUK12ali */
-package chandani_Assignment_25;
+package chandani.Assignment_25;
 
 public class Assignment25a{
 

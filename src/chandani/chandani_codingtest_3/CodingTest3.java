@@ -1,4 +1,4 @@
-package chandani_codingtest_3;
+package chandani.chandani_codingtest_3;
 
 import java.util.Arrays;
 

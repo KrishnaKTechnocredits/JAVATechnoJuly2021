@@ -1,4 +1,4 @@
-package chandani_Assignment_26;
+package chandani.Assignment_26;
 
 import java.util.Arrays;
 
