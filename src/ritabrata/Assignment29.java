@@ -40,7 +40,7 @@ public class Assignment29 {
 			reverse= reverse+ input.charAt(index);
 		}
 		if(input.equalsIgnoreCase(reverse))
-			System.out.println("The input string: "+input+" is not palindrome");	
+			System.out.println("The input string: "+input+" is palindrome");	
 	}
 	
 	void getPalindromeWithoutReverse(String input) {
