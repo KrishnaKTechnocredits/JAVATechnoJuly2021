@@ -21,7 +21,7 @@ public class Palindrome_A29 {
 	boolean isPalindromeWOReverseMethod(String input) {
 		boolean flag = false;
 		for (int index = 0; index < input.length(); index++) {
-			if (input.charAt(index) == input.charAt((input.length() - 1) - index))
+			if (Character.toLowerCase(input.charAt(index)) == Character.toLowerCase(input.charAt((input.length() - 1) - index)))
 				flag = true;
 			else {
 				flag = false;
