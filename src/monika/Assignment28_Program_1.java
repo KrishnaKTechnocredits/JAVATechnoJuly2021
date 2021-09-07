@@ -24,7 +24,7 @@ public class Assignment28_Program_1 {
 				secondMax=firstMax;
 				firstMax=array[index];
 			}
-			else if(secondMax>array[index]){
+			else if(array[index] != firstMax && array[index] > secondMax){
 				secondMax=array[index];
 			}
 		}
