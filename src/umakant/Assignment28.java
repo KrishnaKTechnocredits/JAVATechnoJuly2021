@@ -27,7 +27,7 @@ public class Assignment28 {
 			if (input[index] > max) {
 				secondMax = max;
 				max = input[index];
-			} else if (input[index] > max) {
+			} else if (input[index] != max && input[index] > secondMax) {
 				secondMax = input[index];
 			}
 		}
