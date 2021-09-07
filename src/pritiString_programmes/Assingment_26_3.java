@@ -1,4 +1,4 @@
-package pritiString_Programmes;
+package pritiString_programmes;
 
 public class Assingment_26_3 {
 	void assingment_26_3(int num1, int num2){

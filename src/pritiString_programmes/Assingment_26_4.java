@@ -1,4 +1,4 @@
-package pritiString_Programmes;
+package pritiString_programmes;
 
 public class Assingment_26_4 {
 	void swapNumberswithout3rdvar(int num1, int num2) {
