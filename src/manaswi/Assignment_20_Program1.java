@@ -33,7 +33,6 @@ public class Assignment_20_Program1
 	public static void main(String[] args)
 	{
 		Assignment_20_Program1 program_1 = new Assignment_20_Program1();
-		 = new Scanner(System.in);
 		System.out.println("Enter the String form which want to check occurance of character ");
 		String input = sc.next();
 		System.out.println("Enter the character to check how many times occcured in string");
