@@ -21,8 +21,10 @@ public class Program_5_PerfectSquare {
 	}
 
 	public static void main(String[] args) {
-		int number = 9;
+		int number = 25; // 5 * 5 = 25 equal to number
+		int number2 = 30; // 15 * 15 = 225 not equal to number2
 		Program_5_PerfectSquare perfSquare = new Program_5_PerfectSquare();
 		perfSquare.displayPerfectSquareResult(number);
+		perfSquare.displayPerfectSquareResult(number2);
 	}
 }
