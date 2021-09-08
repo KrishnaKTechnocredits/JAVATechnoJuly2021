@@ -11,7 +11,7 @@ public class StringPallindromePg2 {
 			if (str.charAt(index) == str.charAt(str.length() - index - 1))
 				matchCount++;
 		}
-		if (matchCount == str.length())
+		if (matchCount == str.length()/2)
 			System.out.println("String " + str + " is pallindrome");
 		else
 			System.out.println("String " + str + " is not pallindrome");
@@ -19,9 +19,9 @@ public class StringPallindromePg2 {
 
 	public static void main(String[] args) {
 		StringPallindromePg2 stringPallindromePg2 = new StringPallindromePg2();
-		String input = "naman";
+		String input = "malayalam";
 		stringPallindromePg2.findAndDisplayStringPallindrome(input);
-		input = "parth";
+		input = "aarchi";
 		stringPallindromePg2.findAndDisplayStringPallindrome(input);
 	}
 
