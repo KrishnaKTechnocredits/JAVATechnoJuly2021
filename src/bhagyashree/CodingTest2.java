@@ -26,7 +26,7 @@ public class CodingTest2 {
 	public static void main(String[] args)
 	{
 		Assignment25 assignment25=new Assignment25();
-		System.out.println("String after conversion: "+assignment25.convertStringUpperandLowerCase("A1ashVi6"));
+		//System.out.println("String after conversion: "+assignment25.convertStringUpperandLowerCase("A1ashVi6"));
 		
 	}
 

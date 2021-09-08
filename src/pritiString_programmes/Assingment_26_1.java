@@ -1,4 +1,4 @@
-package pritiString_Programmes;
+package pritiString_programmes;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package pritiString_Programmes;
+package pritiString_programmes;
 
 public class Assingment_25_1 {
 	String rearrangeString(String str) {
