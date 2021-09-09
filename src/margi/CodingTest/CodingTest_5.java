@@ -5,7 +5,7 @@ public class CodingTest_5 {
 	void getPerfectNumbers() {
 		int count=0;
 		long sum, number = 1;
-		while(count<=5) {
+		while(count<5) {
 			sum=0;
 			for(int index=1; index<number; index++) {
 				if(number%index==0)
