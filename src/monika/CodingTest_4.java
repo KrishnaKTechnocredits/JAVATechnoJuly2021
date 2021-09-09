@@ -19,8 +19,6 @@ public class CodingTest_4 {
 			
 		}
 		System.out.println(Arrays.toString(output));		
-		
-		
 	}
 	public static void main(String[] args) {
 		int arr[] = {1,0,0,6,0,2,3,0,4,0,5};
