@@ -11,7 +11,7 @@ public class SCodingTest4 {
 			if (arr[index] > 0)
 				output[count++] = arr[index];
 		}
-		while(count < arr.length)
+		while (count < arr.length)
 			output[count++] = 0;
 		return output;
 	}
