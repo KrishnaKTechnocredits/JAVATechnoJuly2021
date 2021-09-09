@@ -13,7 +13,8 @@ public class Coding_Test_4 {
 				count ++;
 			}
 		}
-		System.out.println(Arrays.toString(output));
+		System.out.println("Shift all zeros of input array " + Arrays.toString(arr) + " in last");
+		System.out.println("Output is " + Arrays.toString(output));
 	}
 	
 	public static void main(String[] args) {
