@@ -13,7 +13,7 @@ divisors is 6.*/
 public class PerfectNumPg3 {
 	void findAndDisplayPerfectNum(int num) {
 		int sum = 0;
-		for (int index = 1; index < num; index++) {
+		for (int index = 1; index <= num/2; index++) {
 			if (num % index == 0)
 				sum += index;
 		}
