@@ -6,7 +6,7 @@ public class Test5 {
 		long sum;
 		int count=1;
 		while(count<=5) {
-			for (long num=1;count<=6;num++) {
+			for (long num=1;;num++) {
 				sum=0;
 				for(int j=1;j<num;j++) {
 					if(num%j==0) {
