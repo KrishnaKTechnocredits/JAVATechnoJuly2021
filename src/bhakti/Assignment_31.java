@@ -90,6 +90,22 @@ public class Assignment_31 {
 			System.out.println("No consecutive available");
 		
 	}
+	//Programm 4 //perfect number in range
+	void findPerfectNumberinRange(int start, int end) {
+		System.out.println("------------------------");
+		System.out.println("Perfect number between " +start+" - "+end);
+
+		for (int num=start; num<=end; num++) {
+			int sum=1;
+			for (int index=2; index<num; index++) {
+				if (num%index==0)
+					sum+=index;
+			}
+			if (sum==num)
+				System.out.println(num );
+		}	
+		
+	}
 	
 	public static void main(String[] j) {
 		Assignment_31 assignment_31 =new Assignment_31();
@@ -105,6 +121,8 @@ public class Assignment_31 {
 		
 		assignment_31.find3consecutiveNumber(arr);
 		assignment_31.find3consecutiveNumber(arr1);
+		
+		assignment_31.findPerfectNumberinRange(1,100);
 			
 	}
 
