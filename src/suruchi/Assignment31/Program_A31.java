@@ -30,14 +30,14 @@ public class Program_A31 {
 
 	void printPerfectNumbers(int startIndex, int endIndex) {
 		System.out.println("Output: ");
-		boolean flag = true;
+		boolean flag = false;
 		for (int input = startIndex; input <= endIndex; input++) {
 			if (isPerfectNumber(input)) {
 				System.out.println(input + " ");
-				flag = false;
+				flag = true;
 			}
 		}
-		if (flag)
+		if (!flag)
 			System.out.println("No perfect numbers in this range");
 	}
 
