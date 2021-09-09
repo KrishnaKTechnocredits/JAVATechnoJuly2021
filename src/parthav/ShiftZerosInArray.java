@@ -7,7 +7,6 @@ package parthav;
 public class ShiftZerosInArray {
 
 	int[] getArrayWithZerosShifted(int[] inputArr) {
-		int tempCountOfZeros = 0;
 		int[] returnedArr = new int[inputArr.length];
 		int returnedArrIndex = 0;
 		for (int index = 0; index < inputArr.length; index++) {
@@ -15,18 +14,7 @@ public class ShiftZerosInArray {
 			if (inputArr[index] != 0) {
 				returnedArr[returnedArrIndex] = inputArr[index];
 				returnedArrIndex++;
-			} else
-				tempCountOfZeros++;
-
-		}
-		returnedArrIndex = 0;
-		while (tempCountOfZeros > 0) {
-			if (returnedArr[returnedArrIndex] < 1) {
-				returnedArr[returnedArrIndex] = 0;
-				tempCountOfZeros--;
-			}
-
-			returnedArrIndex++;
+			} 
 
 		}
 
