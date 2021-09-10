@@ -1,4 +1,4 @@
-package himanshu_Scoding_test_1;
+package himanshu_Scoding_Tests;
 
 import java.util.Arrays;
 
