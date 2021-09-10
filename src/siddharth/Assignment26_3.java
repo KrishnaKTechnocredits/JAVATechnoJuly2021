@@ -2,11 +2,11 @@ package siddharth;
 
 public class Assignment26_3 {
 	void swapTwoNumbers(int num1, int num2) {
+		int num;
 		System.out.println("Numbers before swapping " + "num1 = " + num1 + " num2 = " + num2);
-		num1 = num1 + num2;
-		num2 = num1 - num2;
-		num1 = (num1 + num2) / 2;
-		num2 = (num1 - num2) / 2;
+		num = num1;
+		num1 = num2;
+		num2 = num;
 		System.out.println("Numbers after swapping " + "num1 = " + num1 + " num2 = " + num2);
 	}
 
