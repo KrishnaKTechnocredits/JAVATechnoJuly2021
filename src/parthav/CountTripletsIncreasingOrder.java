@@ -19,11 +19,10 @@ public class CountTripletsIncreasingOrder {
 
 			} else {
 				increasingOrderCount = 0;
-				
+
 			}
-			if (increasingOrderCount == 2) {
+			if (increasingOrderCount >= 2) {
 				tripletsCount++;
-				increasingOrderCount = 0;
 			}
 			lowerArrayIndex = inputArr[index];
 
@@ -31,11 +30,15 @@ public class CountTripletsIncreasingOrder {
 		return tripletsCount;
 	}
 
+	
 	public static void main(String[] args) {
 		CountTripletsIncreasingOrder newObject = new CountTripletsIncreasingOrder();
-		int[] inputArr = {10,9,11,6,23,25,22,66,34};
+		int[] inputArr = { 10,9,11,6,23,25,22,66,34 };
 		System.out.println("The total number of triplets count are: " + newObject.getTripletsCount(inputArr));
+		int[] inputArr1 = {10,9,11,6,23,25,26,2,34 };
+		System.out.println("The total number of triplets count are: " + newObject.getTripletsCount(inputArr1));
 		
+
 	}
 
 }
