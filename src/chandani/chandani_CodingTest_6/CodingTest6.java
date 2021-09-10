@@ -2,7 +2,7 @@ package chandani.chandani_CodingTest_6;
 
 public class CodingTest6 {
 	
-	char getNonRepeatingNumber(String input) {
+	char getNonRepeatingCharacter(String input) {
 		
 		char ch = ' ';
 		for(int index = 0; index < input.length();index++) {
@@ -18,6 +18,6 @@ public class CodingTest6 {
 	public static void main(String[] args) {
 		CodingTest6 codingTest6 = new CodingTest6();
 		String input = "technocredits";
-		System.out.println("Non repeating letter in the given word is : " + codingTest6.getNonRepeatingNumber(input));	
+		System.out.println("Non repeating letter in the given word is : " + codingTest6.getNonRepeatingCharacter(input));	
 	}
 }
