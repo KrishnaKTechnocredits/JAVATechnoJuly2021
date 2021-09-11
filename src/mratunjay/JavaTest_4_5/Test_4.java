@@ -17,6 +17,7 @@ public class Test_4 {
 			}
 		}
 		for (int i = 0; i < output.length; i++) {
+			
 			System.out.println(output[i]);
 		}
 	}

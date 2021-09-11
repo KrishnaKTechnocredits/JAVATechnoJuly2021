@@ -16,7 +16,7 @@ public class Test_5 {
 		}
 		if (sum == N) {
 
-			System.out.println("Number is perfect number:   " + N);
+			System.out.println("Number is perfect number:    " + N);
 			count++;
 		}
 
