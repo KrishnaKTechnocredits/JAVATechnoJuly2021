@@ -45,10 +45,10 @@ public class Program {
 		int i,a=0,b=0,c=0,maxSum=0;
 		for(i=0;i<input.length-2;i++) 
 			if(input[i+1]==input[i]+1 && input[i+2]==input[i+1]+1 && maxSum<input[i]+input[i+1]+input[i+2]) {
-				maxSum=a+b+c;
 				a=input[i];
 				b=input[i+1];
 				c=input[i+2];
+				maxSum=a+b+c;
 		}
 		System.out.println("The Triplets which is in sequence and Max sum are "+ a+","+b+","+c);
 	}
