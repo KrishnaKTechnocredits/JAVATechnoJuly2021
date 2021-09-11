@@ -7,6 +7,8 @@ output : 2 + 1 + 1 + 1  = 5
 
 package husain.CodingTest_8;
 
+import java.util.Arrays;
+
 public class NumberPairs {
 
 	void loopArray(int arr[]) {
@@ -27,7 +29,7 @@ public class NumberPairs {
 				pairCount = pairCount + (count + 1) / 2;
 
 		}
-		System.out.println(pairCount);
+		System.out.println("THe number of pairs in the given array "+Arrays.toString(arr)+" is "+pairCount);
 	}
 
 	public static void main(String[] args) {
