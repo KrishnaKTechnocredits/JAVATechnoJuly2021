@@ -20,7 +20,7 @@ public class CodingTest7 {
 				}
 			}
 		}
-		System.out.println("Count of sequential triplets " + count);
+		System.out.println("Count of increasing order triplets " + count);
 	}
 	
 	public static void main(String[] args) {
