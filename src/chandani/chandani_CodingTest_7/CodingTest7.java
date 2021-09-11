@@ -1,3 +1,7 @@
+/*Program 1: Count the number of triplets in increasing order. [expected time : 10 mins]
+input : 10,9,11,6,23,25,22,66,34
+ouput : 1
+hint : 6,23,25 */
 package chandani.chandani_CodingTest_7;
 
 public class CodingTest7 {
