@@ -1,3 +1,7 @@
+/*Test - 8 : 11th Sep'2021
+How many pairs can be created from below sock size array. [30]
+input = {3,5,6,3,5,3,7,7,8,3,3,5,8,8}
+output : 2 + 1 + 1 + 1  = 5 */
 package chandani.chandani_CodingTest_8;
 
 import java.util.Arrays;
