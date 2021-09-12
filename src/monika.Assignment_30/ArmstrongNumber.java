@@ -1,7 +1,7 @@
 /*Program 2: Verify whether given number is Armstrong number.
 input : 153
 output : 153 is an Armstrong number*/
-package Assignment_30;
+package monika.Assignment_30;
 
 public class ArmstrongNumber {
 
