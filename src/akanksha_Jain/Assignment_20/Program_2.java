@@ -1,3 +1,12 @@
+/* Assignment-20 : 21st Aug'2021
+program 2: Find frequency of each character from user defined string.
+input : word -> hello
+output : h -> 1     	
+		 e -> 1          	
+		 l -> 2  	
+		 o -> 1
+*/
+
 package akanksha_Jain.Assignment_20;
 
 import java.util.Scanner;

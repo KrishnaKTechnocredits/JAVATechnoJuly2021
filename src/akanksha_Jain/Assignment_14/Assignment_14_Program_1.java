@@ -1,3 +1,9 @@
+/* Assignment 14 : 15th Aug'2021
+program 1 : find maximum number from given array.
+int[] input = {1,11,44,23,55,99,23};
+output : 99
+*/
+
 package akanksha_Jain.Assignment_14;
 
 public class Assignment_14_Program_1 {

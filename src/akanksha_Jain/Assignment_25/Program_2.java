@@ -1,3 +1,9 @@
+/* Assignment 25 : 29th Aug'2021
+Program2:
+String str = "Ma1U2liK"
+output : MUK12ali
+*/
+
 package akanksha_Jain.Assignment_25;
 
 public class Program_2 {

@@ -1,3 +1,10 @@
+/* Assignment - 18 : 19th Aug'21                                                                             	
+Program 2 : Reverse all elements and place it in a reverse order
+String[] input = {"techno", "credits", "krishna","harsh"}
+output : [hsrah, anhsirk, stiderc, onhcet]
+Note : use sop(Arrays.toString(output)) to print the array content.
+*/
+
 package akanksha_Jain.Assignment_18;
 
 import java.util.Arrays;

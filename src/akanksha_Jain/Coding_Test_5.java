@@ -1,3 +1,6 @@
+/* Test 5 :
+Find first 5 perfect numbers. */
+
 package akanksha_Jain;
 
 public class Coding_Test_5 {

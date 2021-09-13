@@ -1,3 +1,13 @@
+/* Test - 6 : 10th Sep'2021
+Program 1: Find first non repeating character from a word. [expected : 10 mins]
+input : technocredits
+output : h
+
+Program 2: Find first non repeating word from a given String. [expected : 15 mins]
+input : hi this is techno gm credits this hi is
+output : techno
+*/
+
 package akanksha_Jain;
 
 public class Coding_Test_6 {
