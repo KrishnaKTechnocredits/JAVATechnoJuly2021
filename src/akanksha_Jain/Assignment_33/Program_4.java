@@ -34,6 +34,7 @@ public class Program_4 {
 	public static void main(String[] args) {
 		int[] arr = {1,3,4,5,7,3,9,10,11,12,44,67,1,2,3,99};
 		Program_4 program4 = new Program_4();
+		System.out.println("In the array- " + Arrays.toString(arr));
 		System.out.println("The triple sequence having max sum= " + program4.findMaxSumTripleSeq(arr));
 	}		
 }
