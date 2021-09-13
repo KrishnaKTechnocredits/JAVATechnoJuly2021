@@ -20,5 +20,6 @@ public class ReverseNumber {
 	public static void main(String[] args) {
 		ReverseNumber reversenumber=new ReverseNumber();
 		reversenumber.reverseNumber(12345);
+		
 	}
 }

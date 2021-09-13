@@ -23,5 +23,6 @@ public class PerfecrSquare {
 	public static void main(String[] args) {
 		PerfecrSquare perfcetNo=new PerfecrSquare();
 		perfcetNo.displayResult(25);
+		
 	}
 }

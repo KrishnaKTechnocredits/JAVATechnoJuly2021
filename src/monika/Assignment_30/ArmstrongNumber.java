@@ -23,5 +23,6 @@ public class ArmstrongNumber {
 	public static void main(String[] args) {
 		ArmstrongNumber armNumber=new ArmstrongNumber();
 		armNumber.armstrongNumber(153);
+		
 	}
 }
