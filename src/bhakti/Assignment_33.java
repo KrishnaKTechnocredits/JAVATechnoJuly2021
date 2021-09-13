@@ -37,7 +37,7 @@ public class Assignment_33 {
 				count++;
 		}
 		for (int index=0; index< input.length; index++) {
-			if (input[index]>0) {
+			if (input[index]!=0) {
 				output[count]=input[index];
 				count++;
 			}	
