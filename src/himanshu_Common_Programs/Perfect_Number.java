@@ -15,10 +15,10 @@ public class Perfect_Number {
 	}
 
 	public static void main(String[] args) {
-		
+
 		int num1 = 6;
 		int num2 = 60;
-		
+
 		Perfect_Number assignment31_1 = new Perfect_Number();
 		assignment31_1.checkPerfectNumber(num1);
 		assignment31_1.checkPerfectNumber(num2);
