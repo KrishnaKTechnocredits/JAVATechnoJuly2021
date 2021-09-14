@@ -24,7 +24,7 @@ public class SocksPairing {
 			}
 			totalPairs += count / 2;
 		}
-		System.out.println(totalPairs);
+		System.out.println("Total Socks Pair count "+totalPairs);
 	}
 
 	public static void main(String[] args) {
