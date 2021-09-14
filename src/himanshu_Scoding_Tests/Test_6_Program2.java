@@ -1,4 +1,4 @@
-package himanshu_Scoding_test_1;
+package himanshu_Scoding_Tests;
 
 public class Test_6_Program2 {
 
