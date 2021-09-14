@@ -1,3 +1,11 @@
+/* Assignment - 31 : 9th Sep'2021
+Program 1: verify given number is a perfect number or not.
+input : 6
+output : 6 is a perfect number
+input : 50
+output : 50 is not a perfect number
+*/
+
 package akanksha_Jain.Assignment_31;
 
 public class Program_1_PerfectNumber {

@@ -1,3 +1,18 @@
+/* Assignment - 27 : 2nd Sep'2021
+WAP to find 2 arrays are identical or not.
+int[] arr1 = {10,12,55,32,17};
+int[] arr2 = {10,12,55,32,17}};
+output : Identical
+--------------------------------------------
+int[] arr1 = {10,12,55,32,17,99};
+int[] arr2 = {10,12,55,32,17}};
+output : Not identical
+------------------------------------
+int[] arr1 = {10,12,55,32,17};
+int[] arr2 = {10,12,99,32,17}};
+output : Not Identical
+*/
+
 package akanksha_Jain;
 
 import java.util.Arrays;

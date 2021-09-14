@@ -1,3 +1,18 @@
+/* Assignment - 3   3rd Aug'21
+Program 1: Find weekdays or weekend based on dayIndex.
+1 -> Monday   	2 -> Tuesday   	7 -> Sunday
+dayIndex -> 3 : Weekday
+dayIndex -> 6 : WeekEnd
+dayIndex -> 11 : Invalid Index
+dayIndex -> -3 : Invalid Index
+Program 2: Validate Browser name.
+Valid list : Chrome, IE, Edge --> Valid browser
+Safari, FF -> Invaild browser
+Note : score == 10
+String browser = "Chrome";
+Hint: browser.equals("Chrome") || browser.equals("IE") || browser.equals("Edge")
+*/
+
 package akanksha_Jain;
 
 public class Assignment_3{

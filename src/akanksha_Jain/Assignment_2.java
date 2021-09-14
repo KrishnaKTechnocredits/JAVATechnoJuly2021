@@ -1,3 +1,10 @@
+/* Assignment - 2 : 2nd Aug'21
+*Create a class called Bank having 3 methods and one instance variable.
+- expected operations - debitAmount, creditAmount, displayBalanace.
+- variable balance to hold current balance.
+- create only one object and call methods multiple times
+ */
+
 package akanksha_Jain;
 
 public class Assignment_2{

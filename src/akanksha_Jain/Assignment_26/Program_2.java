@@ -1,3 +1,8 @@
+/* Assignment - 26 : 1st Sep'2021
+Program : 2 reverse given string array.
+input : {"Credits", "Techno","From","Diwali","Happy"}
+*/
+
 package akanksha_Jain.Assignment_26;
 
 import java.util.Arrays;

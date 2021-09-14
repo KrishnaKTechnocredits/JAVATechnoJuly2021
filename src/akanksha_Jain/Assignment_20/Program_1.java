@@ -1,3 +1,13 @@
+/* Assignment-20 : 21st Aug'2021
+Program 1: find frequency of given character from user defined string.
+use scanner class to take word and character from user.
+input : word -> technocredits  	 ch -> e
+output : e -> 2
+Note : We dont have any method to take character from String.
+Solution : char ch = scanner.next().charAt(0); will help to capture character given by user.                          	
+Explanation : scanner.next() returns String and on that string we are asking for first character using charAt(0) method.
+*/
+
 package akanksha_Jain.Assignment_20;
 
 import java.util.Scanner;

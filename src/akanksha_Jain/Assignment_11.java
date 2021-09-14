@@ -1,3 +1,14 @@
+/* Assignment - 11 : 13th Aug'2021
+While loop
+Program 1:
+Print first N prime numbers.
+N should be passed as parameter in the method.
+Hint : 10 pass as parameter, method should print first 10 prime numbers.
+Program 2:
+Write a method to find out required numbers to generate sum more than 100.
+output : 14
+*/
+
 package akanksha_Jain;
 
 public class Assignment_11 {

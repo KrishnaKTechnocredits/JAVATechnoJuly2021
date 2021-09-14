@@ -1,3 +1,9 @@
+/* Assignment 25 : 29th Aug'2021
+Program 1:
+String str = "te12ch33no3credit4s";
+output = 12+33+3+4
+*/
+
 package akanksha_Jain.Assignment_25;
 
 public class Program_1 {

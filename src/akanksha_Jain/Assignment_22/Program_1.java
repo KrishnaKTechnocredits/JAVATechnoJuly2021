@@ -1,3 +1,9 @@
+/* Assignment - 22 : 25th Aug'2021
+Program 1 : Find total digits in a given string.
+String str = "Te1ch2no3cr4ed3it4s"
+output : 6
+*/
+
 package akanksha_Jain.Assignment_22;
 
 public class Program_1 {

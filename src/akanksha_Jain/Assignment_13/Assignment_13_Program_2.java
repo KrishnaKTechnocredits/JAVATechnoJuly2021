@@ -1,3 +1,9 @@
+/* Assignment 13 : 15th Aug'2021
+program 2 : count number of zero's in given array.
+int[] input = {1,-11,0,0,55,0,-23,0};
+output : 4
+*/
+
 package akanksha_Jain.Assignment_13;
 
 public class Assignment_13_Program_2 {

@@ -1,3 +1,9 @@
+/* Assignment-20 : 21st Aug'2021
+program 3: print unique characters from user defined string.
+input : word -> aakanksha
+output : n s h
+*/
+
 package akanksha_Jain.Assignment_20;
 
 import java.util.Scanner;

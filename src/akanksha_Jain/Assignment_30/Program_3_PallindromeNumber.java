@@ -1,3 +1,12 @@
+/* Assignment - 30 : 8th Sep'2021
+Program 3: Verify given number is an Palindrome number.
+input : 12321
+output : 12321 is an Palindrome number
+ 
+input : 123
+output : 123 is not an Palindrome number.
+*/
+
 package akanksha_Jain.Assignment_30;
 
 public class Program_3_PallindromeNumber {

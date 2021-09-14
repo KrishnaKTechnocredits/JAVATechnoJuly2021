@@ -1,3 +1,14 @@
+/* Assignment - 29 : 7th Sep'2021
+ Program 2: String Pallindrome by without writing reverse method logic.
+ String input = "naman";
+ String input = "aabbaa";
+ String input = "malayalam";
+ (optional)program 3 : given number is pallindrome or not, without converting it input into String?
+ int num = 12321;
+ ans : true
+ Hint : % and /
+*/
+
 package akanksha_Jain.Assignment_29;
 
 public class Program_2 {
