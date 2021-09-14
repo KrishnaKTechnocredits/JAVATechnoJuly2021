@@ -1,5 +1,6 @@
 /*Assignment - 32 : 10th Sep'2021
 
+
 Program 1: find the triple which in sequence and having maximum sum.
 int[] arr = {10,64,65,66,23,24,25,26,61,62};
 output : 64,65,66 is a triple having maximum sum
@@ -30,7 +31,7 @@ public class SumofMaxTriplet_A32 {
 			}
 			
 		}
-		System.out.println("The triplets "+input[maxIndex]+" "+input[maxIndex+1]+" "+input[maxIndex+2]+" is : "+sum);
+		System.out.println("The triplets  "+input[maxIndex]+" "+input[maxIndex+1]+" "+input[maxIndex+2]+"  is having maximum sum : "+sum);
 	}
 	
 	public static void main(String[] args) {
