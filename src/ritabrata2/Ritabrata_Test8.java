@@ -22,14 +22,10 @@ public class Ritabrata_Test8 {
 		System.out.println("The total count of pair of socks is: "+count);
 		return count;
 	}
-	
 
 	public static void main(String[] args) {
 		Ritabrata_Test8 test= new Ritabrata_Test8();
 		int[] arr= {3,5,6,3,5,3,7,7,8,3,3,5,8,8};
 		test.getPairCount(arr);
-
-
 	}
-
 }
