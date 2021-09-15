@@ -17,3 +17,4 @@ public class Example5 {
 		byte b = (byte)x1;
 	}
 }
+
