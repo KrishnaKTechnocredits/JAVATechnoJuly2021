@@ -1,3 +1,11 @@
+/* Assignment 15 : 16th Aug'2021
+program 2 : return middle char of all elements of the String array.
+String[] str = {"hello","techno","credits"};
+char charAt(int index){
+}
+Hint : charAt method of String class helps to retrieve character on given index
+*/
+
 package akanksha_Jain.Assignment_15;
 
 public class Assignment_15_Program_2 {

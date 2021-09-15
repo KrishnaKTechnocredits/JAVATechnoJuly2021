@@ -1,3 +1,9 @@
+/* Assignment - 24 : 28th Aug'2021
+Program 1: Java Program to Count the Number of Vowels in user defined string.
+Input : technocredits
+output : vowels are e , o, i
+*/
+
 package akanksha_Jain.Assignment_24;
 
 import java.util.Scanner;

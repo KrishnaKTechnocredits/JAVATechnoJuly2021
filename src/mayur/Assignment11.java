@@ -2,7 +2,7 @@ package mayur;
 
 public class Assignment11 {
 
-	boolean verifyIsPrime(int number) {
+	boolean verifyIsPrime (int number) {
 		boolean status = true;
 		for (int index = 2; index < number; index++) {
 			if (number % index == 0) {

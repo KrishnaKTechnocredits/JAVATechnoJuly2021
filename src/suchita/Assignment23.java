@@ -1,3 +1,4 @@
+package suchita;
 //Assignment 23
 
 import java.util.Scanner;

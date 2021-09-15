@@ -1,3 +1,22 @@
+/* Assignment - 12 : 14th Aug'2021
+1. Create a class named as Mall, which contains below methods
+           	a. itemAddedToCart()
+           	b. customerName()
+           	c. paymentDoneUsing()
+                          	i. Visa Card ii. Cash
+           	d. displayCutomerInfo()
+           	e. needBill()
+           	f. haveCarryBag()
+           	g. decideSection()
+           	i.e. console should print: Harsh brought 12 items and payment done using visa card in section 1B
+Expectations:
+• If items are less than 10 and payment done using cash, then send customer to section 1A
+• If items are more than 10 and payment done using visa card, then send customer to section 1B
+• If items are more than 10 and payment done using cash, then send customer to section 1C
+• If items are less than 10 and payment done using visa card, then send customer to section 1D
+Hint: itemAddedToCart method have int parameter, paymentDoneUsing() method have String parameter, needBill() have Boolean parameter & haveCarryBag have Boolean parameter
+*/
+
 package akanksha_Jain;
 
 public class Assignment_12_Mall {

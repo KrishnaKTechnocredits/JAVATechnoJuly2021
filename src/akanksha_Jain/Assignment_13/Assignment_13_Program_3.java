@@ -1,3 +1,9 @@
+/* Assignment 13 : 15th Aug'2021
+program 3 : write a method which returns 5 smaller numbers of the given number.
+input : 50
+output : 49, 48, 47, 46, 45
+*/
+
 package akanksha_Jain.Assignment_13;
 
 public class Assignment_13_Program_3 {	

@@ -1,3 +1,9 @@
+/* Assignment - 24 : 28th Aug'2021
+Program 2 : Max repeating word with its freq.
+input : Hi Hello Hi Techno Hello Hi
+output : Hi -> 3
+*/
+
 package akanksha_Jain.Assignment_24;
 
 public class Program_2 {
