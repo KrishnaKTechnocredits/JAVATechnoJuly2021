@@ -80,6 +80,6 @@ public class ValidNumber {
 		validNumber.displayValidOrInvalid(validNumber.checkValidNumber("MH-12 BK 1432"));
 		validNumber.displayValidOrInvalid(validNumber.checkValidNumber("GJ 05 MK 1123"));
 		validNumber.displayValidOrInvalid(validNumber.checkValidNumber("MH 12-BK 4432"));
-		validNumber.displayValidOrInvalid(validNumber.checkValidNumber("MH#12BK 4432"));
+		validNumber.displayValidOrInvalid(validNumber.checkValidNumber("MH#12BK 4 32"));
 	}
 }
