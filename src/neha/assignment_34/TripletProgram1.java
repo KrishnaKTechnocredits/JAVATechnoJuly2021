@@ -37,7 +37,7 @@ public class TripletProgram1 {
 				outIndex++;
 			}
 		}
-		System.out.println(Arrays.toString(output));
+		System.out.println("Output array with zeros placed after triplet is " + Arrays.toString(output));
 
 	}
 

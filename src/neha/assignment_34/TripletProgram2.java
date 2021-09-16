@@ -30,7 +30,7 @@ public class TripletProgram2 extends TripletProgram1 {
 				outIndex++;
 			}
 		}
-		System.out.println(Arrays.toString(output));
+		System.out.println("Output array with triplet sum placed after triplet is " + Arrays.toString(output));
 
 	}
 
