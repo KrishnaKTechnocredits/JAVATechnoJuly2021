@@ -12,11 +12,12 @@ public class TripletAssignment32 {
 		int sum = 0;
 		int maxStartIndex = 0;
 		for (int i = 0; i < arr.length - 2; i++) {
-			if (arr[i + 1] == arr[i] + 1 && arr[i + 2] == arr[i] + 2)
+			if (arr[i + 1] == arr[i] + 1 && arr[i + 2] == arr[i] + 2) {
 				sum = arr[i] + arr[i + 1] + arr[i + 2];
-			if (maxSum < sum) {
-				maxSum = sum;
-				maxStartIndex = i;
+				if (maxSum < sum) {
+					maxSum = sum;
+					maxStartIndex = i;
+				}
 			}
 		}
 		System.out.println("Triplet with maximum sum is [" + arr[maxStartIndex] + "," + arr[maxStartIndex + 1] + ","
