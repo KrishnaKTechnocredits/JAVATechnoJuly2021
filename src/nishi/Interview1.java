@@ -6,10 +6,8 @@ public class Interview1 {
 	//String output="Hars"
 	
 	public String getWord(String input)
-	{
-		String[] s1=input.split(input);
-		String s="";
-		int count=0;
+	{		
+		String s="";	
 		for(int i=0;i<input.length();i++)
 		{
 			char uniqueChar=input.charAt(i);
