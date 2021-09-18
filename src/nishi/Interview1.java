@@ -13,11 +13,8 @@ public class Interview1 {
 		for(int i=0;i<input.length();i++)
 		{
 			char uniqueChar=input.charAt(i);
-			if(i!=input.indexOf(uniqueChar))
-			{
-				count=0;
-			}
-			else if(i==input.indexOf(uniqueChar))
+			
+			if(i==input.indexOf(uniqueChar))
 			{
 				s+=uniqueChar;
 			}
