@@ -2,19 +2,11 @@
 Write a program to verify given number plate number is valid or not.
 String p1 = "MH 12 BK 4432"; //valid
 String p2 = "MH-12 BK 1432"; //valid
-String p4 = "GJ 05 MK 1123"; // Valid
 String p3 = "MH 12-BK 4432"; // invalid
+String p4 = "GJ 05 MK 1123"; // Valid
  */
 package nishi;
-public class Assignment35 {
-	/*
-	Write a program to verify given number plate number is valid or not.
-	String p1 = "MH 12 BK 4432"; //valid
-	String p2 = "MH-12 BK 1432"; //valid
-	String p4 = "GJ 05 MK 1123"; // Valid
-	String p3 = "MH 12-BK 4432"; // invalid
-	 */
-	
+public class Assignment35 {	
 
 		boolean getValidNumberPlate(String input)
 		{
