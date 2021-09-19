@@ -6,11 +6,6 @@ String p4 = "GJ 05 MK 1123"; // Valid
 String p3 = "MH 12-BK 4432"; // invalid
  */
 package nishi;
-
-import java.util.Arrays;
-
-import loopdemo.Example4;
-
 public class Assignment35 {
 	/*
 	Write a program to verify given number plate number is valid or not.
