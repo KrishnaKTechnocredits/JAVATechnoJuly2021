@@ -1,4 +1,4 @@
-package precilla.CodingTest8;
+package precilla.codingtest8;
 
 import java.util.Arrays;
 /*Test - 8 : 11th Sep'2021
