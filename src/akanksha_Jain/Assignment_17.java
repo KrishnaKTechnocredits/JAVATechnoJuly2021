@@ -1,3 +1,12 @@
+/* Assignment - 17 : 18th Aug'2021
+Write a method which takes one String parameter and return a reverse String.
+Hint : String getReverseString(String input){
+return output;
+}
+input : technocredits
+output : stiderconhcet
+*/
+
 package akanksha_Jain;
 
 public class Assignment_17 {

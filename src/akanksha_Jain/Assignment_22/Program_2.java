@@ -1,3 +1,9 @@
+/* Assignment - 22 : 25th Aug'2021
+Program 2 : Find sum of all the digits in a given string
+String str = "Te11ch2no3cr4edi2ts"
+output : 13
+*/
+
 package akanksha_Jain.Assignment_22;
 
 public class Program_2 {

@@ -1,3 +1,8 @@
+/* Test 4 :
+int[] arr = {1,0,0,6,0,2,3,0,4,0,5};
+ouput : {1,6,2,3,4,5,0,0,0,0,0};
+*/
+
 package akanksha_Jain;
 
 import java.util.Arrays;

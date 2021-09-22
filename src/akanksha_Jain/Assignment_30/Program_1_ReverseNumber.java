@@ -1,3 +1,9 @@
+/* Assignment - 30 : 8th Sep'2021
+Program 1: Write a method to reverse a given number.
+input : 1932
+output : 2391
+*/
+
 package akanksha_Jain.Assignment_30;
 
 public class Program_1_ReverseNumber {

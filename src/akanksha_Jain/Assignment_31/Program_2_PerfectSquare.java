@@ -1,3 +1,11 @@
+/* Assignment - 31 : 9th Sep'2021
+Program 2 : verify given number is a perfect square.
+input : 25
+output : 25 is perfect square.
+input : 20
+output : 20 is not a perfect square.
+*/
+
 package akanksha_Jain.Assignment_31;
 
 public class Program_2_PerfectSquare {

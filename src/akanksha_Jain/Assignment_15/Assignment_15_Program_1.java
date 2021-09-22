@@ -1,3 +1,12 @@
+/* Assignment 15 : 16th Aug'2021
+program 1:  wap that will return difference of even length name and odd lenght name.
+arr[0] = "Maulik";
+arr[1] = "Techno";
+arr[2] = "Nidhi";            	
+arr[3] = "Ankit";
+output : 2
+*/ 
+
 package akanksha_Jain.Assignment_15;
 
 public class Assignment_15_Program_1 {

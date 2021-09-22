@@ -1,3 +1,12 @@
+/* Assignment - 10 : 12th Aug'2021
+Create a class to satisfy below requirements.
+              	a) Print Number is prime if Given number is prime. (parameterized method)
+     	         b) Print all the prime numbers between range 100->120. (parameterized method)
+              	c) Print total count of prime numbers between 100->120.
+              	d) Find sum of all prime numbers between 100->120
+              	e) Find avg of prime numbers between 100->120
+*/
+
 package akanksha_Jain;
 
 public class Assignment_10 {

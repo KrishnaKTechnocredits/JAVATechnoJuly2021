@@ -1,3 +1,9 @@
+/* Test - 7 : 11th Sep
+Program 1: Count the number of triplets in increasing order. [expected time : 10 mins]
+input : 10,9,11,6,23,25,22,66,34
+ouput : 1
+hint : 6,23,25 */
+
 package akanksha_Jain;
 
 import java.util.Arrays;

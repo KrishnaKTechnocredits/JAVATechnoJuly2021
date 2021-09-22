@@ -1,3 +1,10 @@
+/* Assignment - 21 : 22nd Aug'2021
+Find the difference between oldest and youngest family member.
+Age is in the form of array.
+int[] age = {10,34,38,68,72,95,6};
+output : 89
+*/
+
 package akanksha_Jain;
 
 public class Assignment_21 {

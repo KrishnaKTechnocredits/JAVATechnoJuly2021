@@ -1,14 +1,15 @@
 package technocredits1.arrayDemo;
 
+
 public class Example1 {
 
 	void displayArray(int[] input) {
 		System.out.println("Length of an array is " + input.length);
-		for(int index = 0; index <input.length; index++) {
+		for (int index = 0; index < input.length; index++) {
 			System.out.println(input[index]);
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		int x = 10;
 		Example1 example1 = new Example1();

@@ -1,3 +1,12 @@
+/* Assignment - 30 : 8th Sep'2021
+Program 2: Verify whether given number is Armstrong number.
+input : 153
+output : 153 is an Armstrong number
+ 
+Q: what is Armstrong number ?
+ans : An Armstrong number of three digits is an integer such that the sum of the cubes of its digits is equal to the number itself. For example, 371 is an Armstrong number since 3**3 + 7**3 + 1**3 = 371.
+*/
+
 package akanksha_Jain.Assignment_30;
 
 public class Program_2_ArmstrongNumber {

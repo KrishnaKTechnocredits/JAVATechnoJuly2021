@@ -1,3 +1,9 @@
+/* Assignment-20 : 21st Aug'2021
+program 4 : print duplicate characters with their frequency from user defined string.
+input : word -> aakanksha
+output : a ->4  	k -> 2
+*/
+
 package akanksha_Jain.Assignment_20;
 
 import java.util.Scanner;
