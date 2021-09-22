@@ -27,7 +27,7 @@ public class SwapVowels {
 			ch[arr[index]] = ch[arr[arr.length - 1 - index]];
 			ch[arr[arr.length - 1 - index]] = vowel;
 		}
-		System.out.println("Output " + Arrays.toString(ch));
+		System.out.println("Output " + new String(ch));
 	}
 
 	public static void main(String[] args) {
