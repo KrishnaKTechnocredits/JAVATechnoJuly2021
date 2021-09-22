@@ -21,10 +21,10 @@ Programs
 	Keep peek
 12. Wap to find max sum of 2 consecutive elements in an array 
 	Input array ={2, 44, 67, 55, 95, 2, 4}
-	Output = 150 
+	Output = 150
 13. Wap to shift the char by one 
 	Input string = abc12Zd29
-	Output = bcd23Ae30
+	Output = 	   bcd23Ae30
 	Note - This would require boundary value analysis as Z, 9 are behaving differently. 
 14. print only unique nos of array 
 	eg. Input : 2 4 6 3 2 8 0 output: 4 6 3 8 0
@@ -32,6 +32,8 @@ Programs
 16. Remove repeating character from word
 	input: harsh
 	output: hars
+	nitin
+	nit
 17. Remove all spaces in between words in given string
 	Input : "I love India"
 	Output: "IloveIndia"
@@ -44,7 +46,7 @@ Programs
 	input2 = [6,2,8,5]
 	Output : input2 = [2,5,6,8]
 
-21. :To print number of words in a string
+21. To print number of words in a string
 	Input: "TechnoCreditsProgramming"
 	Output :3
 22. Write a program to add 0 after every ‘5’ in the int array for e.g.  {4, 6, 5, 7, 9, 5, 8,5,1}
