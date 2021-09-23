@@ -3,7 +3,7 @@ WAP to find a second largest word.
 
 Example:
 Input: Welcome to the family
-Output: family*/
+Output: family */
 
 package astha.Assignment37;
 
