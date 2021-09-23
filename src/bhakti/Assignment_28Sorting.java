@@ -57,6 +57,7 @@ public class Assignment_28Sorting {
 	public static void main(String[] jh) {
 		Assignment_28Sorting assignment_28= new Assignment_28Sorting();
 		int[] arry = {10,55,43,99};
+		
 		assignment_28.getarrySorted(arry, 2);
 		assignment_28.getarrySorted(arry, 1);
 		assignment_28.getarrySorted(arry, 3);
