@@ -15,6 +15,7 @@ package bhakti;
 public class Assignment_25_StringNumber {
 	
 	void getSumOfNumberFromString(String input) {
+		
 		int sum = 0;
 		String str = "";
 		for (int index = 0; index < input.length(); index++) {
