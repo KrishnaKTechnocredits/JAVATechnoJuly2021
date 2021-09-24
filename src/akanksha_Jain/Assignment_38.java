@@ -16,7 +16,7 @@ public class Assignment_38 {
 		String str = sc.nextLine(); //str  = "Hi Hello Techno Hi Credits Hello GM Neha Globant Aashvi Globant";
 		System.out.println("Enter the beginning index string");
 		String s1 = sc.next(); // s1 = "Hi";
-		System.out.println("Enter the beginning index string");
+		System.out.println("Enter the end index string");
 		String s2 = sc.next(); // s2 = "Globant";
 		int beginIndex = str.lastIndexOf(s1);
 		int endIndex = str.indexOf(s2);
