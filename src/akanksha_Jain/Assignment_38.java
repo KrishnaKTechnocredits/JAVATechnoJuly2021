@@ -1,5 +1,4 @@
 /* Assignment - 38 : 24th Sep'2021
-
 find the substring starting from last hi to first Globant.  
 String str = "Hi Hello Techno Hi Credits Hello GM Neha Globant Aashvi Globant";
 output : Hi Credits Hello GM Neha Globant */
