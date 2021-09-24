@@ -13,9 +13,10 @@ public class Assignment_38 {
 		System.out.println(output);
 	}
 	public static void main(String[] args) {
-		String input= "Hi Hello Techno Hi Credits Hello GM Neha Globant Aashvi Globant";
+		String input= "Hi Hello Techno Hi Credits Hello this GM Neha GM Globant Aashvi Globant";
 		Assignment_38 a1= new Assignment_38();
 		a1.findSubString(input, "Hi", "Globant");
+		a1.findSubString(input, "Hello", "GM");
 	}
 
 }
