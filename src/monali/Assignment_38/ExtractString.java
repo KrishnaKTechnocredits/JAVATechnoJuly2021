@@ -8,7 +8,8 @@ output : Hi Credits Hello GM Neha Globant*/
 public class ExtractString {
 
 	void getSubString(String str) {
-		String output = str.substring(str.lastIndexOf("Hi"), str.indexOf("Globant"));
+		String endWord="Globant";
+		String output = str.substring(str.lastIndexOf("Hi"), str.indexOf("Globant")+endWord.length());
 		System.out.println(output);
 	}
 
