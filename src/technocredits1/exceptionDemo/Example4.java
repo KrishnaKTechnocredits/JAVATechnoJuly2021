@@ -21,6 +21,7 @@ public class Example4 {
 					System.out.println(100);
 				}
 			}catch(NullPointerException ne) {
+				ne.printStackTrace();
 				System.out.println(1000);
 			}
 		}
@@ -32,5 +33,6 @@ public class Example4 {
 	public static void main(String[] args) {
 		Example4 example2 = new Example4();
 		example2.printOutput(new int[] {2,4,6,8});
+		System.out.println("End");
 	}
 }
