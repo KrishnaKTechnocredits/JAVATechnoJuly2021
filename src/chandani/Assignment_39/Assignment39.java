@@ -7,6 +7,7 @@ public class Assignment39 {
 		 int num1 = 0;
 		 int num2 = 1;
 		 int sum = 0;
+		 System.out.println("Fibonacci series is : ");
 		 System.out.print(num1 + ",");
 		 System.out.print(num2 + ",");
 		 
