@@ -1,3 +1,8 @@
+/*Assignment-39 : 25th Sep'2021
+Print first N elements of the Fibonacci series. 
+n -> 8
+output : 0,1,1,2,3,5,8,13 */
+
 package akanksha_Jain;
 
 public class Assignment_39 {
@@ -17,6 +22,6 @@ public class Assignment_39 {
 	}
 	
 	public static void main(String[] args) {
-		new Assignment_39().printFibonacciSeries(10);
+		new Assignment_39().printFibonacciSeries(8);
 	}
 }
