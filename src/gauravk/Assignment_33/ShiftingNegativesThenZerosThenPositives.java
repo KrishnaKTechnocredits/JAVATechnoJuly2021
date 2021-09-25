@@ -55,7 +55,7 @@ public class ShiftingNegativesThenZerosThenPositives {
 				c++;
 			}
 		}
-		System.out.println("Shifting Non-zeros to last for array "+Arrays.toString(arr)+"\nOutput: "+Arrays.toString(output));
+		System.out.println("Shifting Negatives first then Zeros and last Positives for array "+Arrays.toString(arr)+"\nOutput: "+Arrays.toString(output));
 	}
 	
 	public static void main(String[] args) {
