@@ -5,7 +5,7 @@ output : 4
 
 And push 3 java files of each program.*/
 
-package shalaka.ArrayPrograms;
+package shalaka.arrayprograms;
 
 public class Array_Assignment16 {
 

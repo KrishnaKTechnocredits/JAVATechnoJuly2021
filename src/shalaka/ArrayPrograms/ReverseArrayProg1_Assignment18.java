@@ -16,7 +16,7 @@ output : [hsrah, anhsirk, stiderc, onhcet]
 Note : use sop(Arrays.toString(output)) to print the array content.*/
 
 
-package shalaka.ArrayPrograms;
+package shalaka.arrayprograms;
 
 import java.util.Arrays;
 
