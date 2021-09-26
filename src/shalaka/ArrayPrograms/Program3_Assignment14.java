@@ -1,4 +1,4 @@
-package shalaka.ArrayPrograms;
+package shalaka.arrayprograms;
 
 public class Program3_Assignment14 {
 

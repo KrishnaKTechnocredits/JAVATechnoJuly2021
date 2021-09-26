@@ -1,4 +1,4 @@
-package shalaka.ArrayPrograms;
+package shalaka.arrayprograms;
 
 import java.util.Scanner;
 

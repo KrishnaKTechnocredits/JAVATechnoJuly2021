@@ -9,7 +9,7 @@ return output;
 
 input : technocredits
 output : stiderconhcet*/
-package shalaka.ArrayPrograms;
+package shalaka.arrayprograms;
 
 public class ReverseString_Assignment17 {
 	String getReverseString(String input) {
