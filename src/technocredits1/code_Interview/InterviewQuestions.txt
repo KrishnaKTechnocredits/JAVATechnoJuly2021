@@ -1,0 +1,55 @@
+Programs
+
+
+1. move all zeros to end of the array
+	int a[] = {5,0,3,6,9,5,0,6,0,3,6}
+2. print first non repeating character from a string
+3. Reverse a string
+4. Find duplicate elements from an array
+5. Remove extra space from String 
+	String s="India    is    my country"
+	output= Indis is my country
+6. get the first unique character from the input string
+	String s="Ankita"
+	String s2="Amruta"
+7. Palindrome for string & number.
+8. Shift the first element of array to last position and shift the rest towards left.
+9. Find captial letters in string
+10. Write a program to count number of a's in a string JavaProgramming
+11. Write a program to find if the string is an anagram 
+	Cat act
+	Keep peek
+12. Wap to find max sum of 2 consecutive elements in an array 
+	Input array ={2, 44, 67, 55, 95, 2, 4}
+	Output = 150
+13. Wap to shift the char by one 
+	Input string = abc12Zd29
+	Output = 	   bcd23Ae30
+	Note - This would require boundary value analysis as Z, 9 are behaving differently. 
+14. print only unique nos of array 
+	eg. Input : 2 4 6 3 2 8 0 output: 4 6 3 8 0
+15. find count of object created.
+16. Remove repeating character from word
+	input: harsh
+	output: hars
+	nitin
+	nit
+17. Remove all spaces in between words in given string
+	Input : "I love India"
+	Output: "IloveIndia"
+18. Find second max in a array
+19. Shift num in below order : 1st positive numbers negative numbers then zero.
+	Input -  {4,7,0,-3,0,-1,0,6,-8,9,0}
+	O/p - {4,7,6,9,-3,-1,-8,0,0,0,0}
+20. WAP to convert an integer array identical to another array :
+	input1 = [2,5,6,8]
+	input2 = [6,2,8,5]
+	Output : input2 = [2,5,6,8]
+
+21. To print number of words in a string
+	Input: "TechnoCreditsProgramming"
+	Output :3
+22. Write a program to add 0 after every ‘5’ in the int array for e.g.  {4, 6, 5, 7, 9, 5, 8,5,1}
+23. print the string which is having max sum
+	Input:- {"va3r45u1n","j3o5s1hi"};
+	Output:- va3r45u1n

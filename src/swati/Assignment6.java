@@ -12,7 +12,7 @@ class Assignment6{
 	void convertTemp(int fahrenheit ){
 		
 		celsius=((fahrenheit - 32) * 5) / 9;
-		System.out.print("Temperature from Fahrenheit to Celsius degree:" + celsius +"C");
+		System.out.print("Temperature from Fahrenheit to Celsius degree: " + celsius +"C");
 	}
 	
 	public static void main(String[] a){
