@@ -6,7 +6,8 @@ public class Assignment33_1 {
 	int[] shiftAllNinZerosAtEnd(int[] a)
 	 {
 		int[] output=new int[a.length];	
-		int zeroCnt=0;
+		int zeroCnt=
+				0;
 		for(int i=0;i<a.length;i++)
 		{			
 			if(a[i]==0)
