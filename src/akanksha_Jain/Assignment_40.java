@@ -16,7 +16,7 @@ public class Assignment_40 {
 		for(int index=0; index<input.length; index++) {
 			try {
 				num = Integer.parseInt(input[index]);
-				if(num>9)
+				if(num>9 && num<100)
 					count += 2;
 				else
 					count++;
