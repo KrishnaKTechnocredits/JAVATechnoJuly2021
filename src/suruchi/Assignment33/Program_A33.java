@@ -70,7 +70,7 @@ public class Program_A33 {
 		int maxSum = 0;
 		int sum = 0;
 		int maxStartIndex = 0;
-		System.out.println("Triplets from the are ");
+		System.out.println("Triplets from the array are: ");
 		for (int index = 0; index < arr.length - 2; index++) {
 			if (arr[index + 1] == arr[index] + 1 && arr[index + 2] == arr[index] + 2) {
 				sum = arr[index] + arr[index + 1] + arr[index + 2];
