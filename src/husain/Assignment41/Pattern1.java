@@ -1,3 +1,13 @@
+/*
+ * Assignment-41 : 28th Sep'2021  
+Write a code to print below pattern.
+
+*
+##
+***
+####
+*****
+ */
 package husain.Assignment41;
 
 public class Pattern1 {
