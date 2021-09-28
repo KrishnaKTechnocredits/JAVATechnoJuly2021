@@ -5,7 +5,7 @@
  
  program 2: String Pallindrome by without writing reverse method logic.*/
  
-package chandani.Assignment29;
+package chandani.Assignment_29;
 
 import java.util.Scanner;
 
