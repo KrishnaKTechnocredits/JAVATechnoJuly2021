@@ -7,10 +7,9 @@ package akanksha_Jain.Assignment_42;
 
 public class Program_1 {
 	
-	
 	void removeMultipleOccurence(String str) {
 		String str1 = "";
-		System.out.println("After removing multiple characters from string '" + str + "' -");
+		System.out.println("After removing multiple characters from string '" + str + "'");
 		System.out.print("Output is- ");
 		for(int index=0; index<str.length(); index++) {
 			char ch = str.charAt(index);

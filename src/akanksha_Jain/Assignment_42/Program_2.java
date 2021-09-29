@@ -8,7 +8,7 @@ package akanksha_Jain.Assignment_42;
 public class Program_2 {
 	
 	void removeDuplicateOccurence(String str) {
-		System.out.println("After removing duplicate characters from string '" + str + "' -");
+		System.out.println("After removing duplicate characters from string '" + str + "'");
 		System.out.print("Output is- ");
 		for(int index=0; index<str.length(); index++) {
 			char ch = str.charAt(index);
