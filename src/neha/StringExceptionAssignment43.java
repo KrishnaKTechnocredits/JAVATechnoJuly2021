@@ -5,7 +5,6 @@ public class StringExceptionAssignment43 {
 	void iterateOverStringCharacters(String str) {
 		int index = 0;
 		Boolean flag = true;
-		System.out.println("Iterate over string without using string length method or array length property:");
 		while (flag) {
 			try {
 				System.out.println("Character at index " + index + " : " + str.charAt(index));
@@ -15,6 +14,7 @@ public class StringExceptionAssignment43 {
 				break;
 			}
 		}
+		System.out.println("\r\nLength of string is " + index);
 	}
 
 	public static void main(String[] args) {
