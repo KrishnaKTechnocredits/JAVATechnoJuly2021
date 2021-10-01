@@ -1,3 +1,10 @@
+/*Assignment 44: 1st Oct 21 
+
+Find out the maximum number from array List
+Create ArrayList , add numbers and find out max number from array :
+input  ArrayList a1= {10, 20, 1,40}
+Out put:  40 */
+
 package bhakti;
 
 import java.util.ArrayList;
