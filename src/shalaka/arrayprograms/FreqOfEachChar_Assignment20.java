@@ -5,7 +5,7 @@ output : h -> 1
          l -> 2
          o -> 1*/
 
-package shalaka.arrayprograms;
+package shalaka.ArrayPrograms;
 
 import java.util.Scanner;
 
