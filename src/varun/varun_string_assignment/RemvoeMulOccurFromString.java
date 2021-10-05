@@ -9,7 +9,7 @@ public class RemvoeMulOccurFromString {
 				if(str.indexOf(ch)==index)
 					output = output+ch;
 		}
-		System.out.println(output);
+		System.out.println("Output after removing multiple occurence is: " +output);
 	}
 	public static void main(String[] args) {
 		String input = "technocredits";

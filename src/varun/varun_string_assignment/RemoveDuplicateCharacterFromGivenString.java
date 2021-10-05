@@ -9,7 +9,7 @@ public class RemoveDuplicateCharacterFromGivenString {
 				if(str.indexOf(ch)== str.lastIndexOf(ch))
 					output = output+ch;
 		}
-		System.out.println(output);
+		System.out.println("output after removing duplicates from given string is: "+output);
 	}
 	public static void main(String[] args) {
 		String input = "technocredits";
