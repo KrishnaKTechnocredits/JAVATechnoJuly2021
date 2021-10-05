@@ -15,7 +15,7 @@ public class Program_6 {
 		Set<Integer> set = new TreeSet<Integer>(Arrays.asList(input));
 		System.out.println(set);
 		List<Integer> list = new ArrayList(set);
-		list.remove(list.size()-1);
+		list.remove(list.size()-2);
 		System.out.println(list);
 		
 	}
