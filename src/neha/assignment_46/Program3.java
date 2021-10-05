@@ -11,8 +11,15 @@ public class Program3 {
 	ArrayList<Integer> al = new ArrayList<Integer>();
 
 	void removeDuplicateUsingSet() {
-		Set<Integer> setList = new HashSet<Integer>(al);
-		System.out.println(setList);
+		ArrayList<Integer> output = new ArrayList<Integer>();
+		for (int i = 0; i < al.size(); i++) {
+			Integer num = al.get(i);
+			if (al.indexOf(num) != al.lastIndexOf(num))
+				output.remove(num);
+			else
+				output.add(num);
+		}
+		System.out.println("ArrayList " + al + " after removal of duplicates is " + output);
 	}
 
 	public static void main(String[] args) {

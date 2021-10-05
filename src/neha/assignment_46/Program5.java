@@ -11,6 +11,7 @@ Remove the longest string from given Set.
 public class Program5 {
 
 	void removeLongestStringFromSet(Set<String> names) {
+		System.out.println("Set " + names + " after removal of longest string: ");
 		int max = 0;
 		String maxWord = " ";
 		Iterator<String> itr = names.iterator();
@@ -23,7 +24,7 @@ public class Program5 {
 			}
 		}
 		names.remove(maxWord);
-		System.out.println("Set after removal of longest string: " + names);
+		System.out.println(names);
 	}
 
 	public static void main(String[] args) {

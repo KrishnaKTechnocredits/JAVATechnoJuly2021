@@ -35,5 +35,11 @@ public class Program2 {
 		System.out.println("Please provide number for searching duplicate:");
 		int numToSearch = scan.nextInt();
 		program2.findDuplicateNumberInArrayList(numToSearch);
+		System.out.println("\r\nPlease provide number for searching duplicate:");
+		numToSearch = scan.nextInt();
+		program2.findDuplicateNumberInArrayList(numToSearch);
+		System.out.println("\r\nPlease provide number for searching duplicate:");
+		numToSearch = scan.nextInt();
+		program2.findDuplicateNumberInArrayList(numToSearch);
 	}
 }

@@ -30,6 +30,6 @@ public class Program7 {
 
 	public static void main(String[] args) {
 		Program7 program7 = new Program7();
-		System.out.println(program7.findPrimeNumbersInRange(100, 500));
+		System.out.println("Prime numbers in given range: " + program7.findPrimeNumbersInRange(100, 500));
 	}
 }

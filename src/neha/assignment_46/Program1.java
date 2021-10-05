@@ -28,5 +28,8 @@ public class Program1 {
 		System.out.println("Please provide number for searching:");
 		int numToSearch = scan.nextInt();
 		program1.findGivenNumberInArrayList(numToSearch);
+		System.out.println("\r\nPlease provide number for searching:");
+		numToSearch = scan.nextInt();
+		program1.findGivenNumberInArrayList(numToSearch);
 	}
 }

@@ -1,6 +1,7 @@
 package neha.assignment_46;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -15,7 +16,8 @@ public class Program6 {
 			setList.add(i);
 		}
 		ArrayList<Integer> al = new ArrayList(setList);
-		System.out.println("Second largest number in given array is " + al.get(al.size() - 2));
+		System.out.println(
+				"Second largest number in given array" + Arrays.toString(num) + " is " + al.get(al.size() - 2));
 	}
 
 	public static void main(String[] args) {

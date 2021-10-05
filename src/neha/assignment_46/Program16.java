@@ -30,9 +30,12 @@ public class Program16 {
 		program16.al.add("Sonal");
 		program16.al.add("Sai");
 		program16.al.add("Sharvari");
+		System.out.println("Original arrayList " + program16.al);
+		System.out.println("\r\nAfter adding element " + nameToAdd + " at index " + index);
 		program16.addElementAtDesiredIndexOfArrayList(index, nameToAdd);
 		index = 4;
 		String nameToUpdate = "Avani";
+		System.out.println("\r\nAfter updating element " + nameToUpdate + " at index " + index);
 		program16.updateElementAtDesiredIndexOfArrayList(index, nameToUpdate);
 	}
 }

@@ -12,7 +12,7 @@ public class Program4 {
 
 	void removeDuplicateUsingSetWithInsertionOrder() {
 		Set<Integer> setList = new LinkedHashSet<Integer>(al);
-		System.out.println(setList);
+		System.out.println("ArrayList " + al + " after removal of duplicates using set is " + setList);
 	}
 
 	public static void main(String[] args) {
