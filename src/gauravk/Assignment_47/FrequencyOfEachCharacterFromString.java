@@ -52,7 +52,7 @@ public class FrequencyOfEachCharacterFromString {
 	public static void main(String[] args) {
 		String s = "varsha";
 		System.out.println("Frequency of each character of the word ["+s+"]. \nOutput: "+new FrequencyOfEachCharacterFromString().frequencyOfEachCharacter(s));
-		String ss = "hi good morning hi hi good yellow world hello good morning";
+		String ss = "hi good morning hello good morning";
 		System.out.println("Frequency of each character of the word ["+ss+"]. \nOutput: "+new FrequencyOfEachCharacterFromString().frequencyOfEachWord(ss));
 	}
 }
