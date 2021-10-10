@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class B extends A{
 
-	void m1() throws IOException{
+	void m1(){
 		
 	}
 }
