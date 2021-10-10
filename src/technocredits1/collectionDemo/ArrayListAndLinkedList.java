@@ -1,6 +1,7 @@
 package technocredits1.collectionDemo;
 
 import java.util.ArrayList;
+import java.util.Hashtable;
 import java.util.LinkedList;
 
 public class ArrayListAndLinkedList {
@@ -22,5 +23,7 @@ public class ArrayListAndLinkedList {
 		al2.add("Chandni");
 		al2.contains("Indu");
 		System.out.println(al2);
+		
+		al2.remove(1);
 	}
 }

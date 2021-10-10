@@ -17,6 +17,6 @@ public class User implements Bank,RBI1, Cloneable{
 	public static void main(String[] args) {
 		User u1 = new User();
 		u1.gstCal();
-		Bank.m4();
+		//Bank.m4();
 	}
 }
