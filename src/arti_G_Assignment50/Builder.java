@@ -21,7 +21,7 @@ public class Builder implements Comparable<Builder> {
 	int totalCompletedProject;
 	int revenue;
 
-	Builder(String name, String gstNumber, int totalCompletedProject, int revenue) {
+	public Builder(String name, String gstNumber, int totalCompletedProject, int revenue) {
 		this.name = name;
 		this.gstNumber = gstNumber;
 		this.totalCompletedProject = totalCompletedProject;
@@ -39,5 +39,7 @@ public class Builder implements Comparable<Builder> {
 
 		return name + " " + revenue ;
 	}
+	
+	
 
 }
