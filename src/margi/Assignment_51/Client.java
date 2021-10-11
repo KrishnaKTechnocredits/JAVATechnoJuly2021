@@ -29,10 +29,10 @@ public class Client {
 		list.add(b4);
 		list.add(b5);
 		Collections.sort(list,new RevenueBasedSorting());
-		System.out.println("Sorted list based on revenue: ");
+		System.out.println("Sorted list (Ascending) based on revenue: ");
 		System.out.println(list);
 		Collections.sort(list,new TotalCompletedProjectBasedSorting());
-		System.out.println("Sorted list based on total completed projects: ");
+		System.out.println("Sorted list (Descending) based on total completed projects: ");
 		System.out.println(list);
 	}
 }

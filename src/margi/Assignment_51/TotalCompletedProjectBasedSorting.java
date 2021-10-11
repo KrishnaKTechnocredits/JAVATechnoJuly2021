@@ -6,6 +6,6 @@ public class TotalCompletedProjectBasedSorting implements Comparator<Builder>{
 
 	@Override
 	public int compare(Builder b1, Builder b2) {
-		return b1.totalCompletedProject - b2.totalCompletedProject;
+		return b2.totalCompletedProject - b1.totalCompletedProject;
 	}
 }
