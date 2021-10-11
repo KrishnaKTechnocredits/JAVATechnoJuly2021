@@ -13,11 +13,11 @@ import java.util.List;
 public class Client {
 
 	public static void main(String[] args) {
-		Employee emp1 = new Employee(5, "ABC", 2, 400);
-		Employee emp2 = new Employee(6, "ABC", 2, 200);
-		Employee emp3 = new Employee(1, "DEF", 4, 150);
-		Employee emp4 = new Employee(2, "XYZ", 2, 50);
-		Employee emp5 = new Employee(3, "ABC", 1, 800);
+		Employee emp1 = new Employee(1, "A", 100, 5);
+		Employee emp2 = new Employee(2, "B", 180, 3);
+		Employee emp3 = new Employee(3, "D", 90, 1);
+		Employee emp4 = new Employee(4, "E", 200, 7);
+		Employee emp5 = new Employee(5, "C", 30, 4);
 
 		List<Employee> list = new ArrayList<>();
 		list.add(emp1);
