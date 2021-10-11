@@ -8,6 +8,7 @@ Sort Employee object based on name, if name is same next comparision should be y
 package umakant.collections;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Assignment52 {
@@ -23,6 +24,7 @@ public class Assignment52 {
 		employeeList.add(emp3);
 		employeeList.add(emp4);
 		employeeList.add(emp5);
+		Collections.sort(employeeList);
 		System.out.println(employeeList);
 	}
 

@@ -14,8 +14,9 @@ public class Employee implements Comparable<Employee> {
 	}
 
 	public String toString() {
-		return id + "-" + name;
+		return this.id + "-" + this.name;
 	}
+
 	
 
 	@Override
