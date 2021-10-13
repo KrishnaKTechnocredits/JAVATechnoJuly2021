@@ -12,14 +12,14 @@ Exception : while printing arrayList, it should print build names and revune bas
 
 package akanksha_Jain.Assignment_50;
 
-public class Builder implements Comparable<Builder>{
+public class Assignment_50_Builder implements Comparable<Assignment_50_Builder>{
 
 	String name;
 	int gstNumber;
 	int totalCompletedProject;
 	int revenue;
 	
-	public Builder(String name, int gstNumber, int totalCompletedProject, int revenue) {
+	public Assignment_50_Builder(String name, int gstNumber, int totalCompletedProject, int revenue) {
 		this.name = name;
 		this.gstNumber = gstNumber;
 		this.totalCompletedProject = totalCompletedProject;
@@ -27,7 +27,7 @@ public class Builder implements Comparable<Builder>{
 	}
 	
 	@Override
-	public int compareTo(Builder builder) {
+	public int compareTo(Assignment_50_Builder builder) {
 		return this.revenue - builder.revenue;
 	}
 	
