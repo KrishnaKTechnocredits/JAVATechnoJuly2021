@@ -15,9 +15,9 @@ import java.util.Collections;
 public class Client {
 	
 	public static void main(String[] args) {
-	Builder b1=new Builder("eliza",1234,4,20000);
+	Builder b1=new Builder("eliza",1234,4,70000);
 	Builder b2=new Builder("mary",1245,5,30000);
-	Builder b3=new Builder("lizzie",1256,6,40000);
+	Builder b3=new Builder("lizzie",1256,9,90000);
 	Builder b4=new Builder("marc",1278,7,50000);
 	Builder b5=new Builder("james",1289,8,60000);
 	
