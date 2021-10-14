@@ -11,7 +11,7 @@ public class Assignment46d {
 
 	public void getUniqueNumbersUsingSet(ArrayList<Integer> list) {
 	 LinkedHashSet<Integer> list1 = new LinkedHashSet<>(list);
-	 System.out.println("Array list after removing suplcates using set " + list1);
+	 System.out.println("Array list after removing duplicates using set " + list1);
 	}
 	
 	public static void main(String[] args) {
