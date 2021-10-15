@@ -1,4 +1,4 @@
-package shalaka.arrayprograms;
+package shalaka.ArrayPrograms;
 
 public class Array_DiffOfAge_Assignment21 {
 	int getDiffOfAge(int[] input) {
