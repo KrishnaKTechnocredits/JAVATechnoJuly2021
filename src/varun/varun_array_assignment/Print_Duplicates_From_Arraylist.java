@@ -17,7 +17,7 @@ public class Print_Duplicates_From_Arraylist {
 					output.add(name);
 			}
 		}
-		System.out.println(output);
+		System.out.println("Duplicates values are "+output);
 	}
 
 	public static void main(String[] args) {
