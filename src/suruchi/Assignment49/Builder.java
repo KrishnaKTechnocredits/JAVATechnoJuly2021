@@ -23,7 +23,7 @@ public class Builder {
 		int code = 0;
 		char arr[] = this.name.toCharArray();
 		for (int index : arr) {
-			code += arr[index];
+			code += index;
 		}
 		return code;
 	}
