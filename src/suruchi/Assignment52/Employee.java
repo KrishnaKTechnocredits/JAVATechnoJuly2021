@@ -18,7 +18,7 @@ public class Employee implements Comparable<Employee>{
 	}
 
 	public String toString() {
-		return "Name : " + name + " , Exp : " + yearOfExp + " , Salary : " + salary;
+		return "Name : " + name + " , Experience : " + yearOfExp + " , Salary : " + salary;
 	}
 
 	@Override
