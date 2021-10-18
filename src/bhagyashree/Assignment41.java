@@ -10,8 +10,6 @@
 
 package bhagyashree;
 
-import amol_Vyas.Assignment_41;
-
 public class Assignment41 {
 
 	void printPattern(int rowNum)
