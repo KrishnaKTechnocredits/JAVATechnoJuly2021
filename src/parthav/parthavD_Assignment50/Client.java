@@ -18,7 +18,9 @@ public class Client {
 		list.add(builder3);
 		list.add(builder4);
 		list.add(builder5);
+		System.out.println("Original List");
 		System.out.println(list);
+		System.out.println("Sorted ascending order list based on revenue");
 		Collections.sort(list);
 		System.out.println(list);
 
