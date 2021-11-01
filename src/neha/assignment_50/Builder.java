@@ -1,7 +1,5 @@
 package neha.assignment_50;
 
-import akanksha_Jain.Assignment_50.Assignment_50_Builder;
-
 /*Assignment - 50 : 10th Oct'2021 [Comparable]
 Write a method to sort builder object based on revenue;
 
