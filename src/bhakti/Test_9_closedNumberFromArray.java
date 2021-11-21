@@ -37,6 +37,8 @@ public class Test_9_closedNumberFromArray {
 	public static void main(String[] args) {
 		int[] arr = { -3, 11,-2, 123, -11, -9, -55, 33, 44 };
 		getclosestNegatiVeNumberOfZero(arr);
+		getclosestNegativeNumberof8(arr);
+		
 
 	}
 }
