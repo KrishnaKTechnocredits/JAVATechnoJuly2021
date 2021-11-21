@@ -23,22 +23,19 @@ public class Test_9_closedNumberFromArray {
 	}
 
 	static void getclosestNegatiVeNumberOfZero(int[] arr) {
-		int closestNum=arr[0]; 
+		int closestNum = arr[0];
 
 		for (int i = 0; i < arr.length; i++) {
-			if (arr[i] < 0 && closestNum< arr[i] ) {
-				closestNum=arr[i];
-
+			if (arr[i] < 0 && closestNum < arr[i]) {
+				closestNum = arr[i];
 			}
 		}
-		System.out.println("Closed negative number to zero is :"+closestNum);
+		System.out.println("Closed negative number to zero is :" + closestNum);
 	}
 
 	public static void main(String[] args) {
-		int[] arr = { -3, 11,-2, 123, -11, -9, -55, 33, 44 };
+		int[] arr = { -3, 11, -2, 123, -11, -9, -55, 33, 44 };
 		getclosestNegatiVeNumberOfZero(arr);
 		getclosestNegativeNumberof8(arr);
-		
-
 	}
 }
