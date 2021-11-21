@@ -10,23 +10,14 @@ Branch name - Varun_coding_test_9
 
 package vivek.ScodingTest;
 
-import java.util.Arrays;
-
 public class CodingTest9 {
 
 	public void getClosestNegativeNoToZero(int[] arr) {
-		int[] arr2 = new int[4];
-		int cnt = 0;
+
+		int maxNo = arr[0];
 		for (int index = 0; index < arr.length; index++) {
-			if (arr[index] < 0) {
-				arr2[cnt] = arr[index];
-				cnt++;
-			}
-		}
-		int maxNo = arr2[0];
-		for (int index = 0; index < arr2.length; index++) {
-			if (arr2[index] > maxNo) {
-				maxNo = arr2[index];
+			if (arr[index] > maxNo && arr[index] < 0) {
+				maxNo = arr[index];
 			}
 		}
 		System.out.println(maxNo);
