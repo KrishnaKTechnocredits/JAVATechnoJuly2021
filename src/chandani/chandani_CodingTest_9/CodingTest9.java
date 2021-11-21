@@ -24,7 +24,8 @@ public class CodingTest9 {
 	public static void main(String[] args) {
 		int[] arr = {-3,11,123,-11,-9,-55,33,44};
 		CodingTest9 codingTest9 = new CodingTest9();
-		System.out.println("Closest negative number to zero in array " + Arrays.toString(arr) + " is: " + codingTest9.getClosestNegativeNumToZero(arr));
+		System.out.println("Closest negative number to zero in array " + Arrays.toString(arr) + " is: "
+		+ codingTest9.getClosestNegativeNumToZero(arr));
 	}
 }
 
