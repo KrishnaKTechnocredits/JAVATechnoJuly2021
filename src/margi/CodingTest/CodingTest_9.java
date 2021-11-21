@@ -7,13 +7,20 @@ output : -3*/
 public class CodingTest_9 {
 
 	int getClosestNumber(int[] input) {
-		int closest = input[0];
+		
+		int[] arr = new int[input.length];
+		int temp=0;
 		for (int index = 0; index < input.length; index++) {
 			if(input[index] < 0) {
-				if(closest < input[index]) {
-					closest = input[index]; 
-				}
+				arr[temp] = input[index];
+				temp++;
 			}
+		}
+		int closest = arr[0];
+		for (int index = 0; index < arr.length; index++) {
+				if (closest < arr[index] && arr[index]!=0) {
+					closest = arr[index];
+				}
 		}
 		return closest;
 	}
