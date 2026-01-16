@@ -7,8 +7,6 @@ package deepak.assignment_25;
 
 import java.util.Arrays;
 
-import javax.xml.bind.ParseConversionEvent;
-
 public class Program1 {
 	int sumOfNumbers(String str) {
 		String temp = "";

@@ -7,8 +7,6 @@ package deepak.assignment_25;
 
 import java.util.Arrays;
 
-import javax.xml.bind.ParseConversionEvent;
-
 public class Program2 {
 	void CharChange(String str) {
 		String temp1 = "";
